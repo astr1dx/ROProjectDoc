@@ -4,6 +4,8 @@ site_url: https://astr1dx.github.io/ROProjectDoc/
 repo_url: https://github.com/astr1dx/ROProjectDoc
 repo_name: astr1dx/ROProjectDoc
 edit_uri: edit/main/docs/
+exclude_docs: |
+  client-patches.md
 validation:
   links:
     anchors: warn
@@ -44,7 +46,6 @@ nav:
   - Server Rules: server-rules.md
   - Find Your Class: classes.md
   - Class Changes: class-changes.md
-  - Client Patches: client-patches.md
   - Quality of Life: quality-of-life.md
   - Editing: editing.md
 

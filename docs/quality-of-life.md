@@ -112,4 +112,3 @@ At **Loyal intimacy (900+)**, Incubus grants **+3% Max SP** and a **5% chance to
 - Returning to the last save point repairs an unavailable/disabled saved map to the configured Prontera fallback, rather than reviving in place due to that invalid map. Valid saved points and Battleground respawns retain their normal rules.
 - The updated client supports readable fonts/map banners, the larger zoom range, corrected emote handling and returning to login after a normal server disconnect.
 
-See [client patches](client-patches.md) for the current build profile and finishing steps.

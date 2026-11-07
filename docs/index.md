@@ -53,13 +53,13 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
     [Explore quality of life &rarr;](quality-of-life.md)
 
--   :material-monitor-shimmer: **Understand the client**
+-   :material-map-marker-outline: **Find the right NPC**
 
     ---
 
-    Review the WARP profile, English resources, and compatibility finishing patches.
+    Locate platinum skill unlocks, supplies, memory resets, and Plagiarism lessons.
 
-    [View client notes &rarr;](client-patches.md)
+    [Browse the NPC directory &rarr;](class-changes.md#related-npc-directory)
 
 </div>
 

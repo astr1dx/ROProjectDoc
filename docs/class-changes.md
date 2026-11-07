@@ -374,4 +374,4 @@ All adopted characters can raise base stats to **99**. Native stat-point costs a
 
 ## Client resources
 
-English descriptions and relevant skill metadata are maintained in both client resource paths. Super Blessing and Madness Break also require the existing custom-skill recognition finishing patch. Reopen the client after updates to load the latest tables; see [client patches](client-patches.md).
+English descriptions and relevant skill metadata are maintained in both client resource paths. Super Blessing and Madness Break also require the existing custom-skill recognition finishing patch. Reopen the client after updates to load the latest tables.
