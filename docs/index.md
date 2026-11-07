@@ -30,7 +30,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
 <div class="grid cards" markdown>
 
--   :material-sword-cross: **Build your character**
+-   🔮 **Build your character**
 
     ---
 
@@ -38,7 +38,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
     [Browse the class directory &rarr;](classes.md)
 
--   :material-compass-outline: **Know the world**
+-   🧭 **Know the world**
 
     ---
 
@@ -46,7 +46,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
     [Read the server rules &rarr;](server-rules.md)
 
--   :material-bag-personal-outline: **Enjoy the conveniences**
+-   🦋 **Enjoy the conveniences**
 
     ---
 
@@ -54,7 +54,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
     [Explore quality of life &rarr;](quality-of-life.md)
 
--   :material-map-marker-outline: **Find the right NPC**
+-   📍 **Find the right NPC**
 
     ---
 
