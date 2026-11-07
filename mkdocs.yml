@@ -1,16 +1,48 @@
 site_name: Ad Infinitum documentation
 site_description: Server rules, class changes, and customizations for Ad Infinitum.
+site_url: https://astr1dx.github.io/ROProjectDoc/
+repo_url: https://github.com/astr1dx/ROProjectDoc
+repo_name: astr1dx/ROProjectDoc
+edit_uri: edit/main/docs/
+validation:
+  links:
+    anchors: warn
 
 theme:
   name: material
+  language: en
+  icon:
+    logo: material/compass-rose
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.sections
     - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
     - content.code.copy
 
 nav:
   - Home: index.md
   - Server Rules: server-rules.md
+  - Find Your Class: classes.md
   - Class Changes: class-changes.md
   - Client Patches: client-patches.md
   - Quality of Life: quality-of-life.md
@@ -18,7 +50,17 @@ nav:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - tables
   - fenced_code
   - toc:
       permalink: true
+
+extra_css:
+  - assets/stylesheets/extra.css

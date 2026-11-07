@@ -6,16 +6,18 @@ This is the consolidated reference for the server's implemented class changes. V
 
 For rates, caps and the definition of a natural MVP map, see [server rules](server-rules.md). For shared convenience systems, see [quality of life](quality-of-life.md).
 
+[Browse the class directory](classes.md) to jump directly to your class. Skill icons use the artwork mapped by this client, including reused artwork for custom skills.
+
 ## General combat and status effects
 
 | Feature | Current behavior |
 | --- | --- |
 | Party buff animations | Other recipients in the caster's party receive the effect and floating skill name without being made to play the recipient casting animation. The caster retains the normal animation, casting time and after-cast delay. |
 | Reflected damage | Reflected damage is capped at the reflecting user's Max HP per incoming hit. Applicable equipment and skill reflection components share the cap. |
-| Safety Wall and reflection | A player protected by Safety Wall cannot trigger skill-based reflection, including from the hit that consumes the final wall charge. Equipment reflection follows its normal eligibility and the Max HP cap. |
-| Warp Portal | Cannot be created on natural MVP maps, including while the MVP is dead. Existing destination and memo restrictions remain. |
-| Dispell and songs/dances | A successful Dispell can remove lingering song/dance effects after the target leaves their applicable active area. A matching active area still protects the effect. |
-| Please Don't Forget Me | Removed on death. An active dance can apply it again after resurrection. |
+| ![Safety Wall and reflection icon](assets/skills/mg_safetywall.png){ .skill-icon } **Safety Wall and reflection** | A player protected by Safety Wall cannot trigger skill-based reflection, including from the hit that consumes the final wall charge. Equipment reflection follows its normal eligibility and the Max HP cap. |
+| ![Warp Portal icon](assets/skills/al_warp.png){ .skill-icon } **Warp Portal** | Cannot be created on natural MVP maps, including while the MVP is dead. Existing destination and memo restrictions remain. |
+| ![Dispell and songs/dances icon](assets/skills/sa_dispell.png){ .skill-icon } **Dispell and songs/dances** | A successful Dispell can remove lingering song/dance effects after the target leaves their applicable active area. A matching active area still protects the effect. |
+| ![Please Don't Forget Me icon](assets/skills/dc_dontforgetme.png){ .skill-icon } **Please Don't Forget Me** | Removed on death. An active dance can apply it again after resurrection. |
 
 The party animation change covers **Angelus, Magnificat, Gloria, Wind Walk, Adrenaline Rush, Full Adrenaline Rush, Weapon Perfection, Over Thrust**, and the **Blessing, Increase AGI and Assumptio scroll skills**. It does not remove the caster's skill delay.
 
@@ -25,11 +27,11 @@ The Dispell change covers **Whistle, Assassin Cross of Sunset, Poem of Bragi, Ap
 
 | Skill or feature | Current behavior |
 | --- | --- |
-| Berserk: items | Fly Wing, Novice Fly Wing and Infinite Fly Wing can be used. Other items remain blocked by Berserk. The wings still obey ordinary teleport and item-use restrictions. |
-| Berserk: chat | Normal chat and whispers work. Mute and other ordinary chat restrictions still apply. |
-| Berserk: visuals | The native red-body effect persists through Fly Wing teleports. The existing Berserk cast sound and an additional magic-circle aura are supported. `@settings` controls visibility of the character's own additional aura. |
-| Concentration with Berserk | If Lord Knight Concentration is already active when Berserk starts, it refreshes to 2.6 times its normal full duration. It ends at that deadline or when Berserk ends, whichever is earlier. Berserk does not grant Concentration if it was absent. |
-| Bowling Bash | Gutter lines no longer determine whether the second attack occurs. Each selected primary/chain target receives two normal damage attempts, including near walls or with knockback immunity. Native hit, defense and immunity checks still apply. |
+| ![Berserk: items icon](assets/skills/lk_berserk.png){ .skill-icon } **Berserk: items** | Fly Wing, Novice Fly Wing and Infinite Fly Wing can be used. Other items remain blocked by Berserk. The wings still obey ordinary teleport and item-use restrictions. |
+| ![Berserk: chat icon](assets/skills/lk_berserk.png){ .skill-icon } **Berserk: chat** | Normal chat and whispers work. Mute and other ordinary chat restrictions still apply. |
+| ![Berserk: visuals icon](assets/skills/lk_berserk.png){ .skill-icon } **Berserk: visuals** | The native red-body effect persists through Fly Wing teleports. The existing Berserk cast sound and an additional magic-circle aura are supported. `@settings` controls visibility of the character's own additional aura. |
+| ![Concentration with Berserk icon](assets/skills/lk_concentration.png){ .skill-icon } **Concentration with Berserk** | If Lord Knight Concentration is already active when Berserk starts, it refreshes to 2.6 times its normal full duration. It ends at that deadline or when Berserk ends, whichever is earlier. Berserk does not grant Concentration if it was absent. |
+| ![Bowling Bash icon](assets/skills/kn_bowlingbash.png){ .skill-icon } **Bowling Bash** | Gutter lines no longer determine whether the second attack occurs. Each selected primary/chain target receives two normal damage attempts, including near walls or with knockback immunity. Native hit, defense and immunity checks still apply. |
 
 Concentration's refreshed durations at Levels 1-5 are **65 / 78 / 91 / 104 / 117 seconds**. This is Lord Knight Concentration, not the Archer skill Improve Concentration.
 
@@ -42,12 +44,12 @@ Infinite Fly Wing is an explicit QoL item addition. It is reusable and retains i
 | Skill or feature | Current behavior |
 | --- | --- |
 | Shield swapping | Swapping directly from one valid shield to another preserves Auto Guard, Defender, Reflect Shield, Shrink and Reflect Damage. Removing/stripping the shield or replacing it with a weapon ends shield-dependent buffs. |
-| Devotion: guild rule | Outside Battlegrounds, caster and target must belong to the same nonzero guild. Battlegrounds bypass only this added guild requirement. Native party/team, level, range and link-slot requirements remain. |
-| Devotion: display | The caster and protected recipient both see the Devotion icon. The caster's icon is display-only. Protected recipients show `+` in the party menu. |
-| Grand Cross | Three cast-wide waves at 300ms intervals over the native 900ms ground duration. Stacked targets receive full damage on every available wave. Moving between cells cannot add extra waves. Late arrivals receive only the remaining waves. |
-| Grand Cross: HP leech | Native weapon HP/SP drain dispatch is retained, allowing effects such as Hunter Fly when their normal proc conditions are met. Self-damage and zero damage do not leech. |
-| Holy Cross | Its full damage ratio doubles with a two-handed spear. Level 10 becomes 900% instead of 450%. Other weapon types do not gain this bonus. |
-| Shield Reflect | Skill-reflected damage does not affect Boss-flagged monsters, including Boss-flagged mini-bosses. Equipment reflection is separate. |
+| ![Devotion: guild rule icon](assets/skills/cr_devotion.png){ .skill-icon } **Devotion: guild rule** | Outside Battlegrounds, caster and target must belong to the same nonzero guild. Battlegrounds bypass only this added guild requirement. Native party/team, level, range and link-slot requirements remain. |
+| ![Devotion: display icon](assets/skills/cr_devotion.png){ .skill-icon } **Devotion: display** | The caster and protected recipient both see the Devotion icon. The caster's icon is display-only. Protected recipients show `+` in the party menu. |
+| ![Grand Cross icon](assets/skills/cr_grandcross.png){ .skill-icon } **Grand Cross** | Three cast-wide waves at 300ms intervals over the native 900ms ground duration. Stacked targets receive full damage on every available wave. Moving between cells cannot add extra waves. Late arrivals receive only the remaining waves. |
+| ![Grand Cross: HP leech icon](assets/skills/cr_grandcross.png){ .skill-icon } **Grand Cross: HP leech** | Native weapon HP/SP drain dispatch is retained, allowing effects such as Hunter Fly when their normal proc conditions are met. Self-damage and zero damage do not leech. |
+| ![Holy Cross icon](assets/skills/cr_holycross.png){ .skill-icon } **Holy Cross** | Its full damage ratio doubles with a two-handed spear. Level 10 becomes 900% instead of 450%. Other weapon types do not gain this bonus. |
+| ![Shield Reflect icon](assets/skills/cr_reflectshield.png){ .skill-icon } **Shield Reflect** | Skill-reflected damage does not affect Boss-flagged monsters, including Boss-flagged mini-bosses. Equipment reflection is separate. |
 
 The shared reflection cap and Safety Wall restrictions also apply. Multiple Devotion links keep the caster's icon until the last valid link ends.
 
@@ -55,8 +57,8 @@ The shared reflection cap and Safety Wall restrictions also apply. Multiple Devo
 
 | Skill | Current behavior |
 | --- | --- |
-| Napalm Beat | Splash damage is not divided between targets. Each valid target receives its independently calculated full damage in the existing 3x3 area. |
-| Soul Strike | The existing Undead-only bonus becomes **7% MATK per skill level**. At Level 10, the base per-hit ratio is 170% against qualifying Undead targets and 100% otherwise. |
+| ![Napalm Beat icon](assets/skills/mg_napalmbeat.png){ .skill-icon } **Napalm Beat** | Splash damage is not divided between targets. Each valid target receives its independently calculated full damage in the existing 3x3 area. |
+| ![Soul Strike icon](assets/skills/mg_soulstrike.png){ .skill-icon } **Soul Strike** | The existing Undead-only bonus becomes **7% MATK per skill level**. At Level 10, the base per-hit ratio is 170% against qualifying Undead targets and 100% otherwise. |
 
 Soul Strike's bonus is **not** a new bonus against every target. Its native Undead-detection rules, hit progression, element and costs remain.
 
@@ -64,10 +66,10 @@ Soul Strike's bonus is **not** a new bonus against every target. Its native Unde
 
 | Skill | Current behavior |
 | --- | --- |
-| Ice Wall | Cannot be cast or placed on natural MVP maps, including while the MVP is dead. |
-| Magic Crasher / Stave Crasher | Against monsters, ignores 75% of hard DEF and doubles the resolved damage once. VIT-based soft DEF remains. It retains MATK-based physical damage, weapon element, cards and endows/converters. |
-| Sightrasher | Walls and obstacles block it, except on Biolabs 3 and 4: `lhz_dun03` and `lhz_dun04`. |
-| Storm Gust | Exact 10x10 damage footprint on open ground, from offsets -4 through +5 on each axis. Normal walls, boundaries and Land Protector can still exclude cells. |
+| ![Ice Wall icon](assets/skills/wz_icewall.png){ .skill-icon } **Ice Wall** | Cannot be cast or placed on natural MVP maps, including while the MVP is dead. |
+| ![Magic Crasher / Stave Crasher icon](assets/skills/hw_magiccrasher.png){ .skill-icon } **Magic Crasher / Stave Crasher** | Against monsters, ignores 75% of hard DEF and doubles the resolved damage once. VIT-based soft DEF remains. It retains MATK-based physical damage, weapon element, cards and endows/converters. |
+| ![Sightrasher icon](assets/skills/wz_sightrasher.png){ .skill-icon } **Sightrasher** | Walls and obstacles block it, except on Biolabs 3 and 4: `lhz_dun03` and `lhz_dun04`. |
+| ![Storm Gust icon](assets/skills/wz_stormgust.png){ .skill-icon } **Storm Gust** | Exact 10x10 damage footprint on open ground, from offsets -4 through +5 on each axis. Normal walls, boundaries and Land Protector can still exclude cells. |
 
 Magic Crasher's new doubling and DEF piercing apply to **monsters only**. Player damage and the native miss, plant and immunity rules remain. Storm Gust retains its interval, freeze behavior, duration, damage and other casting properties.
 
@@ -75,10 +77,10 @@ Magic Crasher's new doubling and DEF piercing apply to **monsters only**. Player
 
 | Skill | Current behavior |
 | --- | --- |
-| Abracadabra | Blocked on town-flagged maps. Preparing a result elsewhere does not bypass the town restriction. |
-| Auto Spell | Offers Fire Bolt, Cold Bolt, Lightning Bolt and Earth Spike from Auto Spell Level 2. Frost Diver is removed from the list. Elemental triggers use the highest learned level within the tier limit below. |
-| Create Elemental Converter | Quantity prompt supports 1-300 converters per batch; 0 cancels. Each converter consumes the original recipe, including one Blank Scroll. |
-| Mind Breaker | Reduces hard MDEF outside GvG/castle maps. On GvG/castle maps it retains the original soft-MDEF reduction, including outside an active siege. The receiver gets a debuff icon and updated stats. |
+| ![Abracadabra icon](assets/skills/sa_abracadabra.png){ .skill-icon } **Abracadabra** | Blocked on town-flagged maps. Preparing a result elsewhere does not bypass the town restriction. |
+| ![Auto Spell icon](assets/skills/sa_autospell.png){ .skill-icon } **Auto Spell** | Offers Fire Bolt, Cold Bolt, Lightning Bolt and Earth Spike from Auto Spell Level 2. Frost Diver is removed from the list. Elemental triggers use the highest learned level within the tier limit below. |
+| ![Create Elemental Converter icon](assets/skills/sa_createcon.png){ .skill-icon } **Create Elemental Converter** | Quantity prompt supports 1-300 converters per batch; 0 cancels. Each converter consumes the original recipe, including one Blank Scroll. |
+| ![Mind Breaker icon](assets/skills/pf_mindbreaker.png){ .skill-icon } **Mind Breaker** | Reduces hard MDEF outside GvG/castle maps. On GvG/castle maps it retains the original soft-MDEF reduction, including outside an active siege. The receiver gets a debuff icon and updated stats. |
 
 ### Auto Spell tiers
 
@@ -98,16 +100,16 @@ Mind Breaker keeps its existing reduction amount of **12% per level**, MATK incr
 
 | Skill or feature | Current behavior |
 | --- | --- |
-| Cart Revolution | Always uses full-cart damage: 250% ATK. |
-| Change Cart 2 | Free platinum unlock from the Platinum Skill NPC. Adds Change Cart Level 2 and restores it after resets. Use `@cartstyle` with a cart attached to select styles 1-12. |
-| Mammonite | Carrying Bag of Gold Coins caps the final Zeny cost at 500z. Avarice removes the cost entirely. |
-| Vending | Closing the shop shows quantities sold, actual Zeny credited after taxes/caps, and remaining cart contents for that shop session. |
-| Adrenaline Rush | Also supports one-handed swords. |
-| Cart Termination | Uses the full 8,000-weight reference regardless of actual cart weight. Costs 0z in Battlegrounds, 500z with the bag, or 0z with Avarice. |
-| Power Thrust / Over Thrust | Adds no weapon-break chance. |
-| Maximum Power Thrust | Adds no weapon-break chance and preserves its remaining duration through logout. |
-| Melt Down | Instant cast, 50 base SP at every level, duration scaling from 25 seconds at Level 1 to 150 seconds at Level 10. See its PvE debuff below. |
-| Repair Weapon | Also repairs armor using one Steel. Native weapon-repair material and range requirements remain. |
+| ![Cart Revolution icon](assets/skills/mc_cartrevolution.png){ .skill-icon } **Cart Revolution** | Always uses full-cart damage: 250% ATK. |
+| ![Change Cart 2 icon](assets/skills/mc_cartdecorate.png){ .skill-icon } **Change Cart 2** | Free platinum unlock from the Platinum Skill NPC. Adds Change Cart Level 2 and restores it after resets. Use `@cartstyle` with a cart attached to select styles 1-12. |
+| ![Mammonite icon](assets/skills/mc_mammonite.png){ .skill-icon } **Mammonite** | Carrying Bag of Gold Coins caps the final Zeny cost at 500z. Avarice removes the cost entirely. |
+| ![Vending icon](assets/skills/mc_vending.png){ .skill-icon } **Vending** | Closing the shop shows quantities sold, actual Zeny credited after taxes/caps, and remaining cart contents for that shop session. |
+| ![Adrenaline Rush icon](assets/skills/bs_adrenaline.png){ .skill-icon } **Adrenaline Rush** | Also supports one-handed swords. |
+| ![Cart Termination icon](assets/skills/ws_carttermination.png){ .skill-icon } **Cart Termination** | Uses the full 8,000-weight reference regardless of actual cart weight. Costs 0z in Battlegrounds, 500z with the bag, or 0z with Avarice. |
+| ![Power Thrust / Over Thrust icon](assets/skills/bs_overthrust.png){ .skill-icon } **Power Thrust / Over Thrust** | Adds no weapon-break chance. |
+| ![Maximum Power Thrust icon](assets/skills/ws_overthrustmax.png){ .skill-icon } **Maximum Power Thrust** | Adds no weapon-break chance and preserves its remaining duration through logout. |
+| ![Melt Down icon](assets/skills/ws_meltdown.png){ .skill-icon } **Melt Down** | Instant cast, 50 base SP at every level, duration scaling from 25 seconds at Level 1 to 150 seconds at Level 10. See its PvE debuff below. |
+| ![Repair Weapon icon](assets/skills/bs_repairweapon.png){ .skill-icon } **Repair Weapon** | Also repairs armor using one Steel. Native weapon-repair material and range requirements remain. |
 
 ### Bag of Gold Coins and Avarice
 
@@ -118,7 +120,7 @@ Mind Breaker keeps its existing reduction amount of **12% per level**, MATK incr
 - Personal storage is allowed, but the purchased bag remains bound to its owning character for withdrawal.
 - It cannot be dropped, placed in a cart, traded, mailed, auctioned, sold to an NPC or placed in guild storage.
 
-A **Whitesmith** can permanently exchange the bag plus **200,000,000z** at the same NPC for **Avarice**, a passive platinum skill. Avarice removes both Mammonite and Cart Termination Zeny costs without carrying the bag. The unlock survives resets and is restored through the relevant login/NPC/reset handling.
+![Avarice icon](assets/skills/bs_unfairlytrick.png){ .skill-icon } A **Whitesmith** can permanently exchange the bag plus **200,000,000z** at the same NPC for **Avarice**, a passive platinum skill. Avarice removes both Mammonite and Cart Termination Zeny costs without carrying the bag. The unlock survives resets and is restored through the relevant login/NPC/reset handling.
 
 ### Forging
 
@@ -145,13 +147,13 @@ Blacksmith/Whitesmith, Alchemist/Creator and ranked Taekwon fame decay by **5% o
 | Skill or feature | Current behavior |
 | --- | --- |
 | Fame | Uses the shared 5% monthly fame decay. |
-| Bio Cannibalize: limits | Flora/Parasite/Geographer limits are **6/4/2** outside PvP, Battlegrounds and GvG; competitive maps retain **3/2/1**. Other plant limits and mixed-plant restrictions remain. |
-| Bio Cannibalize: HIT | Plant HIT uses plant level plus the owner's battle DEX, except on GvG maps, which retain native plant DEX. |
-| Bioethics | Active, zero-SP platinum skill opening a roster of up to **four owned homunculi**. Rest the selected homunculus first. Swapping to a stored homunculus costs one Embryo. |
-| Call Homunculus | Calls the most recently selected homunculus. Creates a new one through the native one-Embryo path only when no selection exists and the roster has space. |
-| Lif: Mental Change | Five-minute skill-specific cooldown at every level. Removing the active effect through teleport/map change clears its cooldown; normal expiry or Rest does not. |
-| Plant Cultivation | Blocked in the configured town-building list, including inns, shops and guild halls. Outdoor towns are not automatically blocked. |
-| Twilight Alchemy | One visible skill; up to 300 attempts of an available Create Potion recipe. No cast time; shared two-second cooldown. One eligible recipe is selected automatically; multiple recipes open a selector. |
+| ![Bio Cannibalize: limits icon](assets/skills/am_cannibalize.png){ .skill-icon } **Bio Cannibalize: limits** | Flora/Parasite/Geographer limits are **6/4/2** outside PvP, Battlegrounds and GvG; competitive maps retain **3/2/1**. Other plant limits and mixed-plant restrictions remain. |
+| ![Bio Cannibalize: HIT icon](assets/skills/am_cannibalize.png){ .skill-icon } **Bio Cannibalize: HIT** | Plant HIT uses plant level plus the owner's battle DEX, except on GvG maps, which retain native plant DEX. |
+| ![Bioethics icon](assets/skills/am_bioethics.png){ .skill-icon } **Bioethics** | Active, zero-SP platinum skill opening a roster of up to **four owned homunculi**. Rest the selected homunculus first. Swapping to a stored homunculus costs one Embryo. |
+| ![Call Homunculus icon](assets/skills/am_callhomun.png){ .skill-icon } **Call Homunculus** | Calls the most recently selected homunculus. Creates a new one through the native one-Embryo path only when no selection exists and the roster has space. |
+| ![Lif: Mental Change icon](assets/skills/hlif_change.png){ .skill-icon } **Lif: Mental Change** | Five-minute skill-specific cooldown at every level. Removing the active effect through teleport/map change clears its cooldown; normal expiry or Rest does not. |
+| ![Plant Cultivation icon](assets/skills/cr_cultivation.png){ .skill-icon } **Plant Cultivation** | Blocked in the configured town-building list, including inns, shops and guild halls. Outdoor towns are not automatically blocked. |
+| ![Twilight Alchemy icon](assets/skills/am_twilight1.png){ .skill-icon } **Twilight Alchemy** | One visible skill; up to 300 attempts of an available Create Potion recipe. No cast time; shared two-second cooldown. One eligible recipe is selected automatically; multiple recipes open a selector. |
 
 Stored homunculi retain their names, levels, EXP, stats, skills, intimacy and hunger. The selected one is excluded from Bioethics' stored-choice list. Parking it can free the selection to raise another, up to four in total. Native creation remains random and duplicate types are permitted. Swap failures refund the Embryo through the protected swap process; permanent deletion remains permanent.
 
@@ -164,24 +166,24 @@ Twilight Alchemy retains **200 SP**, the **Alchemist Spirit requirement**, norma
 | Skill or feature | Current behavior |
 | --- | --- |
 | Mace attack speed | Base attack delay for mace and two-handed mace is reduced by 10%, from 600 to 540. High Priest and Baby Priest inherit it. |
-| Aqua Benedicta | Automatically creates the largest safe batch, up to 300 Holy Water, consuming one Empty Bottle per output. Retains the water requirement and 10 SP per cast. |
-| Impositio Manus | Keeps +5 weapon ATK per level and adds +1% MATK per level, up to 5%. Only the new MATK component is disabled on GvG/castle maps. |
-| Mace Mastery | Keeps +3 ATK per level and adds +1 displayed critical per level while using a mace or two-handed mace. |
-| Magnus Exorcismus | Also damages Undead-race, Shadow-element and Ghost-element monsters. Existing waves continue while the caster is Stunned, Frozen or Petrified. |
+| ![Aqua Benedicta icon](assets/skills/al_holywater.png){ .skill-icon } **Aqua Benedicta** | Automatically creates the largest safe batch, up to 300 Holy Water, consuming one Empty Bottle per output. Retains the water requirement and 10 SP per cast. |
+| ![Impositio Manus icon](assets/skills/pr_impositio.png){ .skill-icon } **Impositio Manus** | Keeps +5 weapon ATK per level and adds +1% MATK per level, up to 5%. Only the new MATK component is disabled on GvG/castle maps. |
+| ![Mace Mastery icon](assets/skills/pr_macemastery.png){ .skill-icon } **Mace Mastery** | Keeps +3 ATK per level and adds +1 displayed critical per level while using a mace or two-handed mace. |
+| ![Magnus Exorcismus icon](assets/skills/pr_magnus.png){ .skill-icon } **Magnus Exorcismus** | Also damages Undead-race, Shadow-element and Ghost-element monsters. Existing waves continue while the caster is Stunned, Frozen or Petrified. |
 
 The Magnus Exorcismus change does not permit starting a cast while incapacitated. The 190 ASPD cap still applies.
 
 ## Monk / Champion
 
-**Asura Strike:** the five-minute natural SP recovery penalty clears on actual logout. The separate increased-sitting-recovery penalty is session state and also resets on relog. Teleporting does not clear the active penalty. Other recovery restrictions remain.
+![Asura Strike icon](assets/skills/mo_extremityfist.png){ .skill-icon } **Asura Strike:** the five-minute natural SP recovery penalty clears on actual logout. The separate increased-sitting-recovery penalty is session state and also resets on relog. Teleporting does not clear the active penalty. Other recovery restrictions remain.
 
 | Skill | SP costs by level |
 | --- | --- |
-| Chain Crush Combo, Levels 1-10 | 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 10 / 11 |
-| Glacier Fist, Levels 1-5 | 2 / 3 / 4 / 5 / 6 |
-| Raging Palm Strike, Levels 1-5 | 1 / 2 / 4 / 6 / 8 |
-| Raging Quadruple Blow, Levels 1-5 | 2 / 4 / 6 / 8 / 10 |
-| Raging Thrust, Levels 1-5 | 2 / 4 / 6 / 8 / 10 |
+| ![Chain Crush Combo, Levels 1-10 icon](assets/skills/ch_chaincrush.png){ .skill-icon } **Chain Crush Combo, Levels 1-10** | 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 10 / 11 |
+| ![Glacier Fist, Levels 1-5 icon](assets/skills/ch_tigerfist.png){ .skill-icon } **Glacier Fist, Levels 1-5** | 2 / 3 / 4 / 5 / 6 |
+| ![Raging Palm Strike, Levels 1-5 icon](assets/skills/ch_palmstrike.png){ .skill-icon } **Raging Palm Strike, Levels 1-5** | 1 / 2 / 4 / 6 / 8 |
+| ![Raging Quadruple Blow, Levels 1-5 icon](assets/skills/mo_chaincombo.png){ .skill-icon } **Raging Quadruple Blow, Levels 1-5** | 2 / 4 / 6 / 8 / 10 |
+| ![Raging Thrust, Levels 1-5 icon](assets/skills/mo_combofinish.png){ .skill-icon } **Raging Thrust, Levels 1-5** | 2 / 4 / 6 / 8 / 10 |
 
 Spirit-sphere costs remain unchanged.
 
@@ -189,10 +191,10 @@ Spirit-sphere costs remain unchanged.
 
 | Skill | Current behavior |
 | --- | --- |
-| Pick Stone | Works while overweight, including above the ordinary 90% casting threshold. Normal capacity remains; native overflow can place the stone on the ground. |
-| Create Deadly Poison | 10 SP per cast; automatically attempts the largest safe batch up to 300. Failures no longer remove HP. Ingredients are consumed per attempt and native success chances remain. |
-| Enchant Deadly Poison | Levels 1-5 last **60 / 67.5 / 75 / 82.5 / 90 seconds**. Remaining duration persists through logout. |
-| Venom Dust | No Red Gemstone requirement. |
+| ![Pick Stone icon](assets/skills/tf_pickstone.png){ .skill-icon } **Pick Stone** | Works while overweight, including above the ordinary 90% casting threshold. Normal capacity remains; native overflow can place the stone on the ground. |
+| ![Create Deadly Poison icon](assets/skills/asc_cdp.png){ .skill-icon } **Create Deadly Poison** | 10 SP per cast; automatically attempts the largest safe batch up to 300. Failures no longer remove HP. Ingredients are consumed per attempt and native success chances remain. |
+| ![Enchant Deadly Poison icon](assets/skills/asc_edp.png){ .skill-icon } **Enchant Deadly Poison** | Levels 1-5 last **60 / 67.5 / 75 / 82.5 / 90 seconds**. Remaining duration persists through logout. |
+| ![Venom Dust icon](assets/skills/as_venomdust.png){ .skill-icon } **Venom Dust** | No Red Gemstone requirement. |
 
 Create Deadly Poison still requires all seven native ingredients and appropriate inventory capacity. Partial production successes are retained.
 
@@ -203,9 +205,9 @@ Venom Knives are available at the added **Inn Tool Dealers** in Prontera's west/
 | Skill | Current behavior |
 | --- | --- |
 | Backstab | Can be used from any direction. Does not reposition the caster or force the target to turn. Uses ordinary HIT/FLEE checks and a **fixed 333ms cooldown**. The former 500ms after-cast delay is removed. |
-| Chase Walk | STR bonus begins after five seconds. Normal SP drain still begins at ten seconds and continues at native intervals. |
-| Plagiarism | A higher-level eligible copy can upgrade the same copied skill or temporarily override a lower normally learned level. Equal/lower offers do not downgrade it. Native copy protections remain. |
-| Preserve | Infinite duration, on/off toggle, persists through logout. Toggling off uses native zero-cost handling. |
+| ![Chase Walk icon](assets/skills/st_chasewalk.png){ .skill-icon } **Chase Walk** | STR bonus begins after five seconds. Normal SP drain still begins at ten seconds and continues at native intervals. |
+| ![Plagiarism icon](assets/skills/rg_plagiarism.png){ .skill-icon } **Plagiarism** | A higher-level eligible copy can upgrade the same copied skill or temporarily override a lower normally learned level. Equal/lower offers do not downgrade it. Native copy protections remain. |
+| ![Preserve icon](assets/skills/st_preserve.png){ .skill-icon } **Preserve** | Infinite duration, on/off toggle, persists through logout. Toggling off uses native zero-cost handling. |
 
 The **Plagiarism Tutor at `prontera 132,200`** offers the current eligible Plagiarism skills for **25,000z per lesson**. The offered level is capped by Plagiarism and the selected skill's maximum. Preserve blocks lessons. Redundant, invalid or failed lessons do not charge the fee.
 
@@ -216,9 +218,9 @@ Backstab retains its native damage, range, bow penalty, SP cost and Hiding remov
 | Skill or feature | Current behavior |
 | --- | --- |
 | Weapon swapping | Replacing a weapon cancels the active performance, including swapping to another instrument/whip of the same type. Normal lingering recipient effects remain. |
-| Arrow Vulcan | Two-second base after-cast action delay at every level. This is not a new fixed cooldown. |
-| Loki's Veil | Blocked on natural MVP maps, including while the MVP is dead. |
-| Wand of Hermode | Can be performed solo. Retains its native instrument/whip requirement, SP cost, duration and portal-proximity check. |
+| ![Arrow Vulcan icon](assets/skills/cg_arrowvulcan.png){ .skill-icon } **Arrow Vulcan** | Two-second base after-cast action delay at every level. This is not a new fixed cooldown. |
+| ![Loki's Veil icon](assets/skills/bd_rokisweil.png){ .skill-icon } **Loki's Veil** | Blocked on natural MVP maps, including while the MVP is dead. |
+| ![Wand of Hermode icon](assets/skills/cg_hermode.png){ .skill-icon } **Wand of Hermode** | Can be performed solo. Retains its native instrument/whip requirement, SP cost, duration and portal-proximity check. |
 
 Armor, shield and ammunition changes do not trigger the weapon-removal cancellation rule. The shared Dispell and Please Don't Forget Me changes are described under general status effects.
 
@@ -253,9 +255,9 @@ Collect these Level-1 skills from the **Platinum Skill NPC at `prontera 128,200`
 
 | Skill | Current behavior |
 | --- | --- |
-| Angel, Help me! | 100 SP, instant cast, 1s after-cast delay, 300s cooldown. A moving 15x15 area checks the caster and living party members each second for 20 seconds, restoring a base 500 HP and 100 SP per pulse. Normal healing modifiers/restrictions apply. Stops on death/logout. |
-| Breakthrough | Passive: +50 ATK, +50 MATK, +2,000 Max HP, +200 Max SP and +20% incoming HP-healing skill/potion bonuses. Does not increase SP-potion recovery or natural/percentage regeneration. |
-| Super Blessing | Target yourself or another living player within nine cells. Grants Level-10 Blessing and Increase AGI for 240 seconds. Costs 50 SP, casts instantly and has a 1s after-cast delay. Uses both normal buff effects and Blessing's sound. |
+| ![Angel, Help me! icon](assets/skills/nv_helpangel.png){ .skill-icon } **Angel, Help me!** | 100 SP, instant cast, 1s after-cast delay, 300s cooldown. A moving 15x15 area checks the caster and living party members each second for 20 seconds, restoring a base 500 HP and 100 SP per pulse. Normal healing modifiers/restrictions apply. Stops on death/logout. |
+| ![Breakthrough icon](assets/skills/nv_breakthrough.png){ .skill-icon } **Breakthrough** | Passive: +50 ATK, +50 MATK, +2,000 Max HP, +200 Max SP and +20% incoming HP-healing skill/potion bonuses. Does not increase SP-potion recovery or natural/percentage regeneration. |
+| ![Super Blessing icon](assets/skills/al_blessing.png){ .skill-icon } **Super Blessing** | Target yourself or another living player within nine cells. Grants Level-10 Blessing and Increase AGI for 240 seconds. Costs 50 SP, casts instantly and has a 1s after-cast delay. Uses both normal buff effects and Blessing's sound. |
 
 Super Blessing refreshes the ordinary Blessing/Increase AGI statuses; it does not stack another copy of their bonuses with skills or scrolls.
 
@@ -264,7 +266,7 @@ Super Blessing refreshes the ordinary Blessing/Increase AGI statuses; it does no
 | Feature | Current behavior |
 | --- | --- |
 | Fame | 5% decay on the first day of each Philippine calendar month, including Baby Taekwon. |
-| Taekwon Mission | 1 SP, 0.5s base cast time, 5% target-reroll chance while the current mission has zero kills. Once progress is recorded, the target cannot be rerolled. |
+| ![Taekwon Mission icon](assets/skills/tk_mission.png){ .skill-icon } **Taekwon Mission** | 1 SP, 0.5s base cast time, 5% target-reroll chance while the current mission has zero kills. Once progress is recorded, the target cannot be rerolled. |
 
 Native target selection, mission completion and ranking rewards remain.
 
@@ -272,10 +274,10 @@ Native target selection, mission completion and ranking rewards remain.
 
 | Skill | Current behavior |
 | --- | --- |
-| Feeling of the Sun, Moon and Stars | Salvia resets all three remembered maps for 500,000z. |
-| Hatred of the Sun, Moon and Stars | Salvia separately resets all three remembered targets for 500,000z. |
+| ![Feeling of the Sun, Moon and Stars icon](assets/skills/sg_feel.png){ .skill-icon } **Feeling of the Sun, Moon and Stars** | Salvia resets all three remembered maps for 500,000z. |
+| ![Hatred of the Sun, Moon and Stars icon](assets/skills/sg_hate.png){ .skill-icon } **Hatred of the Sun, Moon and Stars** | Salvia separately resets all three remembered targets for 500,000z. |
 | Miracle of the Sun, Moon and Stars | 0.1% activation chance under the normal activation conditions. |
-| Warmth of the Sun, Moon and Stars | Land Protector does not prevent the Warmth field/damage. Native damage, SP drain and other rules remain. |
+| ![Warmth of the Sun, Moon and Stars icon](assets/skills/sg_sun_warm.png){ .skill-icon } **Warmth of the Sun, Moon and Stars** | Land Protector does not prevent the Warmth field/damage. Native damage, SP drain and other rules remain. |
 
 **Salvia is at `prontera 136,200`.** Each service preserves the other memory set. Empty memory sets are not charged. Baby Star Gladiator variants are also eligible.
 
@@ -287,8 +289,8 @@ Native target selection, mission completion and ranking rewards remain.
 | Job EXP | Levels 1-50 retain the existing curve. Requirements for reaching Levels 51-70 use the standard transcendent-class curve. |
 | HP/SP after Job 50 | No automatic pool increase from Job Levels 51-70 with the same Base Level, stats, equipment and skills. Existing HP/SP and job-stat tables are retained. |
 | Level-5 Soul Links | Ten-minute duration for all 15 classic class Spirit links plus Spirit of Rebirth. Levels 1-4 are unchanged. |
-| Eske | Cannot target Boss-flagged monsters, including MVPs and Boss-flagged mini-bosses. Eska is unchanged. |
-| Esma | SP costs by level: **4 / 8 / 12 / 16 / 20 / 24 / 28 / 32 / 36 / 40**. |
+| ![Eske icon](assets/skills/sl_ske.png){ .skill-icon } **Eske** | Cannot target Boss-flagged monsters, including MVPs and Boss-flagged mini-bosses. Eska is unchanged. |
+| ![Esma icon](assets/skills/sl_sma.png){ .skill-icon } **Esma** | SP costs by level: **4 / 8 / 12 / 16 / 20 / 24 / 28 / 32 / 36 / 40**. |
 
 Lupita's explicitly short Super Novice Spirit remains ten seconds. Esma retains its damage, cast time, readiness requirement and other SP modifiers.
 
@@ -296,13 +298,13 @@ Lupita's explicitly short Super Novice Spirit remains ten seconds. Esma retains 
 
 | Skill | Current behavior |
 | --- | --- |
-| Crimson Fire Blossom / Flaming Petals | Levels 7-10 cost 30 SP. Levels 1-6 remain 18/20/22/24/26/28 SP. |
-| Final Strike / Killing Strike | Levels 1-10 cost **28 / 30 / 33 / 35 / 38 / 40 / 43 / 45 / 48 / 50 SP**: half of the original cost, rounded up. |
-| Lightning Spear of Ice / Freezing Spear | Levels 6-10 cost 30 SP. Levels 1-5 remain 15/18/21/24/27 SP. |
-| Throw Huuma Shuriken | 12-cell range, 1.5s base after-cast delay, 10/15/20/25/30 SP at Levels 1-5. |
-| Throw Kunai | 12-cell range and 0.5s base after-cast delay. |
-| Throw Shuriken | 12-cell range. |
-| Throw Zeny | 25 SP and 2s base after-cast delay. Half Zeny payment on GvG/castle maps; no Zeny payment in Battlegrounds. |
+| ![Crimson Fire Blossom / Flaming Petals icon](assets/skills/nj_kouenka.png){ .skill-icon } **Crimson Fire Blossom / Flaming Petals** | Levels 7-10 cost 30 SP. Levels 1-6 remain 18/20/22/24/26/28 SP. |
+| ![Final Strike / Killing Strike icon](assets/skills/nj_issen.png){ .skill-icon } **Final Strike / Killing Strike** | Levels 1-10 cost **28 / 30 / 33 / 35 / 38 / 40 / 43 / 45 / 48 / 50 SP**: half of the original cost, rounded up. |
+| ![Lightning Spear of Ice / Freezing Spear icon](assets/skills/nj_hyousensou.png){ .skill-icon } **Lightning Spear of Ice / Freezing Spear** | Levels 6-10 cost 30 SP. Levels 1-5 remain 15/18/21/24/27 SP. |
+| ![Throw Huuma Shuriken icon](assets/skills/nj_huuma.png){ .skill-icon } **Throw Huuma Shuriken** | 12-cell range, 1.5s base after-cast delay, 10/15/20/25/30 SP at Levels 1-5. |
+| ![Throw Kunai icon](assets/skills/nj_kunai.png){ .skill-icon } **Throw Kunai** | 12-cell range and 0.5s base after-cast delay. |
+| ![Throw Shuriken icon](assets/skills/nj_syuriken.png){ .skill-icon } **Throw Shuriken** | 12-cell range. |
+| ![Throw Zeny icon](assets/skills/nj_zenynage.png){ .skill-icon } **Throw Zeny** | 25 SP and 2s base after-cast delay. Half Zeny payment on GvG/castle maps; no Zeny payment in Battlegrounds. |
 
 Throw Zeny's discount changes payment and the affordability cap, not its native randomized damage formula. On WoE maps, the wallet can fund twice its ordinary damage budget before the half-cost payment. Battlegrounds casting/damage works with zero Zeny. Battlegrounds takes precedence if map flags overlap, and fractional Zeny payment is rounded down. There is only one impact-time Zeny charge.
 
@@ -310,14 +312,14 @@ Throw Zeny's discount changes payment and the affordability cap, not its native 
 
 | Skill | Current behavior |
 | --- | --- |
-| Adjustment | 1 coin, 10 SP, 60-second duration. |
-| Flip the Coin | 100% success at all five levels, 1 SP. Retains its 1-Zeny cost, ten-coin cap and normal coin lifetime. |
-| Full Buster | After-cast delay capped at 2s. SP cost is 35 at Levels 5-10. See the full curves below. |
-| Increasing Accuracy | 2 coins and 15 SP. |
-| Madness Canceller | 2 coins and 15 SP. |
-| Madness Break | Free platinum skill from the Platinum Skill NPC. Instant, self-only, zero SP/coins, 100ms base action delay. Ends only the caster's active Madness Canceller. |
-| Rapid Shower | 0.75s base after-cast delay, reduced SP and level-based bullet use as listed below. Retains five-hit damage and the revolver requirement. |
-| Triple Action | 12 SP. |
+| ![Adjustment icon](assets/skills/gs_adjustment.png){ .skill-icon } **Adjustment** | 1 coin, 10 SP, 60-second duration. |
+| ![Flip the Coin icon](assets/skills/gs_glittering.png){ .skill-icon } **Flip the Coin** | 100% success at all five levels, 1 SP. Retains its 1-Zeny cost, ten-coin cap and normal coin lifetime. |
+| ![Full Buster icon](assets/skills/gs_fullbuster.png){ .skill-icon } **Full Buster** | After-cast delay capped at 2s. SP cost is 35 at Levels 5-10. See the full curves below. |
+| ![Increasing Accuracy icon](assets/skills/gs_increasing.png){ .skill-icon } **Increasing Accuracy** | 2 coins and 15 SP. |
+| ![Madness Canceller icon](assets/skills/gs_madnesscancel.png){ .skill-icon } **Madness Canceller** | 2 coins and 15 SP. |
+| ![Madness Break icon](assets/skills/gs_madnesscancel.png){ .skill-icon } **Madness Break** | Free platinum skill from the Platinum Skill NPC. Instant, self-only, zero SP/coins, 100ms base action delay. Ends only the caster's active Madness Canceller. |
+| ![Rapid Shower icon](assets/skills/gs_rapidshower.png){ .skill-icon } **Rapid Shower** | 0.75s base after-cast delay, reduced SP and level-based bullet use as listed below. Retains five-hit damage and the revolver requirement. |
+| ![Triple Action icon](assets/skills/gs_tripleaction.png){ .skill-icon } **Triple Action** | 12 SP. |
 
 Madness Break is available to Gunslinger and Baby Gunslinger. Its permanent NPC grant survives relogging and skill resets; it does not spend skill points.
 

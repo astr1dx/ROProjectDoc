@@ -76,6 +76,20 @@ Paths below are relative to the server repository unless stated otherwise. They 
 
 The server-only repository does not include the separate `Client/`, `Tools/` or `Offline/` workspace folders. Documentation builds do not require those folders. Keep credentials and player/database files out of documentation pages.
 
+## Skill images and presentation
+
+Skill artwork lives in `docs/assets/skills/` and is served with the site, so the guide does not depend on an external image host. `manifest.json` records the skill-name-to-image mapping. The images were exported from the Ad Infinitum client's `data.grf`, using the icon names in its `skillinfolist.lub`, and converted from BMP to transparent PNG. Original game artwork belongs to its respective rights holders.
+
+Custom skills use their actual client mappings: Super Blessing shares Blessing's icon, Madness Break shares Madness Canceller's icon, and Avarice uses `BS_UNFAIRLYTRICK`. Keep those mappings aligned with future client updates.
+
+To place an existing icon beside a skill name:
+
+```markdown
+![Berserk icon](assets/skills/lk_berserk.png){ .skill-icon } **Berserk**
+```
+
+Keep the readable skill name alongside the image. The shared presentation styles live in `docs/assets/stylesheets/extra.css`. `classes.md` links into the full class reference; update its links if class headings change.
+
 ## MkDocs references
 
 - [Getting started](https://www.mkdocs.org/getting-started/)

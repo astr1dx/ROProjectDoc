@@ -1,27 +1,88 @@
-# Ad Infinitum documentation
+---
+hide:
+  - toc
+---
 
-Current server rules and customizations, updated **November 7, 2026**.
+<div class="hero" markdown>
 
-| Page | Contents |
+<span class="eyebrow">Ad Infinitum · Player handbook</span>
+
+# A familiar world.<br>A different adventure.
+
+Your guide to our Classic Pre-Renewal server: class adjustments, everyday conveniences, and the rules that shape your next build.
+
+[Find your class :material-arrow-right:](classes.md){ .md-button .md-button--primary }
+[Explore server rules](server-rules.md){ .md-button }
+
+</div>
+
+<div class="facts">
+  <div class="fact"><strong>99 / 70</strong><span>Base / maximum Job Level*</span></div>
+  <div class="fact"><strong>190</strong><span>Maximum ASPD</span></div>
+  <div class="fact"><strong>20× / 25×</strong><span>Weekday / weekend monster EXP</span></div>
+  <div class="fact"><strong>14.2</strong><span>Adapted Eclage content profile</span></div>
+</div>
+
+*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 7, 2026**.
+
+## Make yourself at home
+
+<div class="grid cards" markdown>
+
+-   :material-sword-cross: **Build your character**
+
+    ---
+
+    Find your class, compare skill adjustments, and look up custom platinum skills.
+
+    [Browse the class directory &rarr;](classes.md)
+
+-   :material-compass-outline: **Know the world**
+
+    ---
+
+    Check rates, level caps, the episode profile, and important map restrictions.
+
+    [Read the server rules &rarr;](server-rules.md)
+
+-   :material-bag-personal-outline: **Enjoy the conveniences**
+
+    ---
+
+    Learn about sitting recovery, mail, party buff indicators, bulk purchases, and storage.
+
+    [Explore quality of life &rarr;](quality-of-life.md)
+
+-   :material-monitor-shimmer: **Understand the client**
+
+    ---
+
+    Review the WARP profile, English resources, and compatibility finishing patches.
+
+    [View client notes &rarr;](client-patches.md)
+
+</div>
+
+## Useful stops
+
+| Looking for… | Go to |
 | --- | --- |
-| [Server rules](server-rules.md) | Episode profile, rates, level/stat caps and server time. |
-| [Class changes](class-changes.md) | All implemented class adjustments, shared combat rules, platinum skills and related NPC locations. |
-| [Quality of life](quality-of-life.md) | Recovery, mail, party indicators, bulk storage, teleporting, food and other convenience changes. |
-| [Client patches](client-patches.md) | Current WARP selections, finishing patches and compatibility fixes. |
-| [Editing these docs](editing.md) | How to preview, edit, validate and build this MkDocs site. |
+| Free platinum skills | [Platinum Skill NPC and other services](class-changes.md#related-npc-directory) |
+| Custom Super Novice skills | [Free platinum skills](class-changes.md#free-platinum-skills) |
+| Bag of Gold Coins and Avarice | [Merchant upgrades](class-changes.md#bag-of-gold-coins-and-avarice) |
+| Weekend rates | [Rates and schedule](server-rules.md#rates) |
+| What the party buff letters mean | [Party buff indicators](quality-of-life.md#party-buff-letters) |
 
-## Scope
+!!! info "About this handbook"
+    These pages describe the final implemented settings, rather than a chronological patch log. The content profile adapts Episode 14.2 to classic mechanics. Skill names may have different English translations; aliases are included where useful.
 
-These pages describe the final implemented behavior. They consolidate the development notes and later corrections; they are not a chronological patch log. The server uses Classic Pre-Renewal mechanics with a custom Episode 14.2 content profile. Skill names may have different English translations in the client; aliases are included where useful.
+??? note "Implementation and verification status"
+    The changes have build, configuration and focused automated checks. Some gameplay and UI interactions still await in-game confirmation. Do not interpret this guide as a claim that every class has completed gameplay or balance testing.
 
-The complete class guide is a single portable Markdown file, `class-changes.md`. It can also be copied into another MkDocs project's documentation folder.
+    Confirmed player checks include Super Blessing on self/other players with both effects and Blessing sound, Berserk chat with the red body effect persisting through teleports, bulk-purchase confirmation/storage delivery, improved zoom, emotes staying connected, and returning to login after a tested disconnect.
 
-## Verification status
+    The game environment is currently local/offline. Publishing this handbook does not change the game server's availability.
 
-The changes have build, configuration and focused automated checks. Some gameplay and UI interactions still await in-game confirmation. Do not interpret this guide as a claim that every class has completed gameplay or balance testing.
+## Keeping the guide current
 
-Confirmed player checks include Super Blessing on self/other players with both effects and Blessing sound, Berserk chat with the red body effect persisting through teleports, bulk-purchase confirmation/storage delivery, improved zoom, emotes staying connected, and returning to login after a tested disconnect.
-
-## Documentation ownership
-
-Edit the relevant Markdown page whenever a rule changes, and update its date. The technical implementation history remains in `doc/AD-INFINITUM.md` in the server repository; these MkDocs pages are the current rules reference.
+See [Editing these docs](editing.md) for contributions and publishing. Update the relevant page and its date when a rule changes. Technical implementation history remains in `doc/AD-INFINITUM.md` in the server repository.
