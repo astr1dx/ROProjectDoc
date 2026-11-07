@@ -73,6 +73,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 | Bag of Gold Coins and Avarice | [Merchant upgrades](class-changes.md#bag-of-gold-coins-and-avarice) |
 | Weekend rates | [Rates and schedule](server-rules.md#rates) |
 | What the party buff letters mean | [Party buff indicators](quality-of-life.md#party-buff-letters) |
+| Quest retries, the New World test, and ore splitting | [Quest changes](quest-changes.md) |
 
 !!! info "About this handbook"
     These pages describe the final implemented settings, rather than a chronological patch log. The content profile adapts Episode 14.2 to classic mechanics. Skill names may have different English translations; aliases are included where useful.

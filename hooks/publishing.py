@@ -8,6 +8,7 @@ ICONS = {
     "classes.md": "🧙",
     "class-changes.md": "🔮",
     "quality-of-life.md": "🦋",
+    "quest-changes.md": "📜",
     "editing.md": "📝",
 }
 INTERNAL_CONTENT = re.compile(
