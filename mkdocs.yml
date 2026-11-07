@@ -4,6 +4,7 @@ site_url: https://astr1dx.github.io/ROProjectDoc/
 edit_uri: https://github.com/astr1dx/ROProjectDoc/edit/main/docs/
 exclude_docs: |
   client-patches.md
+  editing.md
 hooks:
   - hooks/publishing.py
 validation:
@@ -47,7 +48,6 @@ nav:
   - Find Your Class: classes.md
   - Class Changes: class-changes.md
   - Quality of Life: quality-of-life.md
-  - Editing: editing.md
 
 markdown_extensions:
   - admonition

@@ -84,6 +84,3 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
     The game environment is currently local/offline. Publishing this handbook does not change the game server's availability.
 
-## Keeping the guide current
-
-See [Editing these docs](editing.md) for contributions and publishing. Update the relevant page and its date when a rule changes. Technical implementation history remains in `doc/AD-INFINITUM.md` in the server repository.
