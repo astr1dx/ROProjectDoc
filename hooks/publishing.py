@@ -18,6 +18,9 @@ INTERNAL_CONTENT = re.compile(
 
 
 def on_page_markdown(markdown, page, **kwargs):
+    hidden = page.meta.setdefault("hide", [])
+    if "toc" not in hidden:
+        hidden.append("toc")
     if INTERNAL_CONTENT.search(markdown):
         raise PluginError(
             f"{page.file.src_uri}: internal client notes must stay in the excluded source file."
