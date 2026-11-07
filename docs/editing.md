@@ -17,7 +17,6 @@ docs-project/
     ├── server-rules.md
     ├── class-changes.md
     ├── quality-of-life.md
-    ├── client-patches.md
     └── editing.md
 ```
 
@@ -75,8 +74,6 @@ Paths below are relative to the server repository unless stated otherwise. They 
 | Custom NPCs | `npc/custom/`, loaded through `npc/scripts_custom.conf` |
 | Deployment-specific battle/rate settings | `conf/import/battle.conf` |
 | Local server configuration example | `conf/import-examples/` |
-| English client skill resources in ROProject | `Client/data/luafiles514/lua files/skillinfoz/` and `Client/data/lua files/skillinfoz/` |
-| Client patch profile in ROProject | `AdInfinitumFinal.yml` and `Prepare-AdInfinitum.ps1` |
 
 The server-only repository does not include the separate `Client/`, `Tools/` or `Offline/` workspace folders. Documentation builds do not require those folders. Keep credentials and player/database files out of documentation pages.
 

@@ -67,7 +67,6 @@ Cancelling, closing or timing out the confirmation does not purchase anything. C
 
 Personal storage supports **ten stacks per stackable item ID**, each up to **30,000 units**, for a normal maximum of **300,000 units**. Partial compatible stacks fill first. Variants share the ten-stack limit but incompatible variants do not merge. Item-specific smaller stack limits, storage slots and item/bound restrictions still apply. Guild storage retains its normal rules.
 
-The client warning that incorrectly appeared for the valid 30,000-unit bulk order is corrected.
 
 ## Sensible teleporting
 
@@ -110,9 +109,7 @@ Example: use +3 STR for 20 minutes, wait two minutes, then use +10 STR for five 
 
 At **Loyal intimacy (900+)**, Incubus grants **+3% Max SP** and a **5% chance to recover 5% of physical weapon damage as SP**. SP leech is random and requires missing SP to observe recovery. Other pet settings are inherited from the classic definition.
 
-## Appearance, respawn and client usability
+## Respawn fallback
 
-- Corrected modern appearance updates so a nearby viewer's job does not replace another character's sprite. Sniper/High Priest identity uses the displayed actor's job.
 - Returning to the last save point repairs an unavailable/disabled saved map to the configured Prontera fallback, rather than reviving in place due to that invalid map. Valid saved points and Battleground respawns retain their normal rules.
-- The updated client supports readable fonts/map banners, the larger zoom range, corrected emote handling and returning to login after a normal server disconnect.
 

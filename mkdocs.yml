@@ -4,6 +4,8 @@ site_url: https://astr1dx.github.io/ROProjectDoc/
 edit_uri: https://github.com/astr1dx/ROProjectDoc/edit/main/docs/
 exclude_docs: |
   client-patches.md
+hooks:
+  - hooks/publishing.py
 validation:
   links:
     anchors: warn

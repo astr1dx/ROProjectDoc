@@ -376,6 +376,3 @@ All adopted characters can raise base stats to **99**. Native stat-point costs a
 | Inn Tool Dealer, Rachel | `ra_in01 374,69` | Venom Knives. |
 | Inn Tool Dealer, Lighthalzen | `lhz_in02 228,284` | Venom Knives. |
 
-## Client resources
-
-English descriptions and relevant skill metadata are maintained in both client resource paths. Super Blessing and Madness Break also require the existing custom-skill recognition finishing patch. Reopen the client after updates to load the latest tables.
