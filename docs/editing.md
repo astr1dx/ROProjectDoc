@@ -1,3 +1,7 @@
+---
+icon: material/pencil-outline
+---
+
 # Editing these docs
 
 MkDocs reads the Markdown files in `docs/` and builds a website. Edit those files in your IDE or a text editor; MkDocs itself is not a browser-based editing CMS.

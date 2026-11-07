@@ -1,3 +1,7 @@
+---
+icon: material/bag-personal-outline
+---
+
 # Quality of life
 
 Updated: **November 7, 2026**.

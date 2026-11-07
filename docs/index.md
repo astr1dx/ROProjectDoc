@@ -1,4 +1,5 @@
 ---
+icon: material/home-outline
 hide:
   - toc
 ---

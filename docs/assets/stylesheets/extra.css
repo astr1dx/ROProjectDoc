@@ -1,7 +1,6 @@
 :root { --ai-radius: 14px; }
 .md-grid { max-width: 1440px; }
 .md-header { box-shadow: 0 2px 12px #0002; }
-.md-header__source { display: none; }
 .md-typeset h1 { font-weight: 750; letter-spacing: -.035em; color: var(--md-default-fg-color); }
 .md-typeset h2 { font-weight: 700; letter-spacing: -.025em; margin-top: 2.4em; padding-bottom: .35em; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
 .md-typeset h3 { font-weight: 650; }

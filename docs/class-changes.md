@@ -1,3 +1,7 @@
+---
+icon: material/sword-cross
+---
+
 # Class changes
 
 Updated: **November 7, 2026**.

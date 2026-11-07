@@ -1,3 +1,7 @@
+---
+icon: material/clipboard-text-outline
+---
+
 # Server rules
 
 Updated: **November 7, 2026**.
