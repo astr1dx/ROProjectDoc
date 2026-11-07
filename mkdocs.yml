@@ -1,0 +1,24 @@
+site_name: Ad Infinitum documentation
+site_description: Server rules, class changes, and customizations for Ad Infinitum.
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Server Rules: server-rules.md
+  - Class Changes: class-changes.md
+  - Client Patches: client-patches.md
+  - Quality of Life: quality-of-life.md
+  - Editing: editing.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
