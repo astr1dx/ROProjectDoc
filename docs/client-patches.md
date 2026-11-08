@@ -83,6 +83,10 @@ These are the final working compatibility changes, not a record of every interme
 
 ## Rebuilding and launching
 
+### Attendance resource table
+
+The installed `Client/System/CheckAttendance_EN.lub` and its generated translation copies contain the server's 20-day reward schedule and an active 2026-2037 date range. Restart the client after updating this table. Attendance uses the native window: opening it is read-only, and only an explicit claim sends a reward through RODEX. No executable change is required for this attendance correction.
+
 ### Repeated chat messages
 
 As of November 8, 2026, the client-side repeated-message limit is **10**, increased from 2. The WARP profile selects `LimitedChatRepeat` with `$chatFloodLimit` set to 10. Unlimited repetition is not enabled.

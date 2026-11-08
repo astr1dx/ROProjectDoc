@@ -2,14 +2,15 @@
 
 Updated: **November 8, 2026**.
 
-Log in, collect a reward, and pick up where you left off. Attendance progress is shared by every character on your account.
+Open Attendance Check, claim your daily reward, and pick up where you left off. Attendance progress is shared by every character on your account.
 
 ## How it works
 
-- **One reward per account per day.** Your first character login sends the next reward to that character's RODEX mailbox.
-- **A new day starts at midnight Philippine time** (UTC+08:00). If you stay online across midnight, log in again to receive the next reward.
-- **Missing a day does not reset progress.** Reward days count successful daily logins, rather than calendar dates.
-- **The schedule repeats.** After day 20, your next eligible login starts again at day 1.
+- **Claim manually.** Click the **Attendance Check** button and claim the available reward. It is then sent automatically to the claiming character's RODEX mailbox. Logging in or opening the window alone does not send a reward.
+- **The window opens automatically when a reward is available** on login and when a new day begins while you are online. You can reopen it with Attendance Check.
+- **One reward per account per day.** A new day starts at midnight Philippine time (UTC+08:00).
+- **Missing a day does not reset progress.** Reward days count successful daily claims, rather than calendar dates.
+- **The schedule repeats.** After claiming day 20, your next eligible day starts again at day 1.
 - **Switching characters does not grant another reward** on the same day.
 
 !!! warning "Collect your mail within 14 days"
