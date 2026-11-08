@@ -24,7 +24,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
   <div class="fact"><strong>14.2</strong><span>Adapted Eclage content profile</span></div>
 </div>
 
-*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 7, 2026**.
+*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 8, 2026**.
 
 ## Make yourself at home
 
@@ -72,6 +72,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 | Custom Super Novice skills | [Free platinum skills](class-changes.md#free-platinum-skills) |
 | Bag of Gold Coins and Avarice | [Merchant upgrades](class-changes.md#bag-of-gold-coins-and-avarice) |
 | Weekend rates | [Rates and schedule](server-rules.md#rates) |
+| Daily login rewards | [Attendance rewards](attendance.md) |
 | What the party buff letters mean | [Party buff indicators](quality-of-life.md#party-buff-letters) |
 | Quest retries, the New World test, and ore splitting | [Quest changes](quest-changes.md) |
 
