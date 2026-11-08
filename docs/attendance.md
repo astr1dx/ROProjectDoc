@@ -16,6 +16,21 @@ Open Attendance Check, claim your daily reward, and pick up where you left off. 
 !!! warning "Collect your mail within 14 days"
     Attendance mail and unclaimed attachments expire after 14 days. An expired reward is not reissued and does not move your attendance progress backward.
 
+## Claim your reward
+
+1. Open **Attendance Check**, or use the window that appears automatically when your daily reward is available.
+2. Click **Claim** for the available reward. Opening or closing the window does not claim it.
+3. Open **RODEX Mail** on the character that made the claim and collect the attachment.
+
+!!! info "Already claimed today?"
+    The window shows the reward as claimed for every character on your account. Reopening it, switching characters, or logging in again does not grant another reward. Previously delivered attendance rewards remain claimed.
+
+## When the next reward becomes available
+
+Daily eligibility resets at **00:00 Philippine time**, rather than 24 hours after your last claim. If you are online when a new day begins, the window appears automatically when a reward is available; you do not need to log out and back in.
+
+For example, claim day 1 at 23:55 and you can claim day 2 after midnight, five minutes later. If you skip the next day, your next available reward remains day 3. After claiming day 20, the cycle returns to day 1 on your next eligible day.
+
 ## Daily rewards
 
 | Day | Reward | Quantity | Item ID |

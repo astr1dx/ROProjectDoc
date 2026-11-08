@@ -18,6 +18,8 @@ Super Novice Doridori doubles normal recovery, not these percentage pulses.
 
 ## RODEX mail
 
+[Attendance rewards](attendance.md) arrive through RODEX **after you claim them in Attendance Check**. Logging in or opening the attendance window alone does not send a reward. Attendance claims are limited to one per account per Philippine calendar day.
+
 Mail can be used from ordinary towns and fields under the normal map and access restrictions.
 
 | Attached item stacks | Postage |
