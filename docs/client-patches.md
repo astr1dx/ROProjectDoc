@@ -83,6 +83,12 @@ These are the final working compatibility changes, not a record of every interme
 
 ## Rebuilding and launching
 
+### Repeated chat messages
+
+As of November 8, 2026, the client-side repeated-message limit is **10**, increased from 2. The WARP profile selects `LimitedChatRepeat` with `$chatFloodLimit` set to 10. Unlimited repetition is not enabled.
+
+The installed executable was updated using `Tools/Compatibility/patch-chat-repeat.py`, which changes only the native `IsSameSentence` comparison byte and verifies that every unrelated byte remains identical. The verification record is `Offline/chat-repeat-patch.json`; the original executable and profile are backed up under `Offline/Backups/ChatRepeat/20261108-160601/`. Restart the client to load the change. Existing server chat-delay and mute rules still apply.
+
 Run the existing `Prepare-AdInfinitum.ps1` from the complete ROProject workspace when rebuilding the client. Preserve its finishing steps; applying only a fresh WARP executable can omit required compatibility repairs. Close the game before replacing its executable.
 
 Launch through **Play-Offline.bat** and reopen the client after resource changes. A normal server disconnect returns to login; a genuine crash is a separate failure that needs investigation.
