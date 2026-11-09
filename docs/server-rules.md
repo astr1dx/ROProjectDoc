@@ -4,7 +4,7 @@ icon: material/clipboard-text-outline
 
 # Server rules
 
-Updated: **November 7, 2026**.
+Updated: **November 9, 2026**.
 
 ## Core settings
 
@@ -49,7 +49,7 @@ Weekend rates run from Saturday 00:00 until Monday 00:00 in Philippine time. Car
 
 The server uses an explicit Episode 14.2 allowlist for maps, monsters, items, quests and regional scripts. Later content is excluded. This is an adapted classic-server profile, not an unmodified official Renewal database. Eclage's original level-100/120 requirements are adapted to level 90; existing level-99 requirements remain.
 
-Some convenience features are explicit exceptions to the episode cutoff, including RODEX, Infinite Fly Wing and the documented custom platinum skills. Their availability does not enable the rest of the later-episode content.
+Some convenience features are explicit exceptions to the episode cutoff, including RODEX, Infinite Fly Wing, the documented custom platinum skills, and the selected ammunition, kunai and pet supplies in the [dealer catalogue](dealers.md#ammunition-and-pet-supply-exceptions). Their availability does not enable the rest of the later-episode content.
 
 ## Important map definitions
 

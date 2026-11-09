@@ -9,6 +9,8 @@ ICONS = {
     "class-changes.md": "🔮",
     "quality-of-life.md": "🦋",
     "attendance.md": "🔔",
+    "hourly-rewards.md": "🕥",
+    "dealers.md": "🍬",
     "quest-changes.md": "📜",
     "editing.md": "📝",
 }

@@ -4,7 +4,7 @@ icon: material/bag-personal-outline
 
 # Quality of life
 
-Updated: **November 7, 2026**.
+Updated: **November 9, 2026**.
 
 ## Increased sitting recovery
 
@@ -115,3 +115,15 @@ At **Loyal intimacy (900+)**, Incubus grants **+3% Max SP** and a **5% chance to
 
 - Returning to the last save point repairs an unavailable/disabled saved map to the configured Prontera fallback, rather than reviving in place due to that invalid map. Valid saved points and Battleground respawns retain their normal rules.
 
+
+## Hourly rewards
+
+Earn **10 account-wide points per hour online**, up to a **300-point balance**. Click the top-right timer to convert complete **120-point bundles into Gold Coins**; spend them at the Gold Point Manager in Prontera, **144,200**. The costume shop keeps your character stationary until it is closed.
+
+See [Hourly rewards](hourly-rewards.md) for saved partial-hour progress, inventory requirements, coin restrictions and the current sample costume.
+
+## Convenient dealers
+
+**43 existing Tool Dealers** now share the 35-item Enhanced Tool catalogue, and **8 existing Pet Groomers** share the 30-item Pet catalogue at their original locations. Jackie and Gunslinger Supplies remain dedicated Prontera shops.
+
+See [Convenient dealers](dealers.md) for prices, custom kunai elements, NPC resale values and the complete location directory.

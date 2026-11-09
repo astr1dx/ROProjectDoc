@@ -4,7 +4,7 @@ icon: material/sword-cross
 
 # Class changes
 
-Updated: **November 7, 2026**.
+Updated: **November 9, 2026**.
 
 This is the consolidated reference for the server's implemented class changes. Values below describe the final settings, including later corrections and selected per-level curves. Ordinary targeting, resource, immunity and map restrictions continue to apply unless a change explicitly overrides them. Base skill delays are still subject to the server's normal delay rules and 100ms minimum; a fixed cooldown is identified separately.
 
@@ -202,7 +202,7 @@ Spirit-sphere costs remain unchanged.
 
 Create Deadly Poison still requires all seven native ingredients and appropriate inventory capacity. Partial production successes are retained.
 
-Venom Knives are available at the added **Inn Tool Dealers** in Prontera's west/east inns, Alberta, Geffen, Payon, Aldebaran, Rachel and Lighthalzen at native prices. See the NPC directory below.
+Venom Knives are available for a base **50z** at every [Enhanced Tool Dealer](dealers.md#enhanced-tool-dealers), including the inn dealers. The shared catalogue replaces the previous Tool Dealer stock across the world.
 
 ## Rogue / Stalker
 
@@ -312,6 +312,8 @@ Lupita's explicitly short Super Novice Spirit remains ten seconds. Esma retains 
 
 Throw Zeny's discount changes payment and the affordability cap, not its native randomized damage formula. On WoE maps, the wallet can fund twice its ordinary damage budget before the half-cost payment. Battlegrounds casting/damage works with zero Zeny. Battlegrounds takes precedence if map flags overlap, and fractional Zeny payment is rounded down. There is only one impact-time Zeny charge.
 
+Jackie in Prontera sells the additional **Holy, Shadow and Ghost kunai**, each with 30 ATK and 0.5 weight. See [custom kunai](dealers.md#custom-kunai).
+
 ## Gunslinger
 
 | Skill | Current behavior |
@@ -344,14 +346,7 @@ Madness Break is available to Gunslinger and Baby Gunslinger. Its permanent NPC 
 
 ### Gunslinger supplies
 
-**Gunslinger Supplies at `prontera 140,200`** sells these at native database prices:
-
-- Bullet, Silver Bullet and Bloody Shell.
-- Flare, Lightning, Poison, Blind and Freezing Spheres.
-- Venom Canine, Burning Heart, Cyfar, Squid Ink and Brigan.
-- Phracon and Emveretarcon for the native sphere exchange recipes.
-
-The shop's stock is ammunition and crafting supplies. Native material-exchange NPCs and other original sources remain available.
+**Gunslinger Supplies at `prontera 140,200`** sells the expanded [bullet and sphere catalogue](dealers.md#gunslinger-materials), together with the existing sphere-crafting materials. Catalogue prices and NPC resale values are listed in the [dealer guide](dealers.md).
 
 ## Adopted characters
 
@@ -364,15 +359,19 @@ All adopted characters can raise base stats to **99**. Native stat-point costs a
 | Platinum Skill NPC | `prontera 128,200` | Free eligible platinum skills, including Change Cart 2, Super Novice skills and Madness Break; restores applicable existing unlocks. |
 | Plagiarism Tutor | `prontera 132,200` | Eligible copies for Rogues/Stalkers, 25,000z per valid lesson. |
 | Salvia | `prontera 136,200` | Feeling or Hatred reset, 500,000z per memory set. |
-| Gunslinger Supplies | `prontera 140,200` | Classic ammunition and sphere-crafting supplies. |
+| Gunslinger Supplies | `prontera 140,200` | [Expanded ammunition and sphere-crafting supplies](dealers.md#gunslinger-materials). |
+| Jackie | `prontera 132,196` | [Ninja materials and custom kunai](dealers.md#ninja-materials). |
+| Gold Point Manager | `prontera 144,200` | [Hourly-reward costume shop](hourly-rewards.md#spend-your-coins). |
+| Enhanced Tool Dealers | Original Tool Dealer locations worldwide | [Shared everyday-supply catalogue](dealers.md#enhanced-tool-dealers). |
+| Pet Dealers | Original Pet Groomer locations worldwide | [Full pet-supply catalogue](dealers.md#pet-supplies). |
 | Gold Coin Steward | `geffen_in 100,174` | Bag of Gold Coins and the Whitesmith Avarice exchange. |
 | Lupita | `prt_fild08 166,368` | Free Super Novice/Super Baby death-count reset and ten-second Spirit link. |
-| Inn Tool Dealer, Prontera west | `prt_in 242,135` | Venom Knives. |
-| Inn Tool Dealer, Prontera east | `prt_in 59,141` | Venom Knives. |
-| Inn Tool Dealer, Alberta | `alberta_in 30,142` | Venom Knives. |
-| Inn Tool Dealer, Geffen | `geffen_in 68,64` | Venom Knives. |
-| Inn Tool Dealer, Payon | `payon_in01 130,62` | Venom Knives. |
-| Inn Tool Dealer, Aldebaran | `aldeba_in 90,58` | Venom Knives. |
-| Inn Tool Dealer, Rachel | `ra_in01 374,69` | Venom Knives. |
-| Inn Tool Dealer, Lighthalzen | `lhz_in02 228,284` | Venom Knives. |
+| Enhanced Tool Dealer, Prontera west | `prt_in 242,135` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
+| Enhanced Tool Dealer, Prontera east | `prt_in 59,141` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
+| Enhanced Tool Dealer, Alberta | `alberta_in 30,142` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
+| Enhanced Tool Dealer, Geffen | `geffen_in 68,64` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
+| Enhanced Tool Dealer, Payon | `payon_in01 130,62` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
+| Enhanced Tool Dealer, Aldebaran | `aldeba_in 90,58` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
+| Enhanced Tool Dealer, Rachel | `ra_in01 374,69` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
+| Enhanced Tool Dealer, Lighthalzen | `lhz_in02 228,284` | [Full Tool catalogue, including Venom Knives](dealers.md#enhanced-tool-dealers). |
 

@@ -98,3 +98,11 @@ Run the existing `Prepare-AdInfinitum.ps1` from the complete ROProject workspace
 Launch through **Play-Offline.bat** and reopen the client after resource changes. A normal server disconnect returns to login; a genuine crash is a separate failure that needs investigation.
 
 The client/build workspace is separate from this server-only repository. These files are documented here so the team can preserve the working profile when maintaining it.
+
+## Dealer item information: November 9, 2026
+
+Thirteen entries in `Client/System/LuaFiles514/itemInfo.lua` were added or updated for the dealer catalogue. This includes Hamaya Kunai (35360, Holy), Shadow Kunai (35361, Shadow), Formless Kunai (35362, Ghost), six additional elemental bullets and four pet supplies. The custom kunai are Ninja ammunition with 30 ATK, 0.5 weight and Level 1 access. Magic Stone Bullet's description now matches its Level 1 requirement.
+
+Custom kunai reuse existing kunai icons and sprites; Delicious Meat and Luxurious Pet Food reuse existing pet-food artwork. Resource lookups were checked against the active GRF, and Lua 5.1 validation preserved all 14,619 unrelated item entries. Fully reopen the game after changing this item table. The dealer work does not replace the executable.
+
+The hourly timer uses the existing reward display. Its click converts complete 120-point bundles into Gold Coins; shopping is through the fixed NPC. Server-side barter-shop movement handling rejects queued approach requests until the normal close event, without an additional executable change.
