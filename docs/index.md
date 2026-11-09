@@ -75,6 +75,8 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 | Daily attendance rewards | [Attendance rewards](attendance.md) |
 | Hourly points, Gold Coins and the costume shop | [Hourly rewards](hourly-rewards.md) |
 | Tool, Pet, Ninja and Gunslinger supplies | [Convenient dealers](dealers.md) |
+| Unwanted cards and Bloody Branch rewards | [Card exchange](card-exchange.md) |
+| Market Street, shop searches and offline vendors | [Vendor system](vendor-system.md) |
 | What the party buff letters mean | [Party buff indicators](quality-of-life.md#party-buff-letters) |
 | Quest retries, the New World test, and ore splitting | [Quest changes](quest-changes.md) |
 
@@ -84,7 +86,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 ??? note "Implementation and verification status"
     The changes have build, configuration and focused automated checks. Some gameplay and UI interactions still await in-game confirmation. Do not interpret this guide as a claim that every class has completed gameplay or balance testing.
 
-    Confirmed player checks include Super Blessing on self/other players with both effects and Blessing sound, Berserk chat with the red body effect persisting through teleports, bulk-purchase confirmation/storage delivery, improved zoom, emotes staying connected, returning to login after a tested disconnect, the hourly costume shop staying stationary until closed, the three custom kunai descriptions, and the expanded stock at original Tool/Pet dealer locations.
+    Confirmed player checks include Super Blessing on self/other players with both effects and Blessing sound, Berserk chat with the red body effect persisting through teleports, bulk-purchase confirmation/storage delivery, improved zoom, emotes staying connected, returning to login after a tested disconnect, the hourly costume shop staying stationary until closed, the three custom kunai descriptions, the expanded stock at original Tool/Pet dealer locations, Putty's card exchange, Market Street and its NPCs, and first-attempt `@at2` with same-account character switching after a `[V]` login.
 
     The game environment is currently local/offline. Publishing this handbook does not change the game server's availability.
 

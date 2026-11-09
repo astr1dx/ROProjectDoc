@@ -49,7 +49,7 @@ Weekend rates run from Saturday 00:00 until Monday 00:00 in Philippine time. Car
 
 The server uses an explicit Episode 14.2 allowlist for maps, monsters, items, quests and regional scripts. Later content is excluded. This is an adapted classic-server profile, not an unmodified official Renewal database. Eclage's original level-100/120 requirements are adapted to level 90; existing level-99 requirements remain.
 
-Some convenience features are explicit exceptions to the episode cutoff, including RODEX, Infinite Fly Wing, the documented custom platinum skills, and the selected ammunition, kunai and pet supplies in the [dealer catalogue](dealers.md#ammunition-and-pet-supply-exceptions). Their availability does not enable the rest of the later-episode content.
+Some convenience features are explicit exceptions to the episode cutoff, including RODEX, [Market Street and the vendor system](vendor-system.md), Infinite Fly Wing, the documented custom platinum skills, and the selected ammunition, kunai and pet supplies in the [dealer catalogue](dealers.md#ammunition-and-pet-supply-exceptions). Their availability does not enable the rest of the later-episode content.
 
 ## Important map definitions
 
@@ -58,3 +58,9 @@ Some convenience features are explicit exceptions to the episode cutoff, includi
 - **RODEX siege restriction:** mail is blocked only in a castle during its relevant active WoE session. It is available on ordinary maps during WoE.
 
 See [class changes](class-changes.md) for skill-specific exceptions and [quality of life](quality-of-life.md) for the mail rules.
+
+## Trading and exchanges
+
+Shops may open in **Market Street, Payon, Morocc, Alberta and Comodo** only. Pricing rules and the **one-listing-per-stackable-item-ID per account** limit apply to selling, buying and offline shops; see the [vendor system](vendor-system.md). Hardware-ID enforcement is deferred.
+
+[Card exchange points](card-exchange.md) are shared across the account and are separate from hourly reward points and Gold Coins. Bloody Branch is the only enabled card-point reward.

@@ -51,6 +51,8 @@ nav:
   - Attendance Rewards: attendance.md
   - Hourly Rewards: hourly-rewards.md
   - Convenient Dealers: dealers.md
+  - Card Exchange: card-exchange.md
+  - Vendor System: vendor-system.md
   - Quest Changes: quest-changes.md
 
 markdown_extensions:

@@ -106,3 +106,21 @@ Thirteen entries in `Client/System/LuaFiles514/itemInfo.lua` were added or updat
 Custom kunai reuse existing kunai icons and sprites; Delicious Meat and Luxurious Pet Food reuse existing pet-food artwork. Resource lookups were checked against the active GRF, and Lua 5.1 validation preserved all 14,619 unrelated item entries. Fully reopen the game after changing this item table. The dealer work does not replace the executable.
 
 The hourly timer uses the existing reward display. Its click converts complete 120-point bundles into Gold Coins; shopping is through the fixed NPC. Server-side barter-shop movement handling rejects queued approach requests until the normal close event, without an additional executable change.
+
+## Vendor integration and corrections: November 9, 2026
+
+The vendor work adds `Client/data/buyingstoreitemlist.txt` with 2,938 eligible entries exported from the native server definitions. The server permits tradeable loose consumables and Etc-tab categories while rejecting crafted/brewed instances and equipment. The item #12548 KeepAfterUse override and server-side license handling defer consumption until successful shop creation. No additional executable patch is required for this integration.
+
+The existing GRF supplies `prt_mk.gat`, `.gnd` and `.rsw`. `Server/maps/pre-re/prt_mk.mcache` was generated from the same map data and registered in the active map list/index. The map has 4,264 generated vending spots. The existing executable, fonts, effects and finishing repairs were preserved.
+
+Server-side fixes after initial testing:
+
+- `vendor_system.cpp` sends search page zero before incrementing the sent-page cursor.
+- `clif_search_store_info_ack` rejects invalid/exhausted/overflowed offsets and writes rows at packet-local index `i - start`. `searchstore_querynext` now reports actual remaining pages. Empty command searches clear old UI rows.
+- `clif_process_chat_message` accepts only the current character's exact generated `[V]` display label in addition to the canonical name, then reconstructs the canonical speaker before command/chat processing. Prefix reads are bounded by packet length, and the reconstructed output is length-checked. Other-character names still force rejection. This handles the name retained by the client after character selection, including the bounded long-name label.
+- `ACMD(autotrade2)` reports success for the asynchronous handoff instead of an incorrect failure result.
+- Offline vendors use distinct unit IDs, avoid unrelated account-storage sessions, do not overwrite shared account registries/account data, and wait for final-save acknowledgements independently. Character selection closes the chosen vendor and flushes its save before loading it.
+
+Verification records are `Offline/card-exchange-verification.json`, `Offline/vendor-system-verification.json`, `Offline/vendor-search-crash-verification.json` and `Offline/vendor-name-commands-verification.json` in the full project workspace. Native tests cover transactions/restoration and guards; the connected-session suite covers actual login/map/character selection, retained-label commands, shop clicks and first/final/empty/exhausted search packets. The extracted production chat parser also passed canonical/own-label, long-name, malformed-prefix, spoofed-name and output-buffer cases. Tests use disposable data and opt-in test code excluded from the deployed binary.
+
+Players confirmed Putty's exchange/reward list, the market NPCs, same-account `@at2` character switching and the corrected first `[V]` login attempt. The latest search correction has connected-session coverage; a separate player search confirmation is still pending. HWID enforcement and website merchant search were explicitly deferred.

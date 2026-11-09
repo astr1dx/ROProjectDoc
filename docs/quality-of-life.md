@@ -127,3 +127,15 @@ See [Hourly rewards](hourly-rewards.md) for saved partial-hour progress, invento
 **43 existing Tool Dealers** now share the 35-item Enhanced Tool catalogue, and **8 existing Pet Groomers** share the 30-item Pet catalogue at their original locations. Jackie and Gunslinger Supplies remain dedicated Prontera shops.
 
 See [Convenient dealers](dealers.md) for prices, custom kunai elements, NPC resale values and the complete location directory.
+
+## Card exchange
+
+[Putty in Prontera](card-exchange.md) exchanges eligible loose cards for **10 account-wide card points each**. The only current reward is **Bloody Branch for 120 points**. Six cards are blacklisted, and favorite, bound, rental and socketed cards are protected.
+
+## Market Street and offline shops
+
+The [vendor system](vendor-system.md) adds an organized market, shop searches, pricing limits and one stackable-item listing per account. Enter through **Merchants Warp at Prontera 139,171**.
+
+Use `@ws` / `@wb` for selling/buying search windows, or `@ws2` / `@wb2` for text results. Remote trading works in towns. **`@at2`** keeps a shop open while returning you to character selection so another character on the same account can play. Use **`@importshop`** for the current character's last shop and **`@vendrecap`** for its retained sales summary.
+
+See the full [vendor guide](vendor-system.md) for allowed maps, permits, account limits and expected first-attempt behavior.

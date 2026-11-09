@@ -107,7 +107,7 @@ Mind Breaker keeps its existing reduction amount of **12% per level**, MATK incr
 | ![Cart Revolution icon](assets/skills/mc_cartrevolution.png){ .skill-icon } **Cart Revolution** | Always uses full-cart damage: 250% ATK. |
 | ![Change Cart 2 icon](assets/skills/mc_cartdecorate.png){ .skill-icon } **Change Cart 2** | Free platinum unlock from the Platinum Skill NPC. Adds Change Cart Level 2 and restores it after resets. Use `@cartstyle` with a cart attached to select styles 1-12. |
 | ![Mammonite icon](assets/skills/mc_mammonite.png){ .skill-icon } **Mammonite** | Carrying Bag of Gold Coins caps the final Zeny cost at 500z. Avarice removes the cost entirely. |
-| ![Vending icon](assets/skills/mc_vending.png){ .skill-icon } **Vending** | Closing the shop shows quantities sold, actual Zeny credited after taxes/caps, and remaining cart contents for that shop session. |
+| ![Vending icon](assets/skills/mc_vending.png){ .skill-icon } **Vending** | Closing the shop shows quantities sold, actual Zeny credited after tax, and remaining cart contents. The [vendor system](vendor-system.md) adds same-account offline shops, searches, last-shop import and `@vendrecap`. |
 | ![Adrenaline Rush icon](assets/skills/bs_adrenaline.png){ .skill-icon } **Adrenaline Rush** | Also supports one-handed swords. |
 | ![Cart Termination icon](assets/skills/ws_carttermination.png){ .skill-icon } **Cart Termination** | Uses the full 8,000-weight reference regardless of actual cart weight. Costs 0z in Battlegrounds, 500z with the bag, or 0z with Avarice. |
 | ![Power Thrust / Over Thrust icon](assets/skills/bs_overthrust.png){ .skill-icon } **Power Thrust / Over Thrust** | Adds no weapon-break chance. |
@@ -362,6 +362,8 @@ All adopted characters can raise base stats to **99**. Native stat-point costs a
 | Gunslinger Supplies | `prontera 140,200` | [Expanded ammunition and sphere-crafting supplies](dealers.md#gunslinger-materials). |
 | Jackie | `prontera 132,196` | [Ninja materials and custom kunai](dealers.md#ninja-materials). |
 | Gold Point Manager | `prontera 144,200` | [Hourly-reward costume shop](hourly-rewards.md#spend-your-coins). |
+| Putty | `prontera 130,192` | [Card exchange and Bloody Branch rewards](card-exchange.md). |
+| Merchants Warp | `prontera 139,171` | [Market Street entry and services](vendor-system.md#market-street). |
 | Enhanced Tool Dealers | Original Tool Dealer locations worldwide | [Shared everyday-supply catalogue](dealers.md#enhanced-tool-dealers). |
 | Pet Dealers | Original Pet Groomer locations worldwide | [Full pet-supply catalogue](dealers.md#pet-supplies). |
 | Gold Coin Steward | `geffen_in 100,174` | Bag of Gold Coins and the Whitesmith Avarice exchange. |
