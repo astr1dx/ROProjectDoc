@@ -4,7 +4,7 @@ icon: material/clipboard-text-outline
 
 # Server rules
 
-Updated: **November 9, 2026**.
+Updated: **November 10, 2026**.
 
 ## Core settings
 
@@ -64,3 +64,9 @@ See [class changes](class-changes.md) for skill-specific exceptions and [quality
 Shops may open in **Market Street, Payon, Morocc, Alberta and Comodo** only. Pricing rules and the **one-listing-per-stackable-item-ID per account** limit apply to selling, buying and offline shops; see the [vendor system](vendor-system.md). Hardware-ID enforcement is deferred.
 
 [Card exchange points](card-exchange.md) are shared across the account and are separate from hourly reward points and Gold Coins. Bloody Branch is the only enabled card-point reward.
+
+## Chat channels and saved preferences
+
+All existing and new players automatically join **`#main`** for discussion, **`#recruit`** for recruitment and **`#market`** for trading. A channel explicitly turned Off in **`@settings`** stays Off for that account on later logins.
+
+See [Personal settings](personal-settings.md) for channel commands, display preferences and character-specific storage/restock limits.

@@ -4,7 +4,15 @@ icon: material/bag-personal-outline
 
 # Quality of life
 
-Updated: **November 9, 2026**.
+Updated: **November 10, 2026**.
+
+## Personal settings and chat channels
+
+Use **`@settings`** to save account-wide preferences for pets, song music, drop notices, card artwork, EXP messages, guild HP, teleport markers, whisper alerts, day/night, announcements and WoE visuals. Storage withdrawal limits and restock supplies are saved per character.
+
+**`#main`**, **`#recruit`** and **`#market`** are automatically joined by existing and new players. Saved channel Off choices remain respected. Use Channel Config to manage them.
+
+See [Personal settings](personal-settings.md) for every command, defaults and how to refill saved supplies with **`@restock`** while Main Storage is open.
 
 ## Increased sitting recovery
 

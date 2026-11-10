@@ -24,7 +24,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
   <div class="fact"><strong>14.2</strong><span>Adapted Eclage content profile</span></div>
 </div>
 
-*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 9, 2026**.
+*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 10, 2026**.
 
 ## Make yourself at home
 
@@ -77,6 +77,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 | Tool, Pet, Ninja and Gunslinger supplies | [Convenient dealers](dealers.md) |
 | Unwanted cards and Bloody Branch rewards | [Card exchange](card-exchange.md) |
 | Market Street, shop searches and offline vendors | [Vendor system](vendor-system.md) |
+| Saved preferences, restocking and default chat channels | [Personal settings](personal-settings.md) |
 | What the party buff letters mean | [Party buff indicators](quality-of-life.md#party-buff-letters) |
 | Quest retries, the New World test, and ore splitting | [Quest changes](quest-changes.md) |
 
@@ -87,6 +88,8 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
     The changes have build, configuration and focused automated checks. Some gameplay and UI interactions still await in-game confirmation. Do not interpret this guide as a claim that every class has completed gameplay or balance testing.
 
     Confirmed player checks include Super Blessing on self/other players with both effects and Blessing sound, Berserk chat with the red body effect persisting through teleports, bulk-purchase confirmation/storage delivery, improved zoom, emotes staying connected, returning to login after a tested disconnect, the hourly costume shop staying stationary until closed, the three custom kunai descriptions, the expanded stock at original Tool/Pet dealer locations, Putty's card exchange, Market Street and its NPCs, and first-attempt `@at2` with same-account character switching after a `[V]` login.
+
+    The personal settings menu, preference persistence and song muting have also been confirmed in-game, including preserved song visuals and restored audio when muting is disabled. Other display options still have automated checks only.
 
     The game environment is currently local/offline. Publishing this handbook does not change the game server's availability.
 

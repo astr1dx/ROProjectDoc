@@ -7,6 +7,7 @@ ICONS = {
     "server-rules.md": "📖",
     "classes.md": "🧙",
     "class-changes.md": "🔮",
+    "personal-settings.md": "🎛️",
     "quality-of-life.md": "🦋",
     "attendance.md": "🔔",
     "hourly-rewards.md": "🕥",
