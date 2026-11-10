@@ -132,3 +132,9 @@ The normal executable includes the server-synchronized performance-audio filter.
 The rebuild finishing sequence in `Prepare-AdInfinitum.ps1` includes `Tools/PersonalSettings/patch-song-audio.py`. `Client/ad_settings.grf`, loaded before `data.grf` through `OFFLINE.INI`, supplies 506 existing card illustrations with native/ASCII aliases and the whisper alert sound. The original game archive remains unchanged. Diagnostic filename logging and its separate executable were removed after confirmation.
 
 Server defaults now include `#main`, `#recruit` and `#market`; automatic joining respects account-level channel Off preferences. The isolated connected-session suite passed 93 native checks. Production test code is disabled. The settings menu and persistence are confirmed in-game; rendered card artwork and guild HP removal still await player confirmation. Disposable QA data was removed after verification.
+
+## Menu-only preferences: November 10, 2026
+
+Personal preferences and restock are now available only through the `@settings` menu. Standalone commands and the pet-muting alias were removed from native registration and group permissions, including GM access. The menu uses the same native persistence and audio synchronization. The public guide and in-game Restock Supplies instructions use menu choices exclusively.
+
+The menu-only revision passed 127 native checks and connected-session tests using actual menu selections, Next and Close acknowledgements. Tests verify removed registrations/aliases even for GM sessions, ordinary-player song toggles, account persistence, per-character limits and channel visibility.

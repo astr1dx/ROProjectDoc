@@ -69,4 +69,4 @@ Shops may open in **Market Street, Payon, Morocc, Alberta and Comodo** only. Pri
 
 All existing and new players automatically join **`#main`** for discussion, **`#recruit`** for recruitment and **`#market`** for trading. A channel explicitly turned Off in **`@settings`** stays Off for that account on later logins.
 
-See [Personal settings](personal-settings.md) for channel commands, display preferences and character-specific storage/restock limits.
+See [Personal settings](personal-settings.md) for channel controls, display preferences and character-specific storage/restock limits.

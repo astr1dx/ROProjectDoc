@@ -12,7 +12,7 @@ Use **`@settings`** to save account-wide preferences for pets, song music, drop 
 
 **`#main`**, **`#recruit`** and **`#market`** are automatically joined by existing and new players. Saved channel Off choices remain respected. Use Channel Config to manage them.
 
-See [Personal settings](personal-settings.md) for every command, defaults and how to refill saved supplies with **`@restock`** while Main Storage is open.
+See [Personal settings](personal-settings.md) for each menu option, defaults and how to refill saved supplies through **Restock Supplies** while Main Storage is open.
 
 ## Increased sitting recovery
 
