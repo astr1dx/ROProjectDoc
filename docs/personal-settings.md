@@ -4,7 +4,7 @@ Updated: **November 10, 2026**.
 
 Type **`@settings`** to choose how pets, songs, messages and other information appear on your screen. Preferences are saved automatically and restored when you log in. Configure these preferences only through this menu.
 
-Most preferences are **shared across your account**, including channel visibility. Your **storage withdrawal weight limit and restock list are saved per character**.
+Most preferences are **shared across your account**, including channel visibility. Your **storage withdrawal weight limit, autoloot configuration, Restock groups and Quick Store groups are saved per character**.
 
 ## Default chat channels
 
@@ -91,14 +91,18 @@ The **High-contrast yellow** option in the same submenu recolors server announce
 
 Select **Storage Withdrawal Weight Limit** in **`@settings`** and enter a value from **1 to 100%**. This chooses the maximum carried-weight percentage after a withdrawal from personal storage. The default is **100%**, saved separately for each character. This does not increase carrying capacity or change overweight recovery restrictions.
 
-To save and refill supplies:
+Restock now uses named item/quantity lists. Open **Restock Supplies** to configure **target inventory totals**, or **Quick Store** to choose item IDs whose entire eligible inventory quantities should be deposited. Each feature supports **40 groups of 40 items**, with one active group per type.
 
-1. Carry the loose consumable and ammunition quantities you want to keep stocked.
-2. Open **`@settings` > Restock Supplies > Save current supplies**. This saves up to **64 item types**, with a target of up to **30,000 units per type**.
-3. Open **Main Storage**, then choose **`@settings` > Restock Supplies > Refill from open Main Storage** to refill missing quantities from its available items.
+Transfers require **already-open Main Storage in a town**, including Midgard Expedition Camp, Manuk and Splendide. Restock stays **strictly below 90% carried weight** and respects a lower personal withdrawal limit. Quick Store can unload items while overweight and **never asks for a quantity**.
 
-Choose **Save current supplies** again to replace your saved supply list.
+See [Fast storage](fast-storage.md) for full setup, item eligibility and the Jellopy #909 example. The dedicated `@restockconfig` / `@qstoreconfig` menus open the same saved configuration; `@restock` / `@qstore` run the active lists.
 
-Restocking requires Main Storage to be open and respects your withdrawal weight limit, carrying capacity and inventory space. It takes available stock only, skips unavailable supplies and never deposits excess items. Equipped, bound, rental, favorite and crafted/brewed item instances are excluded from the saved supply list.
+## Autoloot configuration
+
+Choose **Autoloot** inside `@settings`, or use **`@lootconfig`** to open the same menu. Configure Main Autoloot's original-drop-chance threshold, an ignore list of **100 items**, and up to **40 custom groups of 100 items**. Changes apply immediately and persist per character.
+
+An active group adds its items even when they are ignored or Main Autoloot is Off. To loot everything except Jellopy, enable Main Autoloot at 100%, ignore #909, and ensure the active group does not include #909.
+
+See [Advanced autoloot](autoloot.md) for filter precedence, defaults and setup. Visual/chat preferences remain configured only through `@settings`.
 
 See [bulk purchases and storage](quality-of-life.md#bulk-purchases-and-personal-storage) for the separate large-purchase feature.

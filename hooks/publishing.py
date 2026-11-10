@@ -15,6 +15,15 @@ ICONS = {
     "card-exchange.md": "🎟️",
     "vendor-system.md": "💰",
     "quest-changes.md": "📜",
+    "all-pages.md": "🔎",
+    "getting-started.md": "⭐",
+    "autoloot.md": "🧲",
+    "fast-storage.md": "📦",
+    "features.md": "🧭",
+    "dungeons.md": "🗺️",
+    "events.md": "🎉",
+    "updates.md": "📰",
+    "updates/2026-11-10.md": "🍂",
     "editing.md": "📝",
 }
 INTERNAL_CONTENT = re.compile(

@@ -8,11 +8,26 @@ Updated: **November 10, 2026**.
 
 ## Personal settings and chat channels
 
-Use **`@settings`** to save account-wide preferences for pets, song music, drop notices, card artwork, EXP messages, guild HP, teleport markers, whisper alerts, day/night, announcements and WoE visuals. Storage withdrawal limits and restock supplies are saved per character.
+Use **`@settings`** to save account-wide preferences for pets, song music, drop notices, card artwork, EXP messages, guild HP, teleport markers, whisper alerts, day/night, announcements and WoE visuals. Storage withdrawal limits, autoloot preferences, Restock groups and Quick Store groups are saved per character.
 
 **`#main`**, **`#recruit`** and **`#market`** are automatically joined by existing and new players. Saved channel Off choices remain respected. Use Channel Config to manage them.
 
-See [Personal settings](personal-settings.md) for each menu option, defaults and how to refill saved supplies through **Restock Supplies** while Main Storage is open.
+See [Personal settings](personal-settings.md) for menu options and defaults. The farming and storage tools below use the same `@settings` menu and also have their dedicated entry points.
+
+## Advanced autoloot
+
+Use **`@settings` > Autoloot** or **`@lootconfig`** to manage Main Autoloot, its **100-item ignore list**, and **40 custom groups of 100 items**. All preferences save per character. Main Autoloot compares original database drop chances; one active group adds selected item IDs even when ignored or Main Autoloot is Off.
+
+For example, enable Main Autoloot at 100%, ignore Jellopy **#909**, and keep it out of the active group to leave it on the ground. Manual pickup remains available. See [Advanced autoloot](autoloot.md) for setup and restrictions.
+
+## Restock and Quick Store
+
+Each tool supports **40 per-character groups with 40 items per group**. Configure them through **`@settings` > Restock Supplies / Quick Store**, or their dedicated configuration menus.
+
+- **`@restock`** withdraws available supplies up to target inventory quantities, strictly below 90% weight and respecting any lower personal limit.
+- **`@qstore`** deposits **all eligible inventory units** of listed item IDs. Add Jellopy **#909** to store all eligible Jellopy; no quantity or Keep field is configured.
+
+Both require **Main Storage already open in a town**, including Midgard Expedition Camp, Manuk and Splendide. Normal capacity and item restrictions remain. See [Fast storage](fast-storage.md) for instructions.
 
 ## Increased sitting recovery
 

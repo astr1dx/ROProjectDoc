@@ -26,6 +26,21 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
 *Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 10, 2026**.
 
+## Browse by topic
+
+| Section | Start here |
+| --- | --- |
+| Welcome | [Server Information](server-rules.md) and [All Pages (A-Z)](all-pages.md) |
+| Getting Started | [How to Start](getting-started.md), [your class](classes.md) and [personal settings](personal-settings.md) |
+| Features & Enhancements | [Features, changes and enhancements](features.md) |
+| Dungeons & Instances | [Hunting bonuses, MVP maps and the New World test](dungeons.md) |
+| Events & Activities | [Rewards and recurring activities](events.md) |
+| Patch Notes | [Latest updates](updates.md) |
+
+## Latest update: November 10
+
+Set up [advanced autoloot](autoloot.md), refill supplies with [Restock](fast-storage.md#restock-refill-target-quantities), and use [Quick Store](fast-storage.md#quick-store-store-all-listed-items) to deposit **all eligible units** of chosen items with no quantity field. [Read today's update](updates/2026-11-10.md).
+
 ## Make yourself at home
 
 <div class="grid cards" markdown>
@@ -77,7 +92,9 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 | Tool, Pet, Ninja and Gunslinger supplies | [Convenient dealers](dealers.md) |
 | Unwanted cards and Bloody Branch rewards | [Card exchange](card-exchange.md) |
 | Market Street, shop searches and offline vendors | [Vendor system](vendor-system.md) |
-| Saved preferences, restocking and default chat channels | [Personal settings](personal-settings.md) |
+| Saved preferences and default chat channels | [Personal settings](personal-settings.md) |
+| Autoloot filters, ignored items and farming lists | [Advanced autoloot](autoloot.md) |
+| Restock targets and all-unit Quick Store | [Fast storage](fast-storage.md) |
 | What the party buff letters mean | [Party buff indicators](quality-of-life.md#party-buff-letters) |
 | Quest retries, the New World test, and ore splitting | [Quest changes](quest-changes.md) |
 
@@ -89,7 +106,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
     Confirmed player checks include Super Blessing on self/other players with both effects and Blessing sound, Berserk chat with the red body effect persisting through teleports, bulk-purchase confirmation/storage delivery, improved zoom, emotes staying connected, returning to login after a tested disconnect, the hourly costume shop staying stationary until closed, the three custom kunai descriptions, the expanded stock at original Tool/Pet dealer locations, Putty's card exchange, Market Street and its NPCs, and first-attempt `@at2` with same-account character switching after a `[V]` login.
 
-    The personal settings menu, preference persistence and song muting have also been confirmed in-game, including preserved song visuals and restored audio when muting is disabled. Other display options still have automated checks only.
+    The personal settings menu, preference persistence and song muting have also been confirmed in-game, including preserved song visuals and restored audio when muting is disabled. Shared autoloot menus, automatic collection, and ignored Jellopy staying on the ground with manual pickup and a stable connection are confirmed too. Initial Restock/Quick Store transfers were confirmed; the final item-only Quick Store revision has automated coverage and awaits its separate in-game retest. Other display options still have automated checks only.
 
     The game environment is currently local/offline. Publishing this handbook does not change the game server's availability.
 

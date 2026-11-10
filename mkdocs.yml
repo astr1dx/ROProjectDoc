@@ -34,6 +34,8 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - navigation.footer
@@ -43,18 +45,38 @@ theme:
     - content.code.copy
 
 nav:
-  - Home: index.md
-  - Server Rules: server-rules.md
-  - Find Your Class: classes.md
-  - Class Changes: class-changes.md
-  - Quality of Life: quality-of-life.md
-  - Personal Settings: personal-settings.md
-  - Attendance Rewards: attendance.md
-  - Hourly Rewards: hourly-rewards.md
-  - Convenient Dealers: dealers.md
-  - Card Exchange: card-exchange.md
-  - Vendor System: vendor-system.md
-  - Quest Changes: quest-changes.md
+  - Welcome:
+      - Home: index.md
+      - Server Information: server-rules.md
+      - All Pages (A-Z): all-pages.md
+  - Getting Started:
+      - How to Start: getting-started.md
+      - Find Your Class: classes.md
+      - Player Tools:
+          - Personal Settings: personal-settings.md
+          - Advanced Autoloot: autoloot.md
+          - Fast Storage: fast-storage.md
+  - Features & Enhancements:
+      - Overview: features.md
+      - Features:
+          - Vendor System: vendor-system.md
+      - Changes:
+          - Class Changes: class-changes.md
+          - Quest Changes: quest-changes.md
+          - Quality of Life: quality-of-life.md
+      - Enhancements:
+          - Attendance Rewards: attendance.md
+          - Hourly Rewards: hourly-rewards.md
+          - Convenient Dealers: dealers.md
+          - Card Exchange: card-exchange.md
+  - Dungeons & Instances:
+      - Hunting and Instance Guide: dungeons.md
+  - Events & Activities:
+      - Rewards and Activities: events.md
+  - Patch Notes:
+      - Latest Updates: updates.md
+      - "2026":
+          - November 10: updates/2026-11-10.md
 
 markdown_extensions:
   - admonition
