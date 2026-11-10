@@ -9,6 +9,7 @@ Explore the systems and adjustments available on Ad Infinitum. Guides describe o
 - [Advanced autoloot](autoloot.md): drop-chance filters, ignored items and named farming groups.
 - [Fast storage](fast-storage.md): target-based Restock and item-only Quick Store lists.
 
+- [Kill Steal Protection](kill-steal-protection.md): saved Self/Party/Guild modes, fixed release timers and party checks.
 - [Kill Count](kill-count.md): confirmed single-monster tracking, private overhead counts and saved monster/card statistics.
 
 ## Changes

@@ -8,7 +8,7 @@ Start with [Server Information](server-rules.md) for rates, level caps, Philippi
 
 ## Set up your preferences
 
-Type **`@settings`** after entering the game. This menu controls pet visibility, song audio, drop notices, card artwork, EXP messages, whisper warnings, day/night and announcements. Most display/chat choices follow your account; storage weight and farming lists belong to each character.
+Type **`@settings`** after entering the game. This menu controls pet visibility, song audio, drop notices, card artwork, EXP messages, whisper warnings, day/night and announcements. Most display/chat choices follow your account; storage weight, farming lists and kill-steal protection belong to each character.
 
 Everyone automatically joins **#main**, **#recruit** and **#market** unless they have saved an Off choice. Change visibility in **Channel Config**. See [Personal settings](personal-settings.md) for defaults and how to send channel messages.
 
@@ -17,6 +17,7 @@ Everyone automatically joins **#main**, **#recruit** and **#market** unless they
 | Task | Guide |
 | --- | --- |
 | Automatically collect chosen drops and ignore unwanted loot | [Advanced autoloot](autoloot.md) |
+| Choose who can help attack your protected monsters | [Kill Steal Protection](kill-steal-protection.md) |
 | Track your last-killed monster and review kill/card totals | [Kill Count](kill-count.md) |
 | Understand card-find messages and recipient credit | [Card Drop Announcements](card-drop-announcements.md) |
 | Refill supplies and store all listed loot | [Fast storage](fast-storage.md) |

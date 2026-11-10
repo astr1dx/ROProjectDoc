@@ -43,6 +43,8 @@ Set up [advanced autoloot](autoloot.md), refill supplies with [Restock](fast-sto
 
 Track your latest hunt with [Kill Count](kill-count.md), and learn how [Card Drop Announcements](card-drop-announcements.md) credit the player who actually receives a card.
 
+Choose a protection mode with [Kill Steal Protection](kill-steal-protection.md), and find selling or buying shops through the [short or long trade commands](vendor-system.md#find-a-selling-or-buying-shop).
+
 ## Make yourself at home
 
 <div class="grid cards" markdown>
@@ -92,6 +94,7 @@ Track your latest hunt with [Kill Count](kill-count.md), and learn how [Card Dro
 | Daily attendance rewards | [Attendance rewards](attendance.md) |
 | Hourly points, Gold Coins and the costume shop | [Hourly rewards](hourly-rewards.md) |
 | Tool, Pet, Ninja and Gunslinger supplies | [Convenient dealers](dealers.md) |
+| Protected monsters, party access and release timers | [Kill Steal Protection](kill-steal-protection.md) |
 | Kill history, card-drop streaks and an overhead counter | [Kill Count](kill-count.md) |
 | Card finds, copy numbers and announcement visibility | [Card Drop Announcements](card-drop-announcements.md) |
 | Unwanted cards and Bloody Branch rewards | [Card exchange](card-exchange.md) |

@@ -57,6 +57,7 @@ nav:
           - Advanced Autoloot: autoloot.md
           - Fast Storage: fast-storage.md
           - Kill Count: kill-count.md
+          - Kill Steal Protection: kill-steal-protection.md
   - Features & Enhancements:
       - Overview: features.md
       - Features:

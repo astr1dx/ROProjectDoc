@@ -12,6 +12,7 @@ ICONS = {
     "attendance.md": "🔔",
     "hourly-rewards.md": "🕥",
     "dealers.md": "🍬",
+    "kill-steal-protection.md": "🛡️",
     "kill-count.md": "🎯",
     "card-drop-announcements.md": "🃏",
     "card-exchange.md": "🎟️",

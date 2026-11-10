@@ -1,6 +1,6 @@
 # Vendor system
 
-Updated: **November 9, 2026**.
+Updated: **November 10, 2026**.
 
 Find shops, buy and sell from towns, or keep a merchant trading while you play another character on the same account.
 
@@ -45,10 +45,12 @@ Dungeons and other maps are excluded. Ordinary restricted-cell and trade rules s
 
 | Command | Results | Price order |
 | --- | --- | --- |
-| `@ws ITEM` | Selling shops in the search window | Cheapest first |
-| `@wb ITEM` | Buying shops in the search window | Highest offer first |
-| `@ws2 ITEM` | Selling-shop information in chat | Cheapest first |
-| `@wb2 ITEM` | Buying-shop information in chat | Highest offer first |
+| `@ws ITEM` / `@whosell ITEM` | Selling shops in the search window | Cheapest first |
+| `@wb ITEM` / `@whobuy ITEM` | Buying shops in the search window | Highest offer first |
+| `@ws2 ITEM` / `@whosell2 ITEM` | Selling-shop information in chat | Cheapest first |
+| `@wb2 ITEM` / `@whobuy2 ITEM` | Buying-shop information in chat | Highest offer first |
+
+Both the short and long command names are available to **ordinary players**, including new accounts. They use the same search behavior and filters.
 
 Use an **item ID or part of its name**. Text results include the item, refine level, quantity, price, shop owner, shop name and navigation coordinates. The text commands do not open a search window.
 
@@ -64,6 +66,17 @@ Use an **item ID or part of its name**. Text results include the item, refine le
 ```
 
 The third example finds Cotton Shirt [1] at **+4 or higher**, costing up to **500,000z**. The fourth finds Red Potion buying offers between **45z and 60z**. Enter `+REFINE` before the item and `MIN-MAX` after it. Opening `@ws` or `@wb` without an item opens the ordinary search interface.
+
+The long names accept the same arguments:
+
+```text
+@whosell +7 knife 1000-2000
+@whosell2 white potion
+@whobuy red herb 65-90
+@whobuy2 909
+```
+
+Use `@wb` or `@whobuy` for buying offers; `@ws` and `@whosell` search selling shops.
 
 ### Remote trading and result limits
 
@@ -136,6 +149,12 @@ Use **`@importshop`** to reopen the most recent shop saved for the current chara
 ## Sales recap
 
 Closing a vending shop displays the quantities sold, actual Zeny credited after tax and remaining cart contents. **`@vendrecap`** shows the retained sales quantities and Zeny earned for the character's most recent vending shop. The sales recap is retained for an `@at2` shop across restoration.
+
+The current recap is a totals summary. A **View All** menu with individual buyers, sale timestamps and shop opening/closing times is not implemented.
+
+## November 10 search aliases
+
+Added **`@whosell`**, **`@whosell2`**, **`@whobuy`** and **`@whobuy2`** as the long forms of `@ws`, `@ws2`, `@wb` and `@wb2`. Ordinary-player checks passed for all eight names, including selling/buying routes and requests using item names, IDs, refine and price filters. Existing cooldowns and town-only remote trading still apply.
 
 ## November 9 corrections and verification
 

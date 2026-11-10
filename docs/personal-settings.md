@@ -2,9 +2,9 @@
 
 Updated: **November 10, 2026**.
 
-Type **`@settings`** to choose how pets, songs, messages and other information appear on your screen. Preferences are saved automatically and restored when you log in. Configure these preferences only through this menu.
+Type **`@settings`** to choose how pets, songs, messages and other information appear on your screen. Preferences are saved automatically and restored when you log in. Configure visual, sound and chat preferences through this menu.
 
-Most preferences are **shared across your account**, including channel visibility. Your **storage withdrawal weight limit, autoloot configuration, Restock groups and Quick Store groups are saved per character**.
+Most preferences are **shared across your account**, including channel visibility. Your **storage withdrawal weight limit, autoloot configuration, Restock groups, Quick Store groups and Kill Steal Protection mode are saved per character**.
 
 ## Default chat channels
 
@@ -88,6 +88,14 @@ Select a category to turn its announcements On or Off for your account. All cate
 [Card Drop Announcements](card-drop-announcements.md) use Drop and are filtered as Public chat. Card Drop Illustration remains an independent option.
 
 The **High-contrast yellow** option in the same submenu recolors server announcements for easier reading. It is Off by default.
+
+## Kill Steal Protection
+
+Open **Kill Steal Protection** inside **`@settings`** to choose **Self**, **Party**, **Guild** or **Disable protection**. **`@noks`** opens the same menu. The default is **Party**, and the choice is saved **per character**, including a saved Off choice.
+
+Use **`@nokscheck`** to review party members' current modes without changing them. Offline or otherwise unavailable members are marked not checked.
+
+Locks release after **5 seconds without owner attacks, skill use or movement**, **15 seconds after the first unauthorized attempt**, or **30 seconds from acquisition**, whichever applies first. Chat does not refresh activity. See [Kill Steal Protection](kill-steal-protection.md) for acquisition rules, mode permissions and map/boss exclusions.
 
 ## Storage weight limit and restock
 
