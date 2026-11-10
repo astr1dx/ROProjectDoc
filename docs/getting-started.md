@@ -17,6 +17,8 @@ Everyone automatically joins **#main**, **#recruit** and **#market** unless they
 | Task | Guide |
 | --- | --- |
 | Automatically collect chosen drops and ignore unwanted loot | [Advanced autoloot](autoloot.md) |
+| Track your last-killed monster and review kill/card totals | [Kill Count](kill-count.md) |
+| Understand card-find messages and recipient credit | [Card Drop Announcements](card-drop-announcements.md) |
 | Refill supplies and store all listed loot | [Fast storage](fast-storage.md) |
 | Buy tools, ammunition and pet supplies | [Convenient dealers](dealers.md) |
 | Learn sitting recovery, party buff markers and mail | [Quality of life](quality-of-life.md) |

@@ -9,6 +9,8 @@ Explore the systems and adjustments available on Ad Infinitum. Guides describe o
 - [Advanced autoloot](autoloot.md): drop-chance filters, ignored items and named farming groups.
 - [Fast storage](fast-storage.md): target-based Restock and item-only Quick Store lists.
 
+- [Kill Count](kill-count.md): confirmed single-monster tracking, private overhead counts and saved monster/card statistics.
+
 ## Changes
 
 - [Class changes](class-changes.md): skill adjustments and custom platinum skills, grouped by class.
@@ -23,6 +25,7 @@ Explore the systems and adjustments available on Ad Infinitum. Guides describe o
 | [Attendance rewards](attendance.md) | A repeating 20-claim schedule, limited to one claim per account per Philippine day |
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coin conversion and a costume exchange shop |
 | [Convenient dealers](dealers.md) | Expanded catalogues at original Tool/Pet dealer locations and dedicated ammunition suppliers |
+| [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, per-card copy numbers and Public-filtered messages |
 | [Card exchange](card-exchange.md) | Account-wide points from eligible cards; Bloody Branch is the current reward |
 
 See [Patch Notes](updates.md) for the dated record of newly documented server changes.

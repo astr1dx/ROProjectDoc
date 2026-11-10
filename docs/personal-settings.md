@@ -48,7 +48,7 @@ Server rates, weekend rates and personal drop bonuses do not change which base c
 
 Card Drop Illustration is **On by default**. When you receive a supported monster card through the tracked loot system, its artwork appears at the **bottom right for five seconds**, for you only. Select **Card Drop Illustration** in the settings menu to turn it On or Off.
 
-Normal pickup, autoloot and pet loot are credited to the character who actually receives the card. Card announcements name that recipient and show a per-character copy count. A kill count is included when that recipient is also credited with the kill; shared or picked-up loot does not claim somebody else's kill count. Counters track receipts and kills since tracking was introduced, rather than reconstructing historical totals.
+[Card Drop Announcements](card-drop-announcements.md) name the successful recipient and show their recorded copy number for that specific card. The monster kill count is included for the recipient's own credited kill; party-shared cards and pickups from somebody else's kill omit it. Announcements follow Public chat filtering and the account's **Announcement Config > Drop** choice. Received copies are separate from the generated-card statistics in [Kill Count](kill-count.md).
 
 Ordinary trades, NPC rewards and storage withdrawals do not trigger monster-drop artwork. Artwork is skipped when an NPC dialog is active or an illustration is unavailable. A later NPC illustration takes precedence over the timed card image.
 
@@ -84,6 +84,8 @@ Choose individual categories under **`@settings` > Announcement Config**:
 - PvP Arena
 
 Select a category to turn its announcements On or Off for your account. All categories are visible by default. These choices control existing announcements; they do not activate an otherwise unavailable event or announcement system. General announcements use Event, while rotating EXP-region notices use Community News.
+
+[Card Drop Announcements](card-drop-announcements.md) use Drop and are filtered as Public chat. Card Drop Illustration remains an independent option.
 
 The **High-contrast yellow** option in the same submenu recolors server announcements for easier reading. It is Off by default.
 

@@ -138,3 +138,11 @@ Server defaults now include `#main`, `#recruit` and `#market`; automatic joining
 Personal preferences and restock are now available only through the `@settings` menu. Standalone commands and the pet-muting alias were removed from native registration and group permissions, including GM access. The menu uses the same native persistence and audio synchronization. The public guide and in-game Restock Supplies instructions use menu choices exclusively.
 
 The menu-only revision passed 127 native checks and connected-session tests using actual menu selections, Next and Close acknowledgements. Tests verify removed registrations/aliases even for GM sessions, ordinary-player song toggles, account persistence, per-character limits and channel visibility.
+
+## Card announcement routing: November 10, 2026
+
+`Tools/CardAnnouncements/patch-public-chat.py` adds a guarded finishing patch to the verified June executable. Only colored-chat packet 0x02c1 with reserved source ID 0x7ffffffe is routed to native Public category 1; the source tag is cleared before actor lookup. Ordinary colored messages retain their existing category. The patch preserves registers, flags and stack, and adds only a guarded call detour and appended code/section metadata.
+
+`Prepare-AdInfinitum.ps1` now includes this step after the song-audio finishing patch. The 192 emulated cases verify one native chat event, Public-category matching, source clearing and unchanged ordinary colored messages. Existing executable bytes outside the hook/section metadata remain preserved. The installed client SHA-256 is `45d4de90e5f6090d7747df6ff36c2d421f287a5c628b700747e82e3b08d7db1b`.
+
+Server announcement formatting credits successful recipients, keeps copy ordinals separate from generated-card tracking, omits kill counts for party-shared loot, and respects Drop visibility per recipient. The integrated suite passed 2,836 checks. The deployed Kill Count uses native private self-speech without a character-name prefix; no new executable change is needed for that counter. Final card-message rendering and Public-tab filtering still require an in-game check. Release records are `Offline/card-announcements-verification.json` and its scoped backups in the full project workspace.

@@ -41,6 +41,8 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
 Set up [advanced autoloot](autoloot.md), refill supplies with [Restock](fast-storage.md#restock-refill-target-quantities), and use [Quick Store](fast-storage.md#quick-store-store-all-listed-items) to deposit **all eligible units** of chosen items with no quantity field. [Read today's update](updates/2026-11-10.md).
 
+Track your latest hunt with [Kill Count](kill-count.md), and learn how [Card Drop Announcements](card-drop-announcements.md) credit the player who actually receives a card.
+
 ## Make yourself at home
 
 <div class="grid cards" markdown>
@@ -90,6 +92,8 @@ Set up [advanced autoloot](autoloot.md), refill supplies with [Restock](fast-sto
 | Daily attendance rewards | [Attendance rewards](attendance.md) |
 | Hourly points, Gold Coins and the costume shop | [Hourly rewards](hourly-rewards.md) |
 | Tool, Pet, Ninja and Gunslinger supplies | [Convenient dealers](dealers.md) |
+| Kill history, card-drop streaks and an overhead counter | [Kill Count](kill-count.md) |
+| Card finds, copy numbers and announcement visibility | [Card Drop Announcements](card-drop-announcements.md) |
 | Unwanted cards and Bloody Branch rewards | [Card exchange](card-exchange.md) |
 | Market Street, shop searches and offline vendors | [Vendor system](vendor-system.md) |
 | Saved preferences and default chat channels | [Personal settings](personal-settings.md) |

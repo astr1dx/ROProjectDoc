@@ -56,6 +56,7 @@ nav:
           - Personal Settings: personal-settings.md
           - Advanced Autoloot: autoloot.md
           - Fast Storage: fast-storage.md
+          - Kill Count: kill-count.md
   - Features & Enhancements:
       - Overview: features.md
       - Features:
@@ -68,6 +69,7 @@ nav:
           - Attendance Rewards: attendance.md
           - Hourly Rewards: hourly-rewards.md
           - Convenient Dealers: dealers.md
+          - Card Drop Announcements: card-drop-announcements.md
           - Card Exchange: card-exchange.md
   - Dungeons & Instances:
       - Hunting and Instance Guide: dungeons.md

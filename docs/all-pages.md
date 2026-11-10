@@ -6,6 +6,7 @@ Browse every public guide, or use the topic tabs and search box.
 | --- | --- |
 | [Advanced autoloot](autoloot.md) | Drop filters, ignore lists and farming groups |
 | [Attendance rewards](attendance.md) | Daily account claims and mailed rewards |
+| [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, card copies and Public chat visibility |
 | [Card exchange](card-exchange.md) | Unwanted cards, points and Bloody Branch |
 | [Class changes](class-changes.md) | Skill adjustments and platinum skills |
 | [Convenient dealers](dealers.md) | Supplies, prices and NPC locations |
@@ -16,8 +17,9 @@ Browse every public guide, or use the topic tabs and search box.
 | [How to start](getting-started.md) | First steps and useful tools |
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coins and costumes |
 | [Hunting and instances](dungeons.md) | Hunting bonuses, MVP maps and the New World test |
+| [Kill Count](kill-count.md) | Last-kill detection, confirmed tracking and private overhead counts |
 | [Latest updates](updates.md) | Dated server updates |
-| [November 10, 2026](updates/2026-11-10.md) | Settings, autoloot and fast-storage release |
+| [November 10, 2026](updates/2026-11-10.md) | Settings, autoloot, fast storage, Kill Count and card announcements |
 | [Personal settings](personal-settings.md) | Saved visual, sound and chat preferences |
 | [Quality of life](quality-of-life.md) | Recovery, mail, storage and other conveniences |
 | [Quest changes](quest-changes.md) | Quest retries, battlefield and ore splitting |

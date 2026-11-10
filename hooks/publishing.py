@@ -12,6 +12,8 @@ ICONS = {
     "attendance.md": "🔔",
     "hourly-rewards.md": "🕥",
     "dealers.md": "🍬",
+    "kill-count.md": "🎯",
+    "card-drop-announcements.md": "🃏",
     "card-exchange.md": "🎟️",
     "vendor-system.md": "💰",
     "quest-changes.md": "📜",
