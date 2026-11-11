@@ -34,6 +34,8 @@ Open **`@settings`** and select the relevant option:
 
 Hidden pets do not chatter on your screen. Visible pets remain audible unless you also enable Mute Pets. Mute Pets and Mute Songs are Off by default.
 
+Mute Pets and Hide Pets also apply to **`@pettalk`** speech and pet emotes. These preferences affect only your view; homunculus speech and player chat remain visible. Companion speech is still logged under its owner. See [Homunculus and Pet Commands](companion-commands.md) for usage and chat rules.
+
 A song already playing may finish after you change its setting. The setting filters subsequent song playback; stop the current performance and cast again to check it. Turning Mute Songs Off restores song audio.
 
 ## Drop notices and card artwork

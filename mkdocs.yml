@@ -58,6 +58,7 @@ nav:
           - Fast Storage: fast-storage.md
           - Kill Count: kill-count.md
           - Kill Steal Protection: kill-steal-protection.md
+          - Homunculus and Pet Commands: companion-commands.md
   - Features & Enhancements:
       - Overview: features.md
       - Features:
@@ -79,6 +80,7 @@ nav:
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 11: updates/2026-11-11.md
           - November 10: updates/2026-11-10.md
 
 markdown_extensions:

@@ -4,6 +4,16 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ## 2026
 
+### November 11
+
+**Homunculus and pet commands**
+
+- Enabled current/growth stat commands and companion speech for ordinary players.
+- Added owner-attributed chat logging for companion speech and supported pet emotes.
+- Applied Mute Pets and Hide Pets to pet speech and emotes without suppressing homunculus or player chat.
+
+[Read the November 11 update](updates/2026-11-11.md).
+
 ### November 10
 
 **Personal settings, hunting tools and market updates**

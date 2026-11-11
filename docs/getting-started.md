@@ -21,6 +21,7 @@ Everyone automatically joins **#main**, **#recruit** and **#market** unless they
 | Track your last-killed monster and review kill/card totals | [Kill Count](kill-count.md) |
 | Understand card-find messages and recipient credit | [Card Drop Announcements](card-drop-announcements.md) |
 | Refill supplies and store all listed loot | [Fast storage](fast-storage.md) |
+| Check homunculus stats and speak through your companion | [Homunculus and Pet Commands](companion-commands.md) |
 | Buy tools, ammunition and pet supplies | [Convenient dealers](dealers.md) |
 | Learn sitting recovery, party buff markers and mail | [Quality of life](quality-of-life.md) |
 | Check rotating region EXP bonuses and map restrictions | [Hunting and instances](dungeons.md) |

@@ -27,6 +27,8 @@ ICONS = {
     "events.md": "🎉",
     "updates.md": "📰",
     "updates/2026-11-10.md": "🍂",
+    "companion-commands.md": "🐾",
+    "updates/2026-11-11.md": "🍁",
     "editing.md": "📝",
 }
 INTERNAL_CONTENT = re.compile(
