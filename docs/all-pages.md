@@ -7,6 +7,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Advanced autoloot](autoloot.md) | Drop filters, ignore lists and farming groups |
 | [Attendance rewards](attendance.md) | Daily account claims and mailed rewards |
 | [Baby Characters](baby-characters.md) | Independent conversion, retained progress and job restrictions |
+| [Build Manager](build-manager.md) | Named stat/skill presets, loading fees and class/level safeguards |
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, card copies and Public chat visibility |
 | [Card exchange](card-exchange.md) | Unwanted cards, points and Bloody Branch |
 | [Class changes](class-changes.md) | Skill adjustments and platinum skills |
@@ -24,7 +25,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Latest updates](updates.md) | Dated server updates |
 | [November 10, 2026](updates/2026-11-10.md) | Settings, hunting tools, card announcements and trade aliases |
 | [November 11, 2026](updates/2026-11-11.md) | Homunculus and pet commands, chat logging and pet-message preferences |
-| [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity and baby-character conversion |
+| [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity, baby-character conversion and saved builds |
 | [Personal settings](personal-settings.md) | Saved visual, sound and chat preferences |
 | [Quality of life](quality-of-life.md) | Recovery, mail, storage and other conveniences |
 | [Quest changes](quest-changes.md) | Quest retries, battlefield and ore splitting |

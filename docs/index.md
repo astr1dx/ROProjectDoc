@@ -41,6 +41,8 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 
 Welcome to **Vestige Rift**. Meet [Sister Elara in Prontera](baby-characters.md) to become a baby character without adoption, with your levels and EXP preserved. Read the permanent Baby Novice restriction before choosing your class path. [Read the latest update](updates/2026-11-13.md).
 
+Switch setups with the [Build Manager](build-manager.md): save ten stat and ten skill builds per character, with free saving and 5,000z loading.
+
 Our [homunculus and pet commands](companion-commands.md), [personal settings](personal-settings.md) and other everyday tools remain available.
 
 ## Make yourself at home
@@ -86,6 +88,7 @@ Our [homunculus and pet commands](companion-commands.md), [personal settings](pe
 | Looking for… | Go to |
 | --- | --- |
 | Becoming a baby without adoption | [Baby Characters and Sister Elara](baby-characters.md) |
+| Save and reload stat/skill setups | [Build Manager](build-manager.md) |
 | Free platinum skills | [Platinum Skill NPC and other services](class-changes.md#related-npc-directory) |
 | Custom Super Novice skills | [Free platinum skills](class-changes.md#free-platinum-skills) |
 | Bag of Gold Coins and Avarice | [Merchant upgrades](class-changes.md#bag-of-gold-coins-and-avarice) |

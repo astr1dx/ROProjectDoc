@@ -4,7 +4,7 @@ icon: material/bag-personal-outline
 
 # Quality of life
 
-Updated: **November 10, 2026**.
+Updated: **November 13, 2026**.
 
 ## Personal settings and chat channels
 
@@ -28,6 +28,14 @@ Each tool supports **40 per-character groups with 40 items per group**. Configur
 - **`@qstore`** deposits **all eligible inventory units** of listed item IDs. Add Jellopy **#909** to store all eligible Jellopy; no quantity or Keep field is configured.
 
 Both require **Main Storage already open in a town**, including Midgard Expedition Camp, Manuk and Splendide. Normal capacity and item restrictions remain. See [Fast storage](fast-storage.md) for instructions.
+
+## Build Manager
+
+Save **ten stat builds and ten separate skill builds per character** at the Build Manager, **Prontera 154,193**, beside Reset Girl. Saving, overwriting, renaming and deleting are free; loading either build type costs **5,000z**.
+
+Builds persist after relogging. A class change deletes saved skill builds. Stat builds hide below their saved Base Level and reappear when that level is reached again. Point budgets, caps and skill prerequisites are checked before payment; permanent platinum skills remain learned.
+
+See [Build Manager](build-manager.md) for instructions, reset effects and restrictions.
 
 ## Increased sitting recovery
 

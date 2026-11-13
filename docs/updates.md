@@ -6,11 +6,12 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 13
 
-**Vestige Rift and independent baby characters**
+**Vestige Rift, independent baby characters and Build Manager**
 
 - A new server and handbook identity: **Vestige Rift**.
 - Sister Elara's 5,000,000z adoption-free conversion, temporarily at Prontera 136,196.
 - Preserved character progress, baby second-job progression and the permanent Baby Novice restriction.
+- [Build Manager](build-manager.md) at Prontera 154,193: ten stat and ten skill slots per character, free saving and 5,000z loading, with class/level safeguards.
 
 [Read the November 13 update](updates/2026-11-13.md).
 

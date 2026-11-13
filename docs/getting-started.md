@@ -18,6 +18,7 @@ Everyone automatically joins **#main**, **#recruit** and **#market** unless they
 
 | Task | Guide |
 | --- | --- |
+| Save named stat and skill setups, then switch builds | [Build Manager](build-manager.md) |
 | Automatically collect chosen drops and ignore unwanted loot | [Advanced autoloot](autoloot.md) |
 | Choose who can help attack your protected monsters | [Kill Steal Protection](kill-steal-protection.md) |
 | Track your last-killed monster and review kill/card totals | [Kill Count](kill-count.md) |

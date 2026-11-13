@@ -5,6 +5,7 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 ## Features
 
 - [Vendor system](vendor-system.md): Market Street, shop searches, pricing rules and offline vending with same-account character switching.
+- [Build Manager](build-manager.md): ten stat and ten skill slots per character, free saving and 5,000z loading.
 - [Personal settings](personal-settings.md): saved display, sound, notification and channel preferences.
 - [Advanced autoloot](autoloot.md): drop-chance filters, ignored items and named farming groups.
 - [Fast storage](fast-storage.md): target-based Restock and item-only Quick Store lists.

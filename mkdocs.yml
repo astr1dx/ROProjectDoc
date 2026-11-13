@@ -55,6 +55,7 @@ nav:
       - Baby Characters: baby-characters.md
       - Player Tools:
           - Personal Settings: personal-settings.md
+          - Build Manager: build-manager.md
           - Advanced Autoloot: autoloot.md
           - Fast Storage: fast-storage.md
           - Kill Count: kill-count.md
