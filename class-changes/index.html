@@ -1,0 +1,3724 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Server rules, class changes, and customizations for Vestige Rift.">
+      
+      
+      
+        <link rel="canonical" href="https://astr1dx.github.io/ROProjectDoc/class-changes/">
+      
+      
+        <link rel="prev" href="../vendor-system/">
+      
+      
+        <link rel="next" href="../quest-changes/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>🔮 Class Changes - Vestige Rift</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#class-changes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Vestige Rift" class="md-header__button md-logo" aria-label="Vestige Rift" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15 9-3-9-3 9-9 3 9 3 3 9 3-9 9-3zM4 12l6-2 1 2zm8 8-2-6 2-1zm0-16 2 6-2 1zm2 10-1-2h7zm-5.3 3.3L5 19l1.7-3.7 1.6.5zm8.6-2L19 19l-3.7-1.7.5-1.6zM6.7 8.7 5 5l3.7 1.7-.5 1.5zm8.6-2L19 5l-1.7 3.7-1.6-.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vestige Rift
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🔮 Class Changes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+  Welcome
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../getting-started/" class="md-tabs__link">
+          
+  
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../features/" class="md-tabs__link">
+          
+  
+  
+  Features & Enhancements
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../dungeons/" class="md-tabs__link">
+          
+  
+  
+  Dungeons & Instances
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../events/" class="md-tabs__link">
+          
+  
+  
+  Events & Activities
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../updates/" class="md-tabs__link">
+          
+  
+  
+  Patch Notes
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Vestige Rift" class="md-nav__button md-logo" aria-label="Vestige Rift" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15 9-3-9-3 9-9 3 9 3 3 9 3-9 9-3zM4 12l6-2 1 2zm8 8-2-6 2-1zm0-16 2 6-2 1zm2 10-1-2h7zm-5.3 3.3L5 19l1.7-3.7 1.6.5zm8.6-2L19 19l-3.7-1.7.5-1.6zM6.7 8.7 5 5l3.7 1.7-.5 1.5zm8.6-2L19 5l-1.7 3.7-1.6-.5z"/></svg>
+
+    </a>
+    Vestige Rift
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Welcome
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏡 Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../server-rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📖 Server Information
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../all-pages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔎 All Pages (A-Z)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⭐ How to Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧙 Find Your Class
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../baby-characters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    👶 Baby Characters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Player Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Player Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personal-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎛️ Personal Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build-manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧰 Build Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../autoloot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧲 Advanced Autoloot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fast-storage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📦 Fast Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kill-count/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎯 Kill Count
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kill-steal-protection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🛡️ Kill Steal Protection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../companion-commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🐾 Homunculus and Pet Commands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Features & Enhancements
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Features & Enhancements
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧭 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Features
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Features
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-system/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💰 Vendor System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Changes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔮 Class Changes
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔮 Class Changes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-combat-and-status-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General combat and status effects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knight-lord-knight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knight / Lord Knight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crusader-paladin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crusader / Paladin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wizard-high-wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wizard / High Wizard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sage-professor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sage / Professor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sage / Professor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto-spell-tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Spell tiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merchant-blacksmith-whitesmith" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Merchant / Blacksmith / Whitesmith
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Merchant / Blacksmith / Whitesmith">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bag-of-gold-coins-and-avarice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bag of Gold Coins and Avarice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#melt-down-in-pve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Melt Down in PvE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fame-decay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fame decay
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alchemist-creator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alchemist / Creator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#priest-high-priest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Priest / High Priest
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monk-champion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monk / Champion
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thief-assassin-assassin-cross" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thief / Assassin / Assassin Cross
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rogue-stalker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rogue / Stalker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bard-clown-and-dancer-gypsy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bard / Clown and Dancer / Gypsy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#super-novice-super-baby" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Super Novice / Super Baby
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Super Novice / Super Baby">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fury-chant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fury chant
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#free-platinum-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free platinum skills
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taekwon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taekwon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#star-gladiator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Star Gladiator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#soul-linker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Soul Linker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ninja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ninja
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gunslinger" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gunslinger
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gunslinger">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-level-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Per-level costs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gunslinger-supplies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gunslinger supplies
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adopted-characters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adopted characters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-npc-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related NPC directory
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quest-changes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📜 Quest Changes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quality-of-life/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🦋 Quality of Life
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enhancements
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Enhancements
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../attendance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔔 Attendance Rewards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hourly-rewards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🕥 Hourly Rewards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dealers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🍬 Convenient Dealers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../card-drop-announcements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🃏 Card Drop Announcements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../card-exchange/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎟️ Card Exchange
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dungeons & Instances
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Dungeons & Instances
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dungeons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🗺️ Hunting and Instance Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Events & Activities
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Events & Activities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎉 Rewards and Activities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patch Notes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Patch Notes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📰 Latest Updates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2026
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../updates/2026-11-13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🌀 November 13
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../updates/2026-11-11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🍁 November 11
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../updates/2026-11-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🍂 November 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-combat-and-status-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General combat and status effects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knight-lord-knight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knight / Lord Knight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crusader-paladin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crusader / Paladin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wizard-high-wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wizard / High Wizard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sage-professor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sage / Professor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sage / Professor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto-spell-tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Spell tiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merchant-blacksmith-whitesmith" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Merchant / Blacksmith / Whitesmith
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Merchant / Blacksmith / Whitesmith">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bag-of-gold-coins-and-avarice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bag of Gold Coins and Avarice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forging
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#melt-down-in-pve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Melt Down in PvE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fame-decay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fame decay
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alchemist-creator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alchemist / Creator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#priest-high-priest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Priest / High Priest
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monk-champion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monk / Champion
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thief-assassin-assassin-cross" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thief / Assassin / Assassin Cross
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rogue-stalker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rogue / Stalker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bard-clown-and-dancer-gypsy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bard / Clown and Dancer / Gypsy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#super-novice-super-baby" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Super Novice / Super Baby
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Super Novice / Super Baby">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fury-chant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fury chant
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#free-platinum-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free platinum skills
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taekwon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taekwon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#star-gladiator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Star Gladiator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#soul-linker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Soul Linker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ninja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ninja
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gunslinger" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gunslinger
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gunslinger">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#per-level-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Per-level costs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gunslinger-supplies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gunslinger supplies
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adopted-characters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adopted characters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-npc-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related NPC directory
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+  
+    <a href="https://github.com/astr1dx/ROProjectDoc/edit/main/docs/class-changes.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="class-changes">🔮 Class changes<a class="headerlink" href="#class-changes" title="Permanent link">&para;</a></h1>
+<p>Updated: <strong>November 9, 2026</strong>.</p>
+<p>This is the consolidated reference for the server's implemented class changes. Values below describe the final settings, including later corrections and selected per-level curves. Ordinary targeting, resource, immunity and map restrictions continue to apply unless a change explicitly overrides them. Base skill delays are still subject to the server's normal delay rules and 100ms minimum; a fixed cooldown is identified separately.</p>
+<p>For rates, caps and the definition of a natural MVP map, see <a href="../server-rules/">server rules</a>. For shared convenience systems, see <a href="../quality-of-life/">quality of life</a>.</p>
+<p><a href="../classes/">Browse the class directory</a> to jump directly to your class. Skill icons use the artwork mapped by this client, including reused artwork for custom skills.</p>
+<h2 id="general-combat-and-status-effects">General combat and status effects<a class="headerlink" href="#general-combat-and-status-effects" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Party buff animations</td>
+<td>Other recipients in the caster's party receive the effect and floating skill name without being made to play the recipient casting animation. The caster retains the normal animation, casting time and after-cast delay.</td>
+</tr>
+<tr>
+<td>Reflected damage</td>
+<td>Reflected damage is capped at the reflecting user's Max HP per incoming hit. Applicable equipment and skill reflection components share the cap.</td>
+</tr>
+<tr>
+<td><img alt="Safety Wall and reflection icon" class="skill-icon" src="../assets/skills/mg_safetywall.png" /> <strong>Safety Wall and reflection</strong></td>
+<td>A player protected by Safety Wall cannot trigger skill-based reflection, including from the hit that consumes the final wall charge. Equipment reflection follows its normal eligibility and the Max HP cap.</td>
+</tr>
+<tr>
+<td><img alt="Warp Portal icon" class="skill-icon" src="../assets/skills/al_warp.png" /> <strong>Warp Portal</strong></td>
+<td>Cannot be created on natural MVP maps, including while the MVP is dead. Existing destination and memo restrictions remain.</td>
+</tr>
+<tr>
+<td><img alt="Dispell and songs/dances icon" class="skill-icon" src="../assets/skills/sa_dispell.png" /> <strong>Dispell and songs/dances</strong></td>
+<td>A successful Dispell can remove lingering song/dance effects after the target leaves their applicable active area. A matching active area still protects the effect.</td>
+</tr>
+<tr>
+<td><img alt="Please Don't Forget Me icon" class="skill-icon" src="../assets/skills/dc_dontforgetme.png" /> <strong>Please Don't Forget Me</strong></td>
+<td>Removed on death. An active dance can apply it again after resurrection.</td>
+</tr>
+</tbody>
+</table>
+<p>The party animation change covers <strong>Angelus, Magnificat, Gloria, Wind Walk, Adrenaline Rush, Full Adrenaline Rush, Weapon Perfection, Over Thrust</strong>, and the <strong>Blessing, Increase AGI and Assumptio scroll skills</strong>. It does not remove the caster's skill delay.</p>
+<p>The Dispell change covers <strong>Whistle, Assassin Cross of Sunset, Poem of Bragi, Apple of Idun, Humming, Please Don't Forget Me, Fortune's Kiss and Service for You</strong>. Other Dispell resistance and immunity rules remain.</p>
+<h2 id="knight-lord-knight">Knight / Lord Knight<a class="headerlink" href="#knight-lord-knight" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill or feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Berserk: items icon" class="skill-icon" src="../assets/skills/lk_berserk.png" /> <strong>Berserk: items</strong></td>
+<td>Fly Wing, Novice Fly Wing and Infinite Fly Wing can be used. Other items remain blocked by Berserk. The wings still obey ordinary teleport and item-use restrictions.</td>
+</tr>
+<tr>
+<td><img alt="Berserk: chat icon" class="skill-icon" src="../assets/skills/lk_berserk.png" /> <strong>Berserk: chat</strong></td>
+<td>Normal chat and whispers work. Mute and other ordinary chat restrictions still apply.</td>
+</tr>
+<tr>
+<td><img alt="Berserk: visuals icon" class="skill-icon" src="../assets/skills/lk_berserk.png" /> <strong>Berserk: visuals</strong></td>
+<td>The native red-body effect persists through Fly Wing teleports. The existing Berserk cast sound and an additional magic-circle aura are supported. <code>@settings</code> controls visibility of the character's own additional aura.</td>
+</tr>
+<tr>
+<td><img alt="Concentration with Berserk icon" class="skill-icon" src="../assets/skills/lk_concentration.png" /> <strong>Concentration with Berserk</strong></td>
+<td>If Lord Knight Concentration is already active when Berserk starts, it refreshes to 2.6 times its normal full duration. It ends at that deadline or when Berserk ends, whichever is earlier. Berserk does not grant Concentration if it was absent.</td>
+</tr>
+<tr>
+<td><img alt="Bowling Bash icon" class="skill-icon" src="../assets/skills/kn_bowlingbash.png" /> <strong>Bowling Bash</strong></td>
+<td>Gutter lines no longer determine whether the second attack occurs. Each selected primary/chain target receives two normal damage attempts, including near walls or with knockback immunity. Native hit, defense and immunity checks still apply.</td>
+</tr>
+</tbody>
+</table>
+<p>Concentration's refreshed durations at Levels 1-5 are <strong>65 / 78 / 91 / 104 / 117 seconds</strong>. This is Lord Knight Concentration, not the Archer skill Improve Concentration.</p>
+<p>The red body uses the normal Berserk status lifecycle. The optional magic-circle aura is a separate visual; hiding it does not change the buff's effects.</p>
+<p>Infinite Fly Wing is an explicit QoL item addition. It is reusable and retains its item movement restrictions; this change does not add it to shops or monster drops. Mercenary Bowling Bash retains its native behavior.</p>
+<h2 id="crusader-paladin">Crusader / Paladin<a class="headerlink" href="#crusader-paladin" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill or feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shield swapping</td>
+<td>Swapping directly from one valid shield to another preserves Auto Guard, Defender, Reflect Shield, Shrink and Reflect Damage. Removing/stripping the shield or replacing it with a weapon ends shield-dependent buffs.</td>
+</tr>
+<tr>
+<td><img alt="Devotion: guild rule icon" class="skill-icon" src="../assets/skills/cr_devotion.png" /> <strong>Devotion: guild rule</strong></td>
+<td>Outside Battlegrounds, caster and target must belong to the same nonzero guild. Battlegrounds bypass only this added guild requirement. Native party/team, level, range and link-slot requirements remain.</td>
+</tr>
+<tr>
+<td><img alt="Devotion: display icon" class="skill-icon" src="../assets/skills/cr_devotion.png" /> <strong>Devotion: display</strong></td>
+<td>The caster and protected recipient both see the Devotion icon. The caster's icon is display-only. Protected recipients show <code>+</code> in the party menu.</td>
+</tr>
+<tr>
+<td><img alt="Grand Cross icon" class="skill-icon" src="../assets/skills/cr_grandcross.png" /> <strong>Grand Cross</strong></td>
+<td>Three cast-wide waves at 300ms intervals over the native 900ms ground duration. Stacked targets receive full damage on every available wave. Moving between cells cannot add extra waves. Late arrivals receive only the remaining waves.</td>
+</tr>
+<tr>
+<td><img alt="Grand Cross: HP leech icon" class="skill-icon" src="../assets/skills/cr_grandcross.png" /> <strong>Grand Cross: HP leech</strong></td>
+<td>Native weapon HP/SP drain dispatch is retained, allowing effects such as Hunter Fly when their normal proc conditions are met. Self-damage and zero damage do not leech.</td>
+</tr>
+<tr>
+<td><img alt="Holy Cross icon" class="skill-icon" src="../assets/skills/cr_holycross.png" /> <strong>Holy Cross</strong></td>
+<td>Its full damage ratio doubles with a two-handed spear. Level 10 becomes 900% instead of 450%. Other weapon types do not gain this bonus.</td>
+</tr>
+<tr>
+<td><img alt="Shield Reflect icon" class="skill-icon" src="../assets/skills/cr_reflectshield.png" /> <strong>Shield Reflect</strong></td>
+<td>Skill-reflected damage does not affect Boss-flagged monsters, including Boss-flagged mini-bosses. Equipment reflection is separate.</td>
+</tr>
+</tbody>
+</table>
+<p>The shared reflection cap and Safety Wall restrictions also apply. Multiple Devotion links keep the caster's icon until the last valid link ends.</p>
+<h2 id="mage">Mage<a class="headerlink" href="#mage" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Napalm Beat icon" class="skill-icon" src="../assets/skills/mg_napalmbeat.png" /> <strong>Napalm Beat</strong></td>
+<td>Splash damage is not divided between targets. Each valid target receives its independently calculated full damage in the existing 3x3 area.</td>
+</tr>
+<tr>
+<td><img alt="Soul Strike icon" class="skill-icon" src="../assets/skills/mg_soulstrike.png" /> <strong>Soul Strike</strong></td>
+<td>The existing Undead-only bonus becomes <strong>7% MATK per skill level</strong>. At Level 10, the base per-hit ratio is 170% against qualifying Undead targets and 100% otherwise.</td>
+</tr>
+</tbody>
+</table>
+<p>Soul Strike's bonus is <strong>not</strong> a new bonus against every target. Its native Undead-detection rules, hit progression, element and costs remain.</p>
+<h2 id="wizard-high-wizard">Wizard / High Wizard<a class="headerlink" href="#wizard-high-wizard" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Ice Wall icon" class="skill-icon" src="../assets/skills/wz_icewall.png" /> <strong>Ice Wall</strong></td>
+<td>Cannot be cast or placed on natural MVP maps, including while the MVP is dead.</td>
+</tr>
+<tr>
+<td><img alt="Magic Crasher / Stave Crasher icon" class="skill-icon" src="../assets/skills/hw_magiccrasher.png" /> <strong>Magic Crasher / Stave Crasher</strong></td>
+<td>Against monsters, ignores 75% of hard DEF and doubles the resolved damage once. VIT-based soft DEF remains. It retains MATK-based physical damage, weapon element, cards and endows/converters.</td>
+</tr>
+<tr>
+<td><img alt="Sightrasher icon" class="skill-icon" src="../assets/skills/wz_sightrasher.png" /> <strong>Sightrasher</strong></td>
+<td>Walls and obstacles block it, except on Biolabs 3 and 4: <code>lhz_dun03</code> and <code>lhz_dun04</code>.</td>
+</tr>
+<tr>
+<td><img alt="Storm Gust icon" class="skill-icon" src="../assets/skills/wz_stormgust.png" /> <strong>Storm Gust</strong></td>
+<td>Exact 10x10 damage footprint on open ground, from offsets -4 through +5 on each axis. Normal walls, boundaries and Land Protector can still exclude cells.</td>
+</tr>
+</tbody>
+</table>
+<p>Magic Crasher's new doubling and DEF piercing apply to <strong>monsters only</strong>. Player damage and the native miss, plant and immunity rules remain. Storm Gust retains its interval, freeze behavior, duration, damage and other casting properties.</p>
+<h2 id="sage-professor">Sage / Professor<a class="headerlink" href="#sage-professor" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Abracadabra icon" class="skill-icon" src="../assets/skills/sa_abracadabra.png" /> <strong>Abracadabra</strong></td>
+<td>Blocked on town-flagged maps. Preparing a result elsewhere does not bypass the town restriction.</td>
+</tr>
+<tr>
+<td><img alt="Auto Spell icon" class="skill-icon" src="../assets/skills/sa_autospell.png" /> <strong>Auto Spell</strong></td>
+<td>Offers Fire Bolt, Cold Bolt, Lightning Bolt and Earth Spike from Auto Spell Level 2. Frost Diver is removed from the list. Elemental triggers use the highest learned level within the tier limit below.</td>
+</tr>
+<tr>
+<td><img alt="Create Elemental Converter icon" class="skill-icon" src="../assets/skills/sa_createcon.png" /> <strong>Create Elemental Converter</strong></td>
+<td>Quantity prompt supports 1-300 converters per batch; 0 cancels. Each converter consumes the original recipe, including one Blank Scroll.</td>
+</tr>
+<tr>
+<td><img alt="Mind Breaker icon" class="skill-icon" src="../assets/skills/pf_mindbreaker.png" /> <strong>Mind Breaker</strong></td>
+<td>Reduces hard MDEF outside GvG/castle maps. On GvG/castle maps it retains the original soft-MDEF reduction, including outside an active siege. The receiver gets a debuff icon and updated stats.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="auto-spell-tiers">Auto Spell tiers<a class="headerlink" href="#auto-spell-tiers" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Auto Spell level</th>
+<th style="text-align: right;">Maximum elemental trigger level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>4-10</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+<p>Without Sage Spirit, the triggered elemental spell is capped by its learned level and the tier. Earth Spike triggers at Level 5 under Sage Spirit once learned. The native Sage Spirit boost for the other three bolts remains. Non-elemental choices retain their native availability and level variation.</p>
+<p>Proc chance remains <strong>5 + 2 x Auto Spell level percent</strong>, and the native two-thirds SP cost remains. Auto Spell duration uses the Auto Spell skill level.</p>
+<p>Mind Breaker keeps its existing reduction amount of <strong>12% per level</strong>, MATK increase of <strong>20% per level</strong>, and ordinary success/immunity rules. Battlegrounds use hard MDEF unless also flagged GvG. Changing maps recalculates the appropriate component.</p>
+<h2 id="merchant-blacksmith-whitesmith">Merchant / Blacksmith / Whitesmith<a class="headerlink" href="#merchant-blacksmith-whitesmith" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill or feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Cart Revolution icon" class="skill-icon" src="../assets/skills/mc_cartrevolution.png" /> <strong>Cart Revolution</strong></td>
+<td>Always uses full-cart damage: 250% ATK.</td>
+</tr>
+<tr>
+<td><img alt="Change Cart 2 icon" class="skill-icon" src="../assets/skills/mc_cartdecorate.png" /> <strong>Change Cart 2</strong></td>
+<td>Free platinum unlock from the Platinum Skill NPC. Adds Change Cart Level 2 and restores it after resets. Use <code>@cartstyle</code> with a cart attached to select styles 1-12.</td>
+</tr>
+<tr>
+<td><img alt="Mammonite icon" class="skill-icon" src="../assets/skills/mc_mammonite.png" /> <strong>Mammonite</strong></td>
+<td>Carrying Bag of Gold Coins caps the final Zeny cost at 500z. Avarice removes the cost entirely.</td>
+</tr>
+<tr>
+<td><img alt="Vending icon" class="skill-icon" src="../assets/skills/mc_vending.png" /> <strong>Vending</strong></td>
+<td>Closing the shop shows quantities sold, actual Zeny credited after tax, and remaining cart contents. The <a href="../vendor-system/">vendor system</a> adds same-account offline shops, searches, last-shop import and <code>@vendrecap</code>.</td>
+</tr>
+<tr>
+<td><img alt="Adrenaline Rush icon" class="skill-icon" src="../assets/skills/bs_adrenaline.png" /> <strong>Adrenaline Rush</strong></td>
+<td>Also supports one-handed swords.</td>
+</tr>
+<tr>
+<td><img alt="Cart Termination icon" class="skill-icon" src="../assets/skills/ws_carttermination.png" /> <strong>Cart Termination</strong></td>
+<td>Uses the full 8,000-weight reference regardless of actual cart weight. Costs 0z in Battlegrounds, 500z with the bag, or 0z with Avarice.</td>
+</tr>
+<tr>
+<td><img alt="Power Thrust / Over Thrust icon" class="skill-icon" src="../assets/skills/bs_overthrust.png" /> <strong>Power Thrust / Over Thrust</strong></td>
+<td>Adds no weapon-break chance.</td>
+</tr>
+<tr>
+<td><img alt="Maximum Power Thrust icon" class="skill-icon" src="../assets/skills/ws_overthrustmax.png" /> <strong>Maximum Power Thrust</strong></td>
+<td>Adds no weapon-break chance and preserves its remaining duration through logout.</td>
+</tr>
+<tr>
+<td><img alt="Melt Down icon" class="skill-icon" src="../assets/skills/ws_meltdown.png" /> <strong>Melt Down</strong></td>
+<td>Instant cast, 50 base SP at every level, duration scaling from 25 seconds at Level 1 to 150 seconds at Level 10. See its PvE debuff below.</td>
+</tr>
+<tr>
+<td><img alt="Repair Weapon icon" class="skill-icon" src="../assets/skills/bs_repairweapon.png" /> <strong>Repair Weapon</strong></td>
+<td>Also repairs armor using one Steel. Native weapon-repair material and range requirements remain.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bag-of-gold-coins-and-avarice">Bag of Gold Coins and Avarice<a class="headerlink" href="#bag-of-gold-coins-and-avarice" title="Permanent link">&para;</a></h3>
+<p><strong>Bag of Gold Coins (#670)</strong> is sold by <strong>Gold Coin Steward</strong>, <code>geffen_in 100,174</code>, for <strong>50,000,000z</strong>. It weighs <strong>500</strong>.</p>
+<ul>
+<li>The bag must be in inventory to provide its discount.</li>
+<li>Only one purchased bag is allowed per character; storing it does not permit another purchase.</li>
+<li>Personal storage is allowed, but the purchased bag remains bound to its owning character for withdrawal.</li>
+<li>It cannot be dropped, placed in a cart, traded, mailed, auctioned, sold to an NPC or placed in guild storage.</li>
+</ul>
+<p><img alt="Avarice icon" class="skill-icon" src="../assets/skills/bs_unfairlytrick.png" /> A <strong>Whitesmith</strong> can permanently exchange the bag plus <strong>200,000,000z</strong> at the same NPC for <strong>Avarice</strong>, a passive platinum skill. Avarice removes both Mammonite and Cart Termination Zeny costs without carrying the bag. The unlock survives resets and is restored through the relevant login/NPC/reset handling.</p>
+<h3 id="forging">Forging<a class="headerlink" href="#forging" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Forging condition</th>
+<th>Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 Star Crumb</td>
+<td>+20 weapon ATK</td>
+</tr>
+<tr>
+<td>2 or 3 Star Crumbs</td>
+<td>+60 weapon ATK</td>
+</tr>
+<tr>
+<td>2 Star Crumbs plus elemental stone</td>
+<td>Also +10% physical damage when the attack uses that forged element</td>
+</tr>
+<tr>
+<td>3 Star Crumbs, neutral weapon</td>
+<td>Also +10% neutral physical damage</td>
+</tr>
+<tr>
+<td>Top-ranked Blacksmith's forged weapon</td>
+<td>Additional +10 weapon ATK</td>
+</tr>
+</tbody>
+</table>
+<p>The new weapon ATK replaces the former Star Crumb post-DEF mastery contribution.</p>
+<h3 id="melt-down-in-pve">Melt Down in PvE<a class="headerlink" href="#melt-down-in-pve" title="Permanent link">&para;</a></h3>
+<p>Successful normal attacks and damaging skills, including Cart Termination, apply a <strong>five-second debuff</strong> that reduces the monster's <strong>ATK and both DEF components by 35%</strong>. Further hits refresh it. MVPs are excluded; mini-bosses remain eligible. The previous chance-based monster Strip effects do not stack with this replacement. Native PvP weapon/armor breaking remains.</p>
+<h3 id="fame-decay">Fame decay<a class="headerlink" href="#fame-decay" title="Permanent link">&para;</a></h3>
+<p>Blacksmith/Whitesmith, Alchemist/Creator and ranked Taekwon fame decay by <strong>5% on the first day of each calendar month in Philippine time</strong>. Missed months are processed individually, rounding down each month. Establishing an initial month baseline does not deduct fame. The shared monthly system includes online-save safeguards and offline catch-up.</p>
+<h2 id="alchemist-creator">Alchemist / Creator<a class="headerlink" href="#alchemist-creator" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill or feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fame</td>
+<td>Uses the shared 5% monthly fame decay.</td>
+</tr>
+<tr>
+<td><img alt="Bio Cannibalize: limits icon" class="skill-icon" src="../assets/skills/am_cannibalize.png" /> <strong>Bio Cannibalize: limits</strong></td>
+<td>Flora/Parasite/Geographer limits are <strong>6/4/2</strong> outside PvP, Battlegrounds and GvG; competitive maps retain <strong>3/2/1</strong>. Other plant limits and mixed-plant restrictions remain.</td>
+</tr>
+<tr>
+<td><img alt="Bio Cannibalize: HIT icon" class="skill-icon" src="../assets/skills/am_cannibalize.png" /> <strong>Bio Cannibalize: HIT</strong></td>
+<td>Plant HIT uses plant level plus the owner's battle DEX, except on GvG maps, which retain native plant DEX.</td>
+</tr>
+<tr>
+<td><img alt="Bioethics icon" class="skill-icon" src="../assets/skills/am_bioethics.png" /> <strong>Bioethics</strong></td>
+<td>Active, zero-SP platinum skill opening a roster of up to <strong>four owned homunculi</strong>. Rest the selected homunculus first. Swapping to a stored homunculus costs one Embryo.</td>
+</tr>
+<tr>
+<td><img alt="Call Homunculus icon" class="skill-icon" src="../assets/skills/am_callhomun.png" /> <strong>Call Homunculus</strong></td>
+<td>Calls the most recently selected homunculus. Creates a new one through the native one-Embryo path only when no selection exists and the roster has space.</td>
+</tr>
+<tr>
+<td><img alt="Lif: Mental Change icon" class="skill-icon" src="../assets/skills/hlif_change.png" /> <strong>Lif: Mental Change</strong></td>
+<td>Five-minute skill-specific cooldown at every level. Removing the active effect through teleport/map change clears its cooldown; normal expiry or Rest does not.</td>
+</tr>
+<tr>
+<td><img alt="Plant Cultivation icon" class="skill-icon" src="../assets/skills/cr_cultivation.png" /> <strong>Plant Cultivation</strong></td>
+<td>Blocked in the configured town-building list, including inns, shops and guild halls. Outdoor towns are not automatically blocked.</td>
+</tr>
+<tr>
+<td><img alt="Twilight Alchemy icon" class="skill-icon" src="../assets/skills/am_twilight1.png" /> <strong>Twilight Alchemy</strong></td>
+<td>One visible skill; up to 300 attempts of an available Create Potion recipe. No cast time; shared two-second cooldown. One eligible recipe is selected automatically; multiple recipes open a selector.</td>
+</tr>
+</tbody>
+</table>
+<p>Stored homunculi retain their names, levels, EXP, stats, skills, intimacy and hunger. The selected one is excluded from Bioethics' stored-choice list. Parking it can free the selection to raise another, up to four in total. Native creation remains random and duplicate types are permitted. Swap failures refund the Embryo through the protected swap process; permanent deletion remains permanent.</p>
+<p>Mental Change's remaining cooldown is saved through logout/storage. Its ordinary effect duration and end-of-effect HP/SP loss remain.</p>
+<p>Twilight Alchemy retains <strong>200 SP</strong>, the <strong>Alchemist Spirit requirement</strong>, normal Pharmacy success formulas, recipe ingredients, one Medicine Bowl per attempt, required books and fame rules. The former Super Novice/Taekwon partner requirements are removed. Attempts are limited by available materials and carrying capacity.</p>
+<h2 id="priest-high-priest">Priest / High Priest<a class="headerlink" href="#priest-high-priest" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill or feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mace attack speed</td>
+<td>Base attack delay for mace and two-handed mace is reduced by 10%, from 600 to 540. High Priest and Baby Priest inherit it.</td>
+</tr>
+<tr>
+<td><img alt="Aqua Benedicta icon" class="skill-icon" src="../assets/skills/al_holywater.png" /> <strong>Aqua Benedicta</strong></td>
+<td>Automatically creates the largest safe batch, up to 300 Holy Water, consuming one Empty Bottle per output. Retains the water requirement and 10 SP per cast.</td>
+</tr>
+<tr>
+<td><img alt="Impositio Manus icon" class="skill-icon" src="../assets/skills/pr_impositio.png" /> <strong>Impositio Manus</strong></td>
+<td>Keeps +5 weapon ATK per level and adds +1% MATK per level, up to 5%. Only the new MATK component is disabled on GvG/castle maps.</td>
+</tr>
+<tr>
+<td><img alt="Mace Mastery icon" class="skill-icon" src="../assets/skills/pr_macemastery.png" /> <strong>Mace Mastery</strong></td>
+<td>Keeps +3 ATK per level and adds +1 displayed critical per level while using a mace or two-handed mace.</td>
+</tr>
+<tr>
+<td><img alt="Magnus Exorcismus icon" class="skill-icon" src="../assets/skills/pr_magnus.png" /> <strong>Magnus Exorcismus</strong></td>
+<td>Also damages Undead-race, Shadow-element and Ghost-element monsters. Existing waves continue while the caster is Stunned, Frozen or Petrified.</td>
+</tr>
+</tbody>
+</table>
+<p>The Magnus Exorcismus change does not permit starting a cast while incapacitated. The 190 ASPD cap still applies.</p>
+<h2 id="monk-champion">Monk / Champion<a class="headerlink" href="#monk-champion" title="Permanent link">&para;</a></h2>
+<p><img alt="Asura Strike icon" class="skill-icon" src="../assets/skills/mo_extremityfist.png" /> <strong>Asura Strike:</strong> the five-minute natural SP recovery penalty clears on actual logout. The separate increased-sitting-recovery penalty is session state and also resets on relog. Teleporting does not clear the active penalty. Other recovery restrictions remain.</p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>SP costs by level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Chain Crush Combo, Levels 1-10 icon" class="skill-icon" src="../assets/skills/ch_chaincrush.png" /> <strong>Chain Crush Combo, Levels 1-10</strong></td>
+<td>2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 10 / 11</td>
+</tr>
+<tr>
+<td><img alt="Glacier Fist, Levels 1-5 icon" class="skill-icon" src="../assets/skills/ch_tigerfist.png" /> <strong>Glacier Fist, Levels 1-5</strong></td>
+<td>2 / 3 / 4 / 5 / 6</td>
+</tr>
+<tr>
+<td><img alt="Raging Palm Strike, Levels 1-5 icon" class="skill-icon" src="../assets/skills/ch_palmstrike.png" /> <strong>Raging Palm Strike, Levels 1-5</strong></td>
+<td>1 / 2 / 4 / 6 / 8</td>
+</tr>
+<tr>
+<td><img alt="Raging Quadruple Blow, Levels 1-5 icon" class="skill-icon" src="../assets/skills/mo_chaincombo.png" /> <strong>Raging Quadruple Blow, Levels 1-5</strong></td>
+<td>2 / 4 / 6 / 8 / 10</td>
+</tr>
+<tr>
+<td><img alt="Raging Thrust, Levels 1-5 icon" class="skill-icon" src="../assets/skills/mo_combofinish.png" /> <strong>Raging Thrust, Levels 1-5</strong></td>
+<td>2 / 4 / 6 / 8 / 10</td>
+</tr>
+</tbody>
+</table>
+<p>Spirit-sphere costs remain unchanged.</p>
+<h2 id="thief-assassin-assassin-cross">Thief / Assassin / Assassin Cross<a class="headerlink" href="#thief-assassin-assassin-cross" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Pick Stone icon" class="skill-icon" src="../assets/skills/tf_pickstone.png" /> <strong>Pick Stone</strong></td>
+<td>Works while overweight, including above the ordinary 90% casting threshold. Normal capacity remains; native overflow can place the stone on the ground.</td>
+</tr>
+<tr>
+<td><img alt="Create Deadly Poison icon" class="skill-icon" src="../assets/skills/asc_cdp.png" /> <strong>Create Deadly Poison</strong></td>
+<td>10 SP per cast; automatically attempts the largest safe batch up to 300. Failures no longer remove HP. Ingredients are consumed per attempt and native success chances remain.</td>
+</tr>
+<tr>
+<td><img alt="Enchant Deadly Poison icon" class="skill-icon" src="../assets/skills/asc_edp.png" /> <strong>Enchant Deadly Poison</strong></td>
+<td>Levels 1-5 last <strong>60 / 67.5 / 75 / 82.5 / 90 seconds</strong>. Remaining duration persists through logout.</td>
+</tr>
+<tr>
+<td><img alt="Venom Dust icon" class="skill-icon" src="../assets/skills/as_venomdust.png" /> <strong>Venom Dust</strong></td>
+<td>No Red Gemstone requirement.</td>
+</tr>
+</tbody>
+</table>
+<p>Create Deadly Poison still requires all seven native ingredients and appropriate inventory capacity. Partial production successes are retained.</p>
+<p>Venom Knives are available for a base <strong>50z</strong> at every <a href="../dealers/#enhanced-tool-dealers">Enhanced Tool Dealer</a>, including the inn dealers. The shared catalogue replaces the previous Tool Dealer stock across the world.</p>
+<h2 id="rogue-stalker">Rogue / Stalker<a class="headerlink" href="#rogue-stalker" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Backstab</td>
+<td>Can be used from any direction. Does not reposition the caster or force the target to turn. Uses ordinary HIT/FLEE checks and a <strong>fixed 333ms cooldown</strong>. The former 500ms after-cast delay is removed.</td>
+</tr>
+<tr>
+<td><img alt="Chase Walk icon" class="skill-icon" src="../assets/skills/st_chasewalk.png" /> <strong>Chase Walk</strong></td>
+<td>STR bonus begins after five seconds. Normal SP drain still begins at ten seconds and continues at native intervals.</td>
+</tr>
+<tr>
+<td><img alt="Plagiarism icon" class="skill-icon" src="../assets/skills/rg_plagiarism.png" /> <strong>Plagiarism</strong></td>
+<td>A higher-level eligible copy can upgrade the same copied skill or temporarily override a lower normally learned level. Equal/lower offers do not downgrade it. Native copy protections remain.</td>
+</tr>
+<tr>
+<td><img alt="Preserve icon" class="skill-icon" src="../assets/skills/st_preserve.png" /> <strong>Preserve</strong></td>
+<td>Infinite duration, on/off toggle, persists through logout. Toggling off uses native zero-cost handling.</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Plagiarism Tutor at <code>prontera 132,200</code></strong> offers the current eligible Plagiarism skills for <strong>25,000z per lesson</strong>. The offered level is capped by Plagiarism and the selected skill's maximum. Preserve blocks lessons. Redundant, invalid or failed lessons do not charge the fee.</p>
+<p>Backstab retains its native damage, range, bow penalty, SP cost and Hiding removal. Its fixed cooldown ignores equipment cooldown modifiers and the ASPD casting gate; other skills' delays still apply.</p>
+<h2 id="bard-clown-and-dancer-gypsy">Bard / Clown and Dancer / Gypsy<a class="headerlink" href="#bard-clown-and-dancer-gypsy" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill or feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Weapon swapping</td>
+<td>Replacing a weapon cancels the active performance, including swapping to another instrument/whip of the same type. Normal lingering recipient effects remain.</td>
+</tr>
+<tr>
+<td><img alt="Arrow Vulcan icon" class="skill-icon" src="../assets/skills/cg_arrowvulcan.png" /> <strong>Arrow Vulcan</strong></td>
+<td>Two-second base after-cast action delay at every level. This is not a new fixed cooldown.</td>
+</tr>
+<tr>
+<td><img alt="Loki's Veil icon" class="skill-icon" src="../assets/skills/bd_rokisweil.png" /> <strong>Loki's Veil</strong></td>
+<td>Blocked on natural MVP maps, including while the MVP is dead.</td>
+</tr>
+<tr>
+<td><img alt="Wand of Hermode icon" class="skill-icon" src="../assets/skills/cg_hermode.png" /> <strong>Wand of Hermode</strong></td>
+<td>Can be performed solo. Retains its native instrument/whip requirement, SP cost, duration and portal-proximity check.</td>
+</tr>
+</tbody>
+</table>
+<p>Armor, shield and ammunition changes do not trigger the weapon-removal cancellation rule. The shared Dispell and Please Don't Forget Me changes are described under general status effects.</p>
+<h2 id="super-novice-super-baby">Super Novice / Super Baby<a class="headerlink" href="#super-novice-super-baby" title="Permanent link">&para;</a></h2>
+<p>These changes apply to classic <strong>Super Novice and Super Baby</strong>, with Base 99 / Job 70 and the 190 ASPD cap.</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Death count</td>
+<td>Lupita resets it for free, recalculating the native Job-70 deathless +10-all-stats bonus. The reset also grants a ten-second Level-5 Super Novice Spirit link.</td>
+</tr>
+<tr>
+<td>Doridori</td>
+<td>While sitting, doubles normal HP/SP recovery and applicable normal recovery-skill ticks. Displays an icon and ends on standing, death or logout.</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>Additional 2,000 displayed weight capacity.</td>
+</tr>
+<tr>
+<td>DEX</td>
+<td>Ten additional DEX beyond native job bonuses: +1 at Job Levels 5, 10, 15, ..., 50.</td>
+</tr>
+<tr>
+<td>ASPD</td>
+<td>10% lower base attack delay with all weapons, before ordinary AGI/DEX calculation and the 190 cap.</td>
+</tr>
+<tr>
+<td>Removed tree skills</td>
+<td>Blessing, Increase AGI, Enlarge Weight Limit, Identify, Owl's Eye and Transcendence. Paid learned levels in applicable removed skills are refunded once; freely granted levels are not refunded.</td>
+</tr>
+</tbody>
+</table>
+<p>Doridori does <strong>not</strong> double the fixed 3%-per-1.5-second sitting QoL recovery; eligible percentage pulses replace ordinary sitting ticks. Lupita's short Spirit link retains the normal equipment eligibility requirements.</p>
+<h3 id="fury-chant">Fury chant<a class="headerlink" href="#fury-chant" title="Permanent link">&para;</a></h3>
+<p>At exactly <strong>10%, 20%, ..., 90% Base EXP</strong>, say either the original three messages in order or the complete chant as one exact message. Replace <code>&lt;name&gt;</code> with the character's actual name:</p>
+<div class="highlight"><pre><span></span><code>Dear angel, can you hear my voice? I am &lt;name&gt; Super Novice~ Help me out~ Please~ T_T
+</code></pre></div>
+<p>The chant cannot renew an already active Fury.</p>
+<h3 id="free-platinum-skills">Free platinum skills<a class="headerlink" href="#free-platinum-skills" title="Permanent link">&para;</a></h3>
+<p>Collect these Level-1 skills from the <strong>Platinum Skill NPC at <code>prontera 128,200</code></strong>. The unlock survives skill resets/login. Changing away from Super Novice/Super Baby removes these class-specific grants and active statuses, while retaining the unlock for a later return.</p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Angel, Help me! icon" class="skill-icon" src="../assets/skills/nv_helpangel.png" /> <strong>Angel, Help me!</strong></td>
+<td>100 SP, instant cast, 1s after-cast delay, 300s cooldown. A moving 15x15 area checks the caster and living party members each second for 20 seconds, restoring a base 500 HP and 100 SP per pulse. Normal healing modifiers/restrictions apply. Stops on death/logout.</td>
+</tr>
+<tr>
+<td><img alt="Breakthrough icon" class="skill-icon" src="../assets/skills/nv_breakthrough.png" /> <strong>Breakthrough</strong></td>
+<td>Passive: +50 ATK, +50 MATK, +2,000 Max HP, +200 Max SP and +20% incoming HP-healing skill/potion bonuses. Does not increase SP-potion recovery or natural/percentage regeneration.</td>
+</tr>
+<tr>
+<td><img alt="Super Blessing icon" class="skill-icon" src="../assets/skills/al_blessing.png" /> <strong>Super Blessing</strong></td>
+<td>Target yourself or another living player within nine cells. Grants Level-10 Blessing and Increase AGI for 240 seconds. Costs 50 SP, casts instantly and has a 1s after-cast delay. Uses both normal buff effects and Blessing's sound.</td>
+</tr>
+</tbody>
+</table>
+<p>Super Blessing refreshes the ordinary Blessing/Increase AGI statuses; it does not stack another copy of their bonuses with skills or scrolls.</p>
+<h2 id="taekwon">Taekwon<a class="headerlink" href="#taekwon" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fame</td>
+<td>5% decay on the first day of each Philippine calendar month, including Baby Taekwon.</td>
+</tr>
+<tr>
+<td><img alt="Taekwon Mission icon" class="skill-icon" src="../assets/skills/tk_mission.png" /> <strong>Taekwon Mission</strong></td>
+<td>1 SP, 0.5s base cast time, 5% target-reroll chance while the current mission has zero kills. Once progress is recorded, the target cannot be rerolled.</td>
+</tr>
+</tbody>
+</table>
+<p>Native target selection, mission completion and ranking rewards remain.</p>
+<h2 id="star-gladiator">Star Gladiator<a class="headerlink" href="#star-gladiator" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Feeling of the Sun, Moon and Stars icon" class="skill-icon" src="../assets/skills/sg_feel.png" /> <strong>Feeling of the Sun, Moon and Stars</strong></td>
+<td>Salvia resets all three remembered maps for 500,000z.</td>
+</tr>
+<tr>
+<td><img alt="Hatred of the Sun, Moon and Stars icon" class="skill-icon" src="../assets/skills/sg_hate.png" /> <strong>Hatred of the Sun, Moon and Stars</strong></td>
+<td>Salvia separately resets all three remembered targets for 500,000z.</td>
+</tr>
+<tr>
+<td>Miracle of the Sun, Moon and Stars</td>
+<td>0.1% activation chance under the normal activation conditions.</td>
+</tr>
+<tr>
+<td><img alt="Warmth of the Sun, Moon and Stars icon" class="skill-icon" src="../assets/skills/sg_sun_warm.png" /> <strong>Warmth of the Sun, Moon and Stars</strong></td>
+<td>Land Protector does not prevent the Warmth field/damage. Native damage, SP drain and other rules remain.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Salvia is at <code>prontera 136,200</code>.</strong> Each service preserves the other memory set. Empty memory sets are not charged. Baby Star Gladiator variants are also eligible.</p>
+<h2 id="soul-linker">Soul Linker<a class="headerlink" href="#soul-linker" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Feature or skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum Job Level</td>
+<td>70 for Soul Linker and Baby Soul Linker; Base Level remains capped at 99.</td>
+</tr>
+<tr>
+<td>Job EXP</td>
+<td>Levels 1-50 retain the existing curve. Requirements for reaching Levels 51-70 use the standard transcendent-class curve.</td>
+</tr>
+<tr>
+<td>HP/SP after Job 50</td>
+<td>No automatic pool increase from Job Levels 51-70 with the same Base Level, stats, equipment and skills. Existing HP/SP and job-stat tables are retained.</td>
+</tr>
+<tr>
+<td>Level-5 Soul Links</td>
+<td>Ten-minute duration for all 15 classic class Spirit links plus Spirit of Rebirth. Levels 1-4 are unchanged.</td>
+</tr>
+<tr>
+<td><img alt="Eske icon" class="skill-icon" src="../assets/skills/sl_ske.png" /> <strong>Eske</strong></td>
+<td>Cannot target Boss-flagged monsters, including MVPs and Boss-flagged mini-bosses. Eska is unchanged.</td>
+</tr>
+<tr>
+<td><img alt="Esma icon" class="skill-icon" src="../assets/skills/sl_sma.png" /> <strong>Esma</strong></td>
+<td>SP costs by level: <strong>4 / 8 / 12 / 16 / 20 / 24 / 28 / 32 / 36 / 40</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>Lupita's explicitly short Super Novice Spirit remains ten seconds. Esma retains its damage, cast time, readiness requirement and other SP modifiers.</p>
+<h2 id="ninja">Ninja<a class="headerlink" href="#ninja" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Crimson Fire Blossom / Flaming Petals icon" class="skill-icon" src="../assets/skills/nj_kouenka.png" /> <strong>Crimson Fire Blossom / Flaming Petals</strong></td>
+<td>Levels 7-10 cost 30 SP. Levels 1-6 remain 18/20/22/24/26/28 SP.</td>
+</tr>
+<tr>
+<td><img alt="Final Strike / Killing Strike icon" class="skill-icon" src="../assets/skills/nj_issen.png" /> <strong>Final Strike / Killing Strike</strong></td>
+<td>Levels 1-10 cost <strong>28 / 30 / 33 / 35 / 38 / 40 / 43 / 45 / 48 / 50 SP</strong>: half of the original cost, rounded up.</td>
+</tr>
+<tr>
+<td><img alt="Lightning Spear of Ice / Freezing Spear icon" class="skill-icon" src="../assets/skills/nj_hyousensou.png" /> <strong>Lightning Spear of Ice / Freezing Spear</strong></td>
+<td>Levels 6-10 cost 30 SP. Levels 1-5 remain 15/18/21/24/27 SP.</td>
+</tr>
+<tr>
+<td><img alt="Throw Huuma Shuriken icon" class="skill-icon" src="../assets/skills/nj_huuma.png" /> <strong>Throw Huuma Shuriken</strong></td>
+<td>12-cell range, 1.5s base after-cast delay, 10/15/20/25/30 SP at Levels 1-5.</td>
+</tr>
+<tr>
+<td><img alt="Throw Kunai icon" class="skill-icon" src="../assets/skills/nj_kunai.png" /> <strong>Throw Kunai</strong></td>
+<td>12-cell range and 0.5s base after-cast delay.</td>
+</tr>
+<tr>
+<td><img alt="Throw Shuriken icon" class="skill-icon" src="../assets/skills/nj_syuriken.png" /> <strong>Throw Shuriken</strong></td>
+<td>12-cell range.</td>
+</tr>
+<tr>
+<td><img alt="Throw Zeny icon" class="skill-icon" src="../assets/skills/nj_zenynage.png" /> <strong>Throw Zeny</strong></td>
+<td>25 SP and 2s base after-cast delay. Half Zeny payment on GvG/castle maps; no Zeny payment in Battlegrounds.</td>
+</tr>
+</tbody>
+</table>
+<p>Throw Zeny's discount changes payment and the affordability cap, not its native randomized damage formula. On WoE maps, the wallet can fund twice its ordinary damage budget before the half-cost payment. Battlegrounds casting/damage works with zero Zeny. Battlegrounds takes precedence if map flags overlap, and fractional Zeny payment is rounded down. There is only one impact-time Zeny charge.</p>
+<p>Jackie in Prontera sells the additional <strong>Holy, Shadow and Ghost kunai</strong>, each with 30 ATK and 0.5 weight. See <a href="../dealers/#custom-kunai">custom kunai</a>.</p>
+<h2 id="gunslinger">Gunslinger<a class="headerlink" href="#gunslinger" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Current behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Adjustment icon" class="skill-icon" src="../assets/skills/gs_adjustment.png" /> <strong>Adjustment</strong></td>
+<td>1 coin, 10 SP, 60-second duration.</td>
+</tr>
+<tr>
+<td><img alt="Flip the Coin icon" class="skill-icon" src="../assets/skills/gs_glittering.png" /> <strong>Flip the Coin</strong></td>
+<td>100% success at all five levels, 1 SP. Retains its 1-Zeny cost, ten-coin cap and normal coin lifetime.</td>
+</tr>
+<tr>
+<td><img alt="Full Buster icon" class="skill-icon" src="../assets/skills/gs_fullbuster.png" /> <strong>Full Buster</strong></td>
+<td>After-cast delay capped at 2s. SP cost is 35 at Levels 5-10. See the full curves below.</td>
+</tr>
+<tr>
+<td><img alt="Increasing Accuracy icon" class="skill-icon" src="../assets/skills/gs_increasing.png" /> <strong>Increasing Accuracy</strong></td>
+<td>2 coins and 15 SP.</td>
+</tr>
+<tr>
+<td><img alt="Madness Canceller icon" class="skill-icon" src="../assets/skills/gs_madnesscancel.png" /> <strong>Madness Canceller</strong></td>
+<td>2 coins and 15 SP.</td>
+</tr>
+<tr>
+<td><img alt="Madness Break icon" class="skill-icon" src="../assets/skills/gs_madnesscancel.png" /> <strong>Madness Break</strong></td>
+<td>Free platinum skill from the Platinum Skill NPC. Instant, self-only, zero SP/coins, 100ms base action delay. Ends only the caster's active Madness Canceller.</td>
+</tr>
+<tr>
+<td><img alt="Rapid Shower icon" class="skill-icon" src="../assets/skills/gs_rapidshower.png" /> <strong>Rapid Shower</strong></td>
+<td>0.75s base after-cast delay, reduced SP and level-based bullet use as listed below. Retains five-hit damage and the revolver requirement.</td>
+</tr>
+<tr>
+<td><img alt="Triple Action icon" class="skill-icon" src="../assets/skills/gs_tripleaction.png" /> <strong>Triple Action</strong></td>
+<td>12 SP.</td>
+</tr>
+</tbody>
+</table>
+<p>Madness Break is available to Gunslinger and Baby Gunslinger. Its permanent NPC grant survives relogging and skill resets; it does not spend skill points.</p>
+<h3 id="per-level-costs">Per-level costs<a class="headerlink" href="#per-level-costs" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th style="text-align: right;">Full Buster SP</th>
+<th style="text-align: right;">Full Buster delay (seconds)</th>
+<th style="text-align: right;">Rapid Shower SP</th>
+<th style="text-align: right;">Rapid Shower bullets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">1.6</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>4</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>5</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>6</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>7</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>8</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>9</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>10</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+<h3 id="gunslinger-supplies">Gunslinger supplies<a class="headerlink" href="#gunslinger-supplies" title="Permanent link">&para;</a></h3>
+<p><strong>Gunslinger Supplies at <code>prontera 140,200</code></strong> sells the expanded <a href="../dealers/#gunslinger-materials">bullet and sphere catalogue</a>, together with the existing sphere-crafting materials. Catalogue prices and NPC resale values are listed in the <a href="../dealers/">dealer guide</a>.</p>
+<h2 id="adopted-characters">Adopted characters<a class="headerlink" href="#adopted-characters" title="Permanent link">&para;</a></h2>
+<p>All adopted characters can raise base stats to <strong>99</strong>. Native stat-point costs and the available stat-point pool remain; this does not grant free stats or change other adoption penalties.</p>
+<p>Independent baby conversion is available through <a href="../baby-characters/">Sister Elara</a>, currently in Prontera. Read the eligibility and permanent Baby Novice restriction before paying.</p>
+<h2 id="related-npc-directory">Related NPC directory<a class="headerlink" href="#related-npc-directory" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>NPC</th>
+<th>Location</th>
+<th>Service</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Platinum Skill NPC</td>
+<td><code>prontera 128,200</code></td>
+<td>Free eligible platinum skills, including Change Cart 2, Super Novice skills and Madness Break; restores applicable existing unlocks.</td>
+</tr>
+<tr>
+<td>Plagiarism Tutor</td>
+<td><code>prontera 132,200</code></td>
+<td>Eligible copies for Rogues/Stalkers, 25,000z per valid lesson.</td>
+</tr>
+<tr>
+<td>Salvia</td>
+<td><code>prontera 136,200</code></td>
+<td>Feeling or Hatred reset, 500,000z per memory set.</td>
+</tr>
+<tr>
+<td>Gunslinger Supplies</td>
+<td><code>prontera 140,200</code></td>
+<td><a href="../dealers/#gunslinger-materials">Expanded ammunition and sphere-crafting supplies</a>.</td>
+</tr>
+<tr>
+<td>Jackie</td>
+<td><code>prontera 132,196</code></td>
+<td><a href="../dealers/#ninja-materials">Ninja materials and custom kunai</a>.</td>
+</tr>
+<tr>
+<td>Gold Point Manager</td>
+<td><code>prontera 144,200</code></td>
+<td><a href="../hourly-rewards/#spend-your-coins">Hourly-reward costume shop</a>.</td>
+</tr>
+<tr>
+<td>Putty</td>
+<td><code>prontera 130,192</code></td>
+<td><a href="../card-exchange/">Card exchange and Bloody Branch rewards</a>.</td>
+</tr>
+<tr>
+<td>Merchants Warp</td>
+<td><code>prontera 139,171</code></td>
+<td><a href="../vendor-system/#market-street">Market Street entry and services</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealers</td>
+<td>Original Tool Dealer locations worldwide</td>
+<td><a href="../dealers/#enhanced-tool-dealers">Shared everyday-supply catalogue</a>.</td>
+</tr>
+<tr>
+<td>Sister Elara</td>
+<td>Prontera 136,196 (temporary)</td>
+<td><a href="../baby-characters/">Independent baby conversion</a>.</td>
+</tr>
+<tr>
+<td>Pet Dealers</td>
+<td>Original Pet Groomer locations worldwide</td>
+<td><a href="../dealers/#pet-supplies">Full pet-supply catalogue</a>.</td>
+</tr>
+<tr>
+<td>Gold Coin Steward</td>
+<td><code>geffen_in 100,174</code></td>
+<td>Bag of Gold Coins and the Whitesmith Avarice exchange.</td>
+</tr>
+<tr>
+<td>Lupita</td>
+<td><code>prt_fild08 166,368</code></td>
+<td>Free Super Novice/Super Baby death-count reset and ten-second Spirit link.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Prontera west</td>
+<td><code>prt_in 242,135</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Prontera east</td>
+<td><code>prt_in 59,141</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Alberta</td>
+<td><code>alberta_in 30,142</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Geffen</td>
+<td><code>geffen_in 68,64</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Payon</td>
+<td><code>payon_in01 130,62</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Aldebaran</td>
+<td><code>aldeba_in 90,58</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Rachel</td>
+<td><code>ra_in01 374,69</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+<tr>
+<td>Enhanced Tool Dealer, Lighthalzen</td>
+<td><code>lhz_in02 228,284</code></td>
+<td><a href="../dealers/#enhanced-tool-dealers">Full Tool catalogue, including Venom Knives</a>.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+        
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../vendor-system/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 💰 Vendor System">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                💰 Vendor System
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../quest-changes/" class="md-footer__link md-footer__link--next" aria-label="Next: 📜 Quest Changes">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                📜 Quest Changes
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.action.edit", "content.code.copy"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
