@@ -1,6 +1,6 @@
 # Rewards and activities
 
-Use this section to find the rewards and recurring activities currently documented for Ad Infinitum. Server schedules use **Philippine time (UTC+08:00)**.
+Use this section to find the rewards and recurring activities currently documented for Vestige Rift. Server schedules use **Philippine time (UTC+08:00)**.
 
 ## Account rewards
 

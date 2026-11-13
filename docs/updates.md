@@ -4,6 +4,16 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ## 2026
 
+### November 13
+
+**Vestige Rift and independent baby characters**
+
+- A new server and handbook identity: **Vestige Rift**.
+- Sister Elara's 5,000,000z adoption-free conversion, temporarily at Prontera 136,196.
+- Preserved character progress, baby second-job progression and the permanent Baby Novice restriction.
+
+[Read the November 13 update](updates/2026-11-13.md).
+
 ### November 11
 
 **Homunculus and pet commands**

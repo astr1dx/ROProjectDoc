@@ -14,7 +14,7 @@ Updated: **November 10, 2026**.
 | Game mode | Classic Pre-Renewal |
 | Maximum Base Level | 99 |
 | Maximum Job Level | 70, subject to the class-specific caps below |
-| Maximum base stat | 99, including adopted characters |
+| Maximum base stat | 99, including baby characters |
 | Maximum ASPD | 190 |
 | Instant-cast DEX threshold | 150 under classic cast-time rules |
 | Party EXP sharing range | 20 levels |
@@ -24,6 +24,8 @@ Updated: **November 10, 2026**.
 | Server language | English |
 
 Novices retain Job Level 10. First jobs and ordinary non-transcendent second jobs generally retain Job Level 50. Transcendent second jobs, Super Novice/Super Baby and the customized Soul Linker/Baby Soul Linker reach Job Level 70.
+
+[Baby characters](baby-characters.md) can be created without adoption through Sister Elara. They cannot transcend, and Baby Novice is permanently unable to change jobs.
 
 The current environment is local/offline. Public international hosting is a separate deployment task.
 

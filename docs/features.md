@@ -1,6 +1,6 @@
 # Features and enhancements
 
-Explore the systems and adjustments available on Ad Infinitum. Guides describe our configured server behavior; individual features retain the restrictions explained on their pages.
+Explore the systems and adjustments available on Vestige Rift. Guides describe our configured server behavior; individual features retain the restrictions explained on their pages.
 
 ## Features
 
@@ -13,6 +13,8 @@ Explore the systems and adjustments available on Ad Infinitum. Guides describe o
 - [Kill Count](kill-count.md): confirmed single-monster tracking, private overhead counts and saved monster/card statistics.
 
 - [Homunculus and Pet Commands](companion-commands.md): current/growth stats, companion speech and owner-attributed chat rules.
+
+- [Baby Characters](baby-characters.md): independent conversion, retained progress and baby job-progression rules.
 
 ## Changes
 

@@ -1,10 +1,12 @@
 # How to start
 
-Use this handbook to learn Ad Infinitum's classic rules, class adjustments and everyday tools. The game environment is currently local/offline; publishing this wiki does not make the game server public.
+Use this handbook to learn Vestige Rift's classic rules, class adjustments and everyday tools. The game environment is currently local/offline; publishing this wiki does not make the game server public.
 
 ## Choose your character
 
 Start with [Server Information](server-rules.md) for rates, level caps, Philippine server time and the Episode 14.2 content profile. Then use [Find Your Class](classes.md) to jump to your class's skill adjustments and platinum skills.
+
+Thinking of a baby character? Read [Baby Characters](baby-characters.md) before choosing your class: Baby Novice is permanently unable to change jobs, while baby first classes can advance normally.
 
 ## Set up your preferences
 

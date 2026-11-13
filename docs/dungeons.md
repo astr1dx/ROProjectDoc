@@ -1,6 +1,6 @@
 # Hunting and instances
 
-Ad Infinitum uses an **adapted Episode 14.2: Eclage** content profile with Classic Pre-Renewal mechanics. The explicit content allowlist controls available maps, monsters and quests. Eclage's original level-100/120 requirements are adapted to level 90; existing level-99 requirements remain.
+Vestige Rift uses an **adapted Episode 14.2: Eclage** content profile with Classic Pre-Renewal mechanics. The explicit content allowlist controls available maps, monsters and quests. Eclage's original level-100/120 requirements are adapted to level 90; existing level-99 requirements remain.
 
 ## Hunting bonuses
 

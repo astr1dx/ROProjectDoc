@@ -1,5 +1,5 @@
-site_name: Ad Infinitum documentation
-site_description: Server rules, class changes, and customizations for Ad Infinitum.
+site_name: Vestige Rift
+site_description: Server rules, class changes, and customizations for Vestige Rift.
 site_url: https://astr1dx.github.io/ROProjectDoc/
 edit_uri: https://github.com/astr1dx/ROProjectDoc/edit/main/docs/
 exclude_docs: |
@@ -52,6 +52,7 @@ nav:
   - Getting Started:
       - How to Start: getting-started.md
       - Find Your Class: classes.md
+      - Baby Characters: baby-characters.md
       - Player Tools:
           - Personal Settings: personal-settings.md
           - Advanced Autoloot: autoloot.md
@@ -80,6 +81,7 @@ nav:
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 13: updates/2026-11-13.md
           - November 11: updates/2026-11-11.md
           - November 10: updates/2026-11-10.md
 

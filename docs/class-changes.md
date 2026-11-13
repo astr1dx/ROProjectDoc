@@ -352,6 +352,8 @@ Madness Break is available to Gunslinger and Baby Gunslinger. Its permanent NPC 
 
 All adopted characters can raise base stats to **99**. Native stat-point costs and the available stat-point pool remain; this does not grant free stats or change other adoption penalties.
 
+Independent baby conversion is available through [Sister Elara](baby-characters.md), currently in Prontera. Read the eligibility and permanent Baby Novice restriction before paying.
+
 ## Related NPC directory
 
 | NPC | Location | Service |
@@ -365,6 +367,7 @@ All adopted characters can raise base stats to **99**. Native stat-point costs a
 | Putty | `prontera 130,192` | [Card exchange and Bloody Branch rewards](card-exchange.md). |
 | Merchants Warp | `prontera 139,171` | [Market Street entry and services](vendor-system.md#market-street). |
 | Enhanced Tool Dealers | Original Tool Dealer locations worldwide | [Shared everyday-supply catalogue](dealers.md#enhanced-tool-dealers). |
+| Sister Elara | Prontera 136,196 (temporary) | [Independent baby conversion](baby-characters.md). |
 | Pet Dealers | Original Pet Groomer locations worldwide | [Full pet-supply catalogue](dealers.md#pet-supplies). |
 | Gold Coin Steward | `geffen_in 100,174` | Bag of Gold Coins and the Whitesmith Avarice exchange. |
 | Lupita | `prt_fild08 166,368` | Free Super Novice/Super Baby death-count reset and ten-second Spirit link. |

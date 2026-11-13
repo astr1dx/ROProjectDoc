@@ -4,7 +4,7 @@ Updated: **November 7, 2026**.
 
 These quests keep their existing access requirements and story progression, with the changes below.
 
-| Quest | Original behavior | Ad Infinitum changes |
+| Quest | Original behavior | Vestige Rift changes |
 | --- | --- | --- |
 | **The Sign** | Failing Part 6A/6B grants EXP and permanently blocks progress until a GM resets it. | Failure starts a **15-minute cooldown**. Gen returns the **Symbol of the Nine Realms** so you can retry. Failed attempts no longer grant EXP. |
 | **Onward to the New World** | A shared battlefield requires 40 Allied Soldier kills within 15 minutes. | Each party gets a **private battlefield** with **50 kills in 20 minutes**. Only the starting leader receives quest credit. The quest log tracks progress, and soldiers respawn immediately. |

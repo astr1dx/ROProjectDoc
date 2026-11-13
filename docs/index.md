@@ -6,9 +6,9 @@ hide:
 
 <div class="hero" markdown>
 
-<span class="eyebrow">Ad Infinitum · Player handbook</span>
+<span class="eyebrow">Vestige Rift · Player handbook</span>
 
-# A familiar world.<br>A different adventure.
+# Some worlds don’t end.<br>They come back different.
 
 Your guide to our Classic Pre-Renewal server: class adjustments, everyday conveniences, and the rules that shape your next build.
 
@@ -24,7 +24,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
   <div class="fact"><strong>14.2</strong><span>Adapted Eclage content profile</span></div>
 </div>
 
-*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 10, 2026**.
+*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 13, 2026**.
 
 ## Browse by topic
 
@@ -37,13 +37,11 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 | Events & Activities | [Rewards and recurring activities](events.md) |
 | Patch Notes | [Latest updates](updates.md) |
 
-## Latest update: November 10
+## Latest update: November 13
 
-Set up [advanced autoloot](autoloot.md), refill supplies with [Restock](fast-storage.md#restock-refill-target-quantities), and use [Quick Store](fast-storage.md#quick-store-store-all-listed-items) to deposit **all eligible units** of chosen items with no quantity field. [Read today's update](updates/2026-11-10.md).
+Welcome to **Vestige Rift**. Meet [Sister Elara in Prontera](baby-characters.md) to become a baby character without adoption, with your levels and EXP preserved. Read the permanent Baby Novice restriction before choosing your class path. [Read the latest update](updates/2026-11-13.md).
 
-Track your latest hunt with [Kill Count](kill-count.md), and learn how [Card Drop Announcements](card-drop-announcements.md) credit the player who actually receives a card.
-
-Choose a protection mode with [Kill Steal Protection](kill-steal-protection.md), and find selling or buying shops through the [short or long trade commands](vendor-system.md#find-a-selling-or-buying-shop).
+Our [homunculus and pet commands](companion-commands.md), [personal settings](personal-settings.md) and other everyday tools remain available.
 
 ## Make yourself at home
 
@@ -87,6 +85,7 @@ Choose a protection mode with [Kill Steal Protection](kill-steal-protection.md),
 
 | Looking for… | Go to |
 | --- | --- |
+| Becoming a baby without adoption | [Baby Characters and Sister Elara](baby-characters.md) |
 | Free platinum skills | [Platinum Skill NPC and other services](class-changes.md#related-npc-directory) |
 | Custom Super Novice skills | [Free platinum skills](class-changes.md#free-platinum-skills) |
 | Bag of Gold Coins and Avarice | [Merchant upgrades](class-changes.md#bag-of-gold-coins-and-avarice) |
