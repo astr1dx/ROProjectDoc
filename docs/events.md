@@ -8,7 +8,7 @@ Use this section to find the rewards and recurring activities currently document
 | --- | --- | --- |
 | Daily attendance | Claim through Attendance Check, then collect the mailed attachment. One claim per account per day; missed days do not reset progress. | [Attendance rewards](attendance.md) |
 | Hourly rewards | Earn online points, click the top-right timer to convert complete 120-point bundles, and spend Gold Coins at the costume shop. | [Hourly rewards](hourly-rewards.md) |
-| Card exchange | Exchange eligible loose cards with Putty for account-wide card points. Bloody Branch costs 120 points. | [Card exchange](card-exchange.md) |
+| Card exchange | Exchange eligible loose cards with Putty for account-wide card points and 14 rewards, including consumables, stat foods and Bloody Branch. | [Card exchange](card-exchange.md) |
 
 Hourly points, Gold Coins and card-exchange points are separate currencies. Check their guides for limits and restrictions.
 

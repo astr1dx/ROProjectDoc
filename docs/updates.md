@@ -6,12 +6,13 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 16
 
-**Adjusted NPC sell prices**
+**Adjusted NPC sell prices and Card Exchange rewards**
 
 - Reduced selected NPC resale prices across **86 item IDs**, including equipment variants.
 - Documented the goals: limit Zeny inflation, encourage varied farming and reduce incentives for automated farming.
 - Crystal Blue (#991) now sells for **250z** before Overcharge, down from 500z.
 - Normal Merchant Overcharge and existing NPC purchase prices remain in effect.
+- Added **13 Card Exchange rewards** at the approved point costs, alongside Bloody Branch at 120 points. The [Card Exchange guide](card-exchange.md#current-reward-list) now includes item icons and all 14 prices.
 
 [Read the November 16 update](updates/2026-11-16.md) or consult the [complete price table](adjusted-prices.md).
 

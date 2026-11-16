@@ -1,6 +1,6 @@
 # Card exchange
 
-Updated: **November 9, 2026**.
+Updated: **November 16, 2026**.
 
 Trade unwanted loose cards for **account-wide card points**, then spend those points with **Putty** in Prontera.
 
@@ -8,7 +8,7 @@ Trade unwanted loose cards for **account-wide card points**, then spend those po
     **NPC:** Putty  
     **Location:** `/navi prontera 130/192`  
     **Exchange rate:** 10 points per accepted card  
-    **Current reward:** Bloody Branch for 120 points
+    **Rewards:** 14 choices, including consumables, +10 stat foods, Old Card Album and Bloody Branch
 
 ## Exchange cards
 
@@ -23,13 +23,35 @@ Every accepted card grants **10 points**. Your characters on the same account sh
 
 ## Current reward list
 
-| Reward | Item ID | Cost | Equivalent cards |
-| --- | ---: | ---: | ---: |
-| Bloody Branch | 12103 | 120 card points | 12 accepted cards |
+Each cost is for **one item**. Giant Fly Wing Box contains **10 Giant Fly Wings**; its 7-point price buys one box.
+
+| Reward | Item ID | Cost (card points) |
+| --- | ---: | ---: |
+| ![Life Insurance](assets/items/12209.png){ .item-icon width="32" height="32" loading="lazy" } Life Insurance | 12209 | **5 points** |
+| ![JOB Battle Manual](assets/items/14592.png){ .item-icon width="32" height="32" loading="lazy" } JOB Battle Manual | 14592 | **8 points** |
+| ![Battle Manual](assets/items/12208.png){ .item-icon width="32" height="32" loading="lazy" } Battle Manual | 12208 | **8 points** |
+| ![Giant Fly Wing Box (10)](assets/items/12910.png){ .item-icon width="32" height="32" loading="lazy" } Giant Fly Wing Box (10) | 12910 | **7 points** |
+| ![Bubble Gum](assets/items/12210.png){ .item-icon width="32" height="32" loading="lazy" } Bubble Gum | 12210 | **55 points** |
+| ![Gym Pass](assets/items/7776.png){ .item-icon width="32" height="32" loading="lazy" } Gym Pass | 7776 | **55 points** |
+| ![Steamed Tongue](assets/items/12202.png){ .item-icon width="32" height="32" loading="lazy" } Steamed Tongue | 12202 | **65 points** |
+| ![Dragon Breath Cocktail](assets/items/12204.png){ .item-icon width="32" height="32" loading="lazy" } Dragon Breath Cocktail | 12204 | **65 points** |
+| ![Hwergelmir's Tonic](assets/items/12205.png){ .item-icon width="32" height="32" loading="lazy" } Hwergelmir's Tonic | 12205 | **65 points** |
+| ![Cooked Nine Tail's Tails](assets/items/12206.png){ .item-icon width="32" height="32" loading="lazy" } Cooked Nine Tail's Tails | 12206 | **65 points** |
+| ![Stew Of Immortality](assets/items/12207.png){ .item-icon width="32" height="32" loading="lazy" } Stew Of Immortality | 12207 | **65 points** |
+| ![Steamed Scorpion](assets/items/12203.png){ .item-icon width="32" height="32" loading="lazy" } Steamed Scorpion | 12203 | **65 points** |
+| ![Old Card Album](assets/items/616.png){ .item-icon width="32" height="32" loading="lazy" } Old Card Album | 616 | **95 points** |
+| ![Bloody Branch](assets/items/12103.png){ .item-icon width="32" height="32" loading="lazy" } Bloody Branch | 12103 | **120 points** |
 
 Choose **Spend points**, select the reward and quantity, then confirm the purchase. You need enough points, inventory space and carrying capacity. Failed capacity or balance checks leave your points unspent.
 
-**Bloody Branch is the only enabled reward for now.** Old Card Album and Poring Coin exchanges are not enabled; the rest of the catalogue will be decided later.
+### Reward variants
+
+- **JOB Battle Manual (#14592)** is the standard +50% Job EXP version, lasting 30 minutes.
+- The six **+10 stat foods** are the 30-minute variants: Steamed Tongue (STR), Dragon Breath Cocktail (INT), Hwergelmir's Tonic (DEX), Cooked Nine Tail's Tails (LUK), Stew Of Immortality (VIT) and Steamed Scorpion (AGI).
+- **Gym Pass (#7776)** uses the existing Gym Pass redemption service; purchasing it does not automatically apply the weight increase.
+- **Bloody Branch remains available for 120 points.** Poring Coin is not offered.
+
+Card points remain in your account until spent. Since each accepted card grants 10 points, purchases can leave a balance that you can use toward another reward.
 
 ## Blacklisted cards
 
@@ -57,4 +79,4 @@ These six cards cannot be exchanged:
 
 ## Verification
 
-The NPC's card exchange and reward list have been **confirmed in-game**. Automated checks cover placement, the six-card blacklist, eligibility protections and the point/reward calculations.
+The original card exchange was confirmed in-game. The expanded 14-item reward catalogue passed Hercules' native script validation and loaded without startup errors. Player confirmation of the new rewards is pending.

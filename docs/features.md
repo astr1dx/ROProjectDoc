@@ -33,6 +33,6 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coin conversion and a costume exchange shop |
 | [Convenient dealers](dealers.md) | Expanded catalogues at original Tool/Pet dealer locations and dedicated ammunition suppliers |
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, per-card copy numbers and Public-filtered messages |
-| [Card exchange](card-exchange.md) | Account-wide points from eligible cards; Bloody Branch is the current reward |
+| [Card exchange](card-exchange.md) | Account-wide points from eligible cards; 14 rewards including consumables, stat foods, Old Card Album and Bloody Branch |
 
 See [Patch Notes](updates.md) for the dated record of newly documented server changes.

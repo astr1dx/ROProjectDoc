@@ -161,7 +161,7 @@ See [Convenient dealers](dealers.md) for prices, custom kunai elements, NPC resa
 
 ## Card exchange
 
-[Putty in Prontera](card-exchange.md) exchanges eligible loose cards for **10 account-wide card points each**. The only current reward is **Bloody Branch for 120 points**. Six cards are blacklisted, and favorite, bound, rental and socketed cards are protected.
+[Putty in Prontera](card-exchange.md) exchanges eligible loose cards for **10 account-wide card points each**. The catalogue offers **14 rewards**, including manuals, consumables, +10 stat foods, Old Card Album and **Bloody Branch for 120 points**. Six cards are blacklisted, and favorite, bound, rental and socketed cards are protected.
 
 ## Market Street and offline shops
 

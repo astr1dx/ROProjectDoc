@@ -99,7 +99,7 @@ Our [homunculus and pet commands](companion-commands.md), [personal settings](pe
 | Protected monsters, party access and release timers | [Kill Steal Protection](kill-steal-protection.md) |
 | Kill history, card-drop streaks and an overhead counter | [Kill Count](kill-count.md) |
 | Card finds, copy numbers and announcement visibility | [Card Drop Announcements](card-drop-announcements.md) |
-| Unwanted cards and Bloody Branch rewards | [Card exchange](card-exchange.md) |
+| Unwanted cards and Card Exchange rewards | [Card exchange](card-exchange.md) |
 | Market Street, shop searches and offline vendors | [Vendor system](vendor-system.md) |
 | Saved preferences and default chat channels | [Personal settings](personal-settings.md) |
 | Autoloot filters, ignored items and farming lists | [Advanced autoloot](autoloot.md) |

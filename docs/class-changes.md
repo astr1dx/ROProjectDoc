@@ -364,7 +364,7 @@ Independent baby conversion is available through [Sister Elara](baby-characters.
 | Gunslinger Supplies | `prontera 140,200` | [Expanded ammunition and sphere-crafting supplies](dealers.md#gunslinger-materials). |
 | Jackie | `prontera 132,196` | [Ninja materials and custom kunai](dealers.md#ninja-materials). |
 | Gold Point Manager | `prontera 144,200` | [Hourly-reward costume shop](hourly-rewards.md#spend-your-coins). |
-| Putty | `prontera 130,192` | [Card exchange and Bloody Branch rewards](card-exchange.md). |
+| Putty | `prontera 130,192` | [Card exchange and reward catalogue](card-exchange.md). |
 | Merchants Warp | `prontera 139,171` | [Market Street entry and services](vendor-system.md#market-street). |
 | Enhanced Tool Dealers | Original Tool Dealer locations worldwide | [Shared everyday-supply catalogue](dealers.md#enhanced-tool-dealers). |
 | Sister Elara | Prontera 136,196 (temporary) | [Independent baby conversion](baby-characters.md). |

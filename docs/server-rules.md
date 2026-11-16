@@ -65,7 +65,7 @@ See [class changes](class-changes.md) for skill-specific exceptions and [quality
 
 Shops may open in **Market Street, Payon, Morocc, Alberta and Comodo** only. Pricing rules and the **one-listing-per-stackable-item-ID per account** limit apply to selling, buying and offline shops; see the [vendor system](vendor-system.md). Hardware-ID enforcement is deferred.
 
-[Card exchange points](card-exchange.md) are shared across the account and are separate from hourly reward points and Gold Coins. Bloody Branch is the only enabled card-point reward.
+[Card exchange points](card-exchange.md) are shared across the account and are separate from hourly reward points and Gold Coins. Putty offers 14 card-point rewards, including consumables, +10 stat foods, Old Card Album and Bloody Branch.
 
 ## Chat channels and saved preferences
 
