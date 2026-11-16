@@ -68,6 +68,7 @@ nav:
       - Changes:
           - Class Changes: class-changes.md
           - Quest Changes: quest-changes.md
+          - Adjusted NPC Sell Prices: adjusted-prices.md
           - Quality of Life: quality-of-life.md
       - Enhancements:
           - Attendance Rewards: attendance.md
@@ -82,6 +83,7 @@ nav:
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 16: updates/2026-11-16.md
           - November 13: updates/2026-11-13.md
           - November 11: updates/2026-11-11.md
           - November 10: updates/2026-11-10.md

@@ -32,6 +32,8 @@ ICONS = {
     "build-manager.md": "🧰",
     "baby-characters.md": "👶",
     "updates/2026-11-13.md": "🌀",
+    "adjusted-prices.md": "💸",
+    "updates/2026-11-16.md": "📉",
     "editing.md": "📝",
 }
 INTERNAL_CONTENT = re.compile(

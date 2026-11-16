@@ -4,6 +4,7 @@ Browse every public guide, or use the topic tabs and search box.
 
 | Page | Topic |
 | --- | --- |
+| [Adjusted NPC sell prices](adjusted-prices.md) | Economy rationale and the complete NPC resale price table |
 | [Advanced autoloot](autoloot.md) | Drop filters, ignore lists and farming groups |
 | [Attendance rewards](attendance.md) | Daily account claims and mailed rewards |
 | [Baby Characters](baby-characters.md) | Independent conversion, retained progress and job restrictions |
@@ -26,6 +27,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 10, 2026](updates/2026-11-10.md) | Settings, hunting tools, card announcements and trade aliases |
 | [November 11, 2026](updates/2026-11-11.md) | Homunculus and pet commands, chat logging and pet-message preferences |
 | [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity, baby-character conversion and saved builds |
+| [November 16, 2026](updates/2026-11-16.md) | Adjusted NPC resale prices and the Crystal Blue exception |
 | [Personal settings](personal-settings.md) | Saved visual, sound and chat preferences |
 | [Quality of life](quality-of-life.md) | Recovery, mail, storage and other conveniences |
 | [Quest changes](quest-changes.md) | Quest retries, battlefield and ore splitting |

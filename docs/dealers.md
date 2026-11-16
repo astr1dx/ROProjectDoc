@@ -189,6 +189,8 @@ The additional pet supplies are **Delicious Meat (#11616)**, **Suspicious Bottle
 
 ## NPC resale values
 
+See [Adjusted NPC sell prices](adjusted-prices.md) for the wider economy changes, including Blue Potion, Burning Heart and Cyfar. The purchase prices in this dealer guide remain unchanged by that update.
+
 The following base resale values apply when selling items to NPCs. Overcharge applies normally. These values keep the reduced dealer prices from creating profitable buy-and-resell loops, including when purchasing with Discount.
 
 | Item | Item ID | Base NPC resale value |

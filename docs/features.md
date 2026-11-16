@@ -20,6 +20,7 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 ## Changes
 
 - [Class changes](class-changes.md): skill adjustments and custom platinum skills, grouped by class.
+- [Adjusted NPC sell prices](adjusted-prices.md): selected resale reductions, the economy rationale and the complete before/after table.
 - [Quest changes](quest-changes.md): The Sign retries, the instanced New World test and bulk ore downgrading.
 - [Quality of life](quality-of-life.md): recovery, mail, party buff indicators, bulk purchases, teleporting and more.
 - [Server Information](server-rules.md): rates, caps, the content profile and important map definitions.
