@@ -10,19 +10,6 @@ hide:
 
 </div>
 
-<div class="hero" markdown>
-
-<span class="eyebrow">Vestige Rift · Player handbook</span>
-
-# Some worlds don’t end.<br>They come back different.
-
-Your guide to our Classic Pre-Renewal server: class adjustments, everyday conveniences, and the rules that shape your next build.
-
-[Find your class :material-arrow-right:](classes.md){ .md-button .md-button--primary }
-[Explore server rules](server-rules.md){ .md-button }
-
-</div>
-
 <div class="facts">
   <div class="fact"><strong>99 / 70</strong><span>Base / maximum Job Level*</span></div>
   <div class="fact"><strong>190</strong><span>Maximum ASPD</span></div>
