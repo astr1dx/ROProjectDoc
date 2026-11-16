@@ -3,6 +3,11 @@ import re
 from mkdocs.exceptions import PluginError
 
 ICONS = {
+    "area-loot.md": "🧺",
+    "mercy-system.md": "🍀",
+    "vestige-coins.md": "🪙",
+    "coin-exchange.md": "🛍️",
+    "refining.md": "🔨",
     "index.md": "🏡",
     "server-rules.md": "📖",
     "classes.md": "🧙",

@@ -154,17 +154,14 @@ The current recap is a totals summary. A **View All** menu with individual buyer
 
 ## November 10 search aliases
 
-Added **`@whosell`**, **`@whosell2`**, **`@whobuy`** and **`@whobuy2`** as the long forms of `@ws`, `@ws2`, `@wb` and `@wb2`. Ordinary-player checks passed for all eight names, including selling/buying routes and requests using item names, IDs, refine and price filters. Existing cooldowns and town-only remote trading still apply.
+Added **`@whosell`**, **`@whosell2`**, **`@whobuy`** and **`@whobuy2`** as the long forms of `@ws`, `@ws2`, `@wb` and `@wb2`. Existing cooldowns and town-only remote trading still apply.
 
-## November 9 corrections and verification
+## Shop and search corrections
 
 - Corrected search-result handling so `@ws` and `@wb` safely display the first and subsequent pages. Empty searches clear old rows, the Next option reflects remaining results, and requests past the final page do not return invalid rows.
 - Corrected the disconnect that could occur when issuing commands immediately after logging into a `[V]` character. The marker is recognized for that character without changing its actual name.
 - Successful `@at2` no longer reports a command-failure message.
 
-**Confirmed in-game:** Market Street and its NPCs; `@at2` and same-account character switching; and a successful first attempt after logging into a merchant marked `[V]`.
-
-Connected-session automated checks cover same-account vendors, offline transactions/restoration, search windows and shop clicks, single/multiple/empty/exhausted result pages, buying-store searches, shop import, name validation and the return to character selection. Separate player confirmation of searching after the latest correction has not yet been recorded.
 
 ## Not enabled
 

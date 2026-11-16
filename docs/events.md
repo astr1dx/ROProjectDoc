@@ -12,6 +12,12 @@ Use this section to find the rewards and recurring activities currently document
 
 Hourly points, Gold Coins and card-exchange points are separate currencies. Check their guides for limits and restrictions.
 
+## Hunting currency and card guarantee
+
+Farm [Vestige Coins](vestige-coins.md) from eligible monsters and spend them at [Lydia's exchange](coin-exchange.md). The currency is tradable and separate from hourly Gold Coins and card points.
+
+The [Mercy System](mercy-system.md) guarantees one normal-monster card after 5,000 eligible kills without it dropping. MVPs and mini-bosses are excluded.
+
 ## Weekend and rotating hunting bonuses
 
 Weekends run **Saturday 00:00 through Monday 00:00**. Monster Base/Job EXP and normal non-card drops rise from **20x to 25x**; static card and boss rates do not change. See [Rates](server-rules.md#rates).

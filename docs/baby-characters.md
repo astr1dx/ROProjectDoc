@@ -50,7 +50,3 @@ Normal baby-class traits and equipment restrictions apply. Equipment that the ba
 The baby class and restrictions persist after logging out and back in. Baby Novice restrictions also apply through alternative job-change routes.
 
 See [Class Changes](class-changes.md) for class skills and [Server Information](server-rules.md) for level caps and rates.
-
-## Verification
-
-The integrated server suite passed **3,333 checks**. NPC tests covered cancellation, both Novice confirmations, exact payment, preserved progress, parentless conversion, repeat-attempt rejection and relog persistence. Production checks covered Ninja conversion and both Baby Taekwon second-job quest entries. Sister Elara's Prontera placement passed script validation and startup checks; rendered in-game sprite confirmation is pending.

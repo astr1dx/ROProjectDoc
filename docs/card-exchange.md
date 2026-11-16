@@ -46,6 +46,8 @@ Choose **Spend points**, select the reward and quantity, then confirm the purcha
 
 ### Reward variants
 
+- **Bubble Gum (#12210): +150% item drops for 30 minutes**. This is the same item sold by [Lydia](coin-exchange.md), with a 2.5x multiplier before applicable caps and modifiers. Vestige Coin drop chances are not increased.
+
 - **JOB Battle Manual (#14592)** is the standard +50% Job EXP version, lasting 30 minutes.
 - The six **+10 stat foods** are the 30-minute variants: Steamed Tongue (STR), Dragon Breath Cocktail (INT), Hwergelmir's Tonic (DEX), Cooked Nine Tail's Tails (LUK), Stew Of Immortality (VIT) and Steamed Scorpion (AGI).
 - **Gym Pass (#7776)** uses the existing Gym Pass redemption service; purchasing it does not automatically apply the weight increase.
@@ -76,7 +78,3 @@ These six cards cannot be exchanged:
 
 !!! warning "Review before confirming"
     Exchanging a card destroys it. Check the name, item ID and quantity, especially before exchanging a valuable card.
-
-## Verification
-
-The original card exchange was confirmed in-game. The expanded 14-item reward catalogue passed Hercules' native script validation and loaded without startup errors. Player confirmation of the new rewards is pending.

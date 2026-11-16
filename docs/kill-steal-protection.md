@@ -62,7 +62,3 @@ Protection does not apply to:
 - Maps explicitly configured to allow kill stealing.
 
 Attack permission does not replace the normal EXP, loot ownership or party-sharing rules. Use [Kill Count](kill-count.md) to review credited kills and [Card Drop Announcements](card-drop-announcements.md) to understand who is credited with receiving a card.
-
-## Verification
-
-**Confirmed in-game:** Self blocks other players, and Party allows party members. Automated checks cover timer boundaries, nonrenewing deadlines, companion ownership, exclusions, ordinary-player access, shared menu state and saved modes across logins.

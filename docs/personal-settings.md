@@ -1,10 +1,10 @@
 # Personal settings
 
-Updated: **November 10, 2026**.
+Updated: **November 16, 2026**.
 
 Type **`@settings`** to choose how pets, songs, messages and other information appear on your screen. Preferences are saved automatically and restored when you log in. Configure visual, sound and chat preferences through this menu.
 
-Most preferences are **shared across your account**, including channel visibility. Your **storage withdrawal weight limit, autoloot configuration, Restock groups, Quick Store groups and Kill Steal Protection mode are saved per character**.
+Most preferences are **shared across your account**, including channel visibility. Your **storage withdrawal weight limit, Area Loot toggle, autoloot configuration, Restock groups, Quick Store groups and Kill Steal Protection mode are saved per character**.
 
 ## Default chat channels
 
@@ -118,3 +118,7 @@ An active group adds its items even when they are ignored or Main Autoloot is Of
 See [Advanced autoloot](autoloot.md) for filter precedence, defaults and setup. Visual/chat preferences remain configured only through `@settings`.
 
 See [bulk purchases and storage](quality-of-life.md#bulk-purchases-and-personal-storage) for the separate large-purchase feature.
+
+## Area Loot
+
+Choose **Area Loot (3x3)** inside `@settings` to toggle nearby manual pickup. It is **Off by default**, saved per character, and synchronized with `@arealoot`. A successful clicked pickup also collects eligible items in the 3x3 square centered on that item. See [Area Loot](area-loot.md) for ownership, carrying-capacity and no-chaining rules.

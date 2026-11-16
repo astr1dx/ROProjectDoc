@@ -4,6 +4,10 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 ## Features
 
+- [Vestige Coin System](vestige-coins.md): tradable monster-drop currency with fixed chances and species exceptions.
+- [Mercy System](mercy-system.md): an automatic normal-monster card guarantee after 5,000 cardless kills.
+- [Area Loot](area-loot.md): optional nearby ground pickup through `@settings`.
+
 - [Vendor system](vendor-system.md): Market Street, shop searches, pricing rules and offline vending with same-account character switching.
 - [Build Manager](build-manager.md): ten stat and ten skill slots per character, free saving and 5,000z loading.
 - [Personal settings](personal-settings.md): saved display, sound, notification and channel preferences.
@@ -19,6 +23,8 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 ## Changes
 
+- [Refining System](refining.md): Classic normal-ore batches and the enriched-only Visual Refiner, both capped at +10.
+
 - [Class changes](class-changes.md): skill adjustments and custom platinum skills, grouped by class.
 - [Adjusted NPC sell prices](adjusted-prices.md): selected resale reductions, the economy rationale and the complete before/after table.
 - [Quest changes](quest-changes.md): The Sign retries, the instanced New World test and bulk ore downgrading.
@@ -33,6 +39,7 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coin conversion and a costume exchange shop |
 | [Convenient dealers](dealers.md) | Expanded catalogues at original Tool/Pet dealer locations and dedicated ammunition suppliers |
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, per-card copy numbers and Public-filtered messages |
+| [Vestige Coin Exchange](coin-exchange.md) | Lydia's 26-item shop, paid with Vestige Coins |
 | [Card exchange](card-exchange.md) | Account-wide points from eligible cards; 14 rewards including consumables, stat foods, Old Card Album and Bloody Branch |
 
 See [Patch Notes](updates.md) for the dated record of newly documented server changes.

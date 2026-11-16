@@ -29,3 +29,7 @@
 @media (prefers-reduced-motion: reduce) { .md-typeset .grid.cards > ul > li { transition: none; } }
 
 .md-typeset img.item-icon { width: 32px; height: 32px; object-fit: contain; vertical-align: middle; margin: 0 .4rem .1rem 0; image-rendering: pixelated; }
+
+.md-typeset .home-banner { margin: 0 0 1.2rem; }
+.md-typeset .home-banner p { margin: 0; }
+.md-typeset img.home-banner-image { display: block; width: 100%; height: auto; border-radius: 16px; }

@@ -170,3 +170,19 @@ The [vendor system](vendor-system.md) adds an organized market, shop searches, p
 Use `@ws` / `@wb` for selling/buying search windows, or `@ws2` / `@wb2` for text results. Remote trading works in towns. **`@at2`** keeps a shop open while returning you to character selection so another character on the same account can play. Use **`@importshop`** for the current character's last shop and **`@vendrecap`** for its retained sales summary.
 
 See the full [vendor guide](vendor-system.md) for allowed maps, permits, account limits and expected first-attempt behavior.
+
+## Area Loot
+
+Turn **Area Loot (3x3)** On in `@settings`, or toggle it with `@arealoot`. A successful manual pickup also collects eligible ground items in the 3x3 square centered on the clicked item. It is Off by default and saved per character. See [Area Loot](area-loot.md).
+
+## Mercy System
+
+After **5,000 eligible kills of a normal monster without its card dropping**, one card is guaranteed. Progress is automatic, persistent per character and monster, and visible through `@kc`. MVPs and mini-bosses are excluded. See [Mercy System](mercy-system.md).
+
+## Refining
+
+All equipment refiners offer **Classic** refining with normal ores and bulk targets, or a **Visual** interface using enriched ores one attempt at a time. Both stop at +10; HD ores are unavailable. See [Refining System](refining.md) for costs, success rates and locations.
+
+## Vestige Coins and Lydia
+
+Eligible monsters can drop [Vestige Coins](vestige-coins.md), a tradable currency with fixed 5% drops and listed species exceptions. [Lydia at Prontera 138,192](coin-exchange.md) offers 26 rewards. Her Bubble Gum and Putty's are the same **+150% for 30 minutes** item.

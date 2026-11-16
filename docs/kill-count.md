@@ -1,6 +1,6 @@
 # Kill Count
 
-Updated: **November 10, 2026**.
+Updated: **November 16, 2026**.
 
 Use **`@kc`** or **`@killcount`** to review a monster's kill history and choose whether to show a private counter above your character. Only **one monster type** can be actively tracked at a time. Your recorded statistics continue to update even when the overhead counter is Off.
 
@@ -61,3 +61,7 @@ To propose a different monster, use **`@kc <monster ID>`**, for example **`@kc 1
 Kill Count records a card when the monster **generates it**. [Card Drop Announcements](card-drop-announcements.md) instead credit the character who **successfully receives it**. These can be different players after party sharing or a manual pickup.
 
 For example, a card left on the ground increases the killing owner's Cards dropped total, but it does not produce a receipt announcement until somebody collects it.
+
+## Mercy progress
+
+Eligible monster summaries also show **Mercy progress: current / 5,000**. After 5,000 eligible normal-monster kills without a card, one card is guaranteed. Mercy is automatic and saved separately from the visible tracker; Stop and Reset do not change it. MVPs and mini-bosses are excluded. See [Mercy System](mercy-system.md) for eligibility, resets and delivery rules.

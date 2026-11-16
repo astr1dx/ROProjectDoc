@@ -52,3 +52,7 @@ The active group **adds** items to Main Autoloot. To collect **only** your group
 Normal map, idle, distance, homunculus and party-loot rules still apply, as do inventory capacity and weight checks. Selecting an item does not bypass these rules or create items. If automatic delivery cannot complete, the normal ground-drop path remains available.
 
 [Show Rare Drops and Card Drop Illustration](personal-settings.md#drop-notices-and-card-artwork) control notifications for successful receipts. They do not configure which items are collected. Use [Quick Store](fast-storage.md#quick-store-store-all-listed-items) later to deposit selected inventory items into open Main Storage.
+
+## Nearby ground pickup
+
+[Area Loot](area-loot.md) is a separate, per-character setting for manual pickup in a 3x3 square centered on the clicked item. Configure it in `@settings`. Autoloot ignore lists do not block manual ground pickup. Vestige Coin is item **#35363** if you want to include or ignore the new currency.

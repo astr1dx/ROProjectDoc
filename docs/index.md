@@ -4,6 +4,12 @@ hide:
   - toc
 ---
 
+<div class="home-banner" markdown>
+
+![Vestige Rift ? a Ragnarok Online Classic Server](assets/images/vestige-rift-banner.png){ .home-banner-image width="1774" height="887" fetchpriority="high" }
+
+</div>
+
 <div class="hero" markdown>
 
 <span class="eyebrow">Vestige Rift · Player handbook</span>
@@ -24,7 +30,7 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
   <div class="fact"><strong>14.2</strong><span>Adapted Eclage content profile</span></div>
 </div>
 
-*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 13, 2026**.
+*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 16, 2026**.
 
 ## Browse by topic
 
@@ -37,13 +43,11 @@ Your guide to our Classic Pre-Renewal server: class adjustments, everyday conven
 | Events & Activities | [Rewards and recurring activities](events.md) |
 | Patch Notes | [Latest updates](updates.md) |
 
-## Latest update: November 13
+## Latest update: November 16
 
-Welcome to **Vestige Rift**. Meet [Sister Elara in Prontera](baby-characters.md) to become a baby character without adoption, with your levels and EXP preserved. Read the permanent Baby Novice restriction before choosing your class path. [Read the latest update](updates/2026-11-13.md).
+Explore the [Refining System](refining.md), farm [Vestige Coins](vestige-coins.md) for [Lydia's 26 rewards](coin-exchange.md), and use [Area Loot](area-loot.md) for nearby pickups. The [Mercy System](mercy-system.md) adds a 5,000-kill normal-card guarantee.
 
-Switch setups with the [Build Manager](build-manager.md): save ten stat and ten skill builds per character, with free saving and 5,000z loading.
-
-Our [homunculus and pet commands](companion-commands.md), [personal settings](personal-settings.md) and other everyday tools remain available.
+Today's update also includes the [expanded Card Exchange](card-exchange.md), shared **+150% Bubble Gum**, and [adjusted NPC sell prices](adjusted-prices.md). [Read the full November 16 update](updates/2026-11-16.md).
 
 ## Make yourself at home
 
@@ -97,6 +101,10 @@ Our [homunculus and pet commands](companion-commands.md), [personal settings](pe
 | Hourly points, Gold Coins and the costume shop | [Hourly rewards](hourly-rewards.md) |
 | Tool, Pet, Ninja and Gunslinger supplies | [Convenient dealers](dealers.md) |
 | Protected monsters, party access and release timers | [Kill Steal Protection](kill-steal-protection.md) |
+| Nearby ground pickup | [Area Loot](area-loot.md) |
+| Normal-monster card guarantee | [Mercy System](mercy-system.md) |
+| Normal and enriched refining | [Refining System](refining.md) |
+| Tradable hunting currency and rewards | [Vestige Coins](vestige-coins.md) and [Lydia](coin-exchange.md) |
 | Kill history, card-drop streaks and an overhead counter | [Kill Count](kill-count.md) |
 | Card finds, copy numbers and announcement visibility | [Card Drop Announcements](card-drop-announcements.md) |
 | Unwanted cards and Card Exchange rewards | [Card exchange](card-exchange.md) |
@@ -109,13 +117,3 @@ Our [homunculus and pet commands](companion-commands.md), [personal settings](pe
 
 !!! info "About this handbook"
     These pages describe the final implemented settings, rather than a chronological patch log. The content profile adapts Episode 14.2 to classic mechanics. Skill names may have different English translations; aliases are included where useful.
-
-??? note "Implementation and verification status"
-    The changes have build, configuration and focused automated checks. Some gameplay and UI interactions still await in-game confirmation. Do not interpret this guide as a claim that every class has completed gameplay or balance testing.
-
-    Confirmed player checks include Super Blessing on self/other players with both effects and Blessing sound, Berserk chat with the red body effect persisting through teleports, bulk-purchase confirmation/storage delivery, improved zoom, emotes staying connected, returning to login after a tested disconnect, the hourly costume shop staying stationary until closed, the three custom kunai descriptions, the expanded stock at original Tool/Pet dealer locations, Putty's card exchange, Market Street and its NPCs, and first-attempt `@at2` with same-account character switching after a `[V]` login.
-
-    The personal settings menu, preference persistence and song muting have also been confirmed in-game, including preserved song visuals and restored audio when muting is disabled. Shared autoloot menus, automatic collection, and ignored Jellopy staying on the ground with manual pickup and a stable connection are confirmed too. Initial Restock/Quick Store transfers were confirmed; the final item-only Quick Store revision has automated coverage and awaits its separate in-game retest. Other display options still have automated checks only.
-
-    The game environment is currently local/offline. Publishing this handbook does not change the game server's availability.
-

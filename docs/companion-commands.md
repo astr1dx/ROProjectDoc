@@ -64,7 +64,3 @@ Configure these preferences only through **`@settings`**:
 These are personal viewing preferences. Other players keep their own choices, and the pet continues to function normally. Hidden or muted pet speech is still logged under its owner.
 
 Pet settings do **not** suppress player chat or homunculus speech. See [Personal Settings](personal-settings.md#pets-and-song-music) for the visibility modes and other preferences.
-
-## Verification
-
-Ordinary-player tests covered all four commands, overhead messages, owner-attributed logging, chat-mute restrictions, pet emotes and per-viewer filtering. The integrated server suite passed **3,174 checks**, followed by production command and logging checks. Rendered in-game confirmation of this update is still pending.

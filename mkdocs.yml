@@ -57,6 +57,7 @@ nav:
           - Personal Settings: personal-settings.md
           - Build Manager: build-manager.md
           - Advanced Autoloot: autoloot.md
+          - Area Loot: area-loot.md
           - Fast Storage: fast-storage.md
           - Kill Count: kill-count.md
           - Kill Steal Protection: kill-steal-protection.md
@@ -65,10 +66,13 @@ nav:
       - Overview: features.md
       - Features:
           - Vendor System: vendor-system.md
+          - Vestige Coin System: vestige-coins.md
+          - Mercy System: mercy-system.md
       - Changes:
           - Class Changes: class-changes.md
           - Quest Changes: quest-changes.md
           - Adjusted NPC Sell Prices: adjusted-prices.md
+          - Refining System: refining.md
           - Quality of Life: quality-of-life.md
       - Enhancements:
           - Attendance Rewards: attendance.md
@@ -76,6 +80,7 @@ nav:
           - Convenient Dealers: dealers.md
           - Card Drop Announcements: card-drop-announcements.md
           - Card Exchange: card-exchange.md
+          - Vestige Coin Exchange: coin-exchange.md
   - Dungeons & Instances:
       - Hunting and Instance Guide: dungeons.md
   - Events & Activities:

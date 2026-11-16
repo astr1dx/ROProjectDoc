@@ -6,15 +6,16 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 16
 
-**Adjusted NPC sell prices and Card Exchange rewards**
+**Hunting rewards, refining and economy updates**
 
-- Reduced selected NPC resale prices across **86 item IDs**, including equipment variants.
-- Documented the goals: limit Zeny inflation, encourage varied farming and reduce incentives for automated farming.
-- Crystal Blue (#991) now sells for **250z** before Overcharge, down from 500z.
-- Normal Merchant Overcharge and existing NPC purchase prices remain in effect.
-- Added **13 Card Exchange rewards** at the approved point costs, alongside Bloody Branch at 120 points. The [Card Exchange guide](card-exchange.md#current-reward-list) now includes item icons and all 14 prices.
+- [Vestige Coins](vestige-coins.md) and [Lydia's 26-item exchange](coin-exchange.md).
+- Shared **+150% Bubble Gum**, the expanded [Card Exchange](card-exchange.md), and [adjusted NPC resale prices](adjusted-prices.md).
+- [Area Loot](area-loot.md): optional 3x3 manual pickup through `@settings`.
+- [Mercy System](mercy-system.md): a persistent 5,000-kill normal-card guarantee.
+- [Refining System](refining.md): normal-only Classic batches, enriched-only Visual refining and one canonical ID per enriched ore.
+- The new homepage banner and public-guide cleanup.
 
-[Read the November 16 update](updates/2026-11-16.md) or consult the [complete price table](adjusted-prices.md).
+[Read the complete November 16 update](updates/2026-11-16.md).
 
 ### November 13
 

@@ -42,6 +42,3 @@ Long names and narrow chat windows can still cause normal text wrapping; the sho
 **Show Rare Drops** controls a separate personal notice based on the original database drop chance. It does not replace the public card announcement or alter drop rates.
 
 See [Personal settings](personal-settings.md#drop-notices-and-card-artwork) for both options, and [Card exchange](card-exchange.md) for exchanging unwanted cards.
-
-!!! note "Verification"
-    Loot attribution, copy numbering, shared-loot wording and per-viewer visibility have automated coverage. Final in-game confirmation of the new message's appearance and chat-tab filtering is pending.
