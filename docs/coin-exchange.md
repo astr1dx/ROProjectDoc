@@ -1,6 +1,6 @@
 # Vestige Coin Exchange
 
-**Lydia** exchanges Vestige Coins for supplies. Her temporary location is **Prontera 138,192**: `/navi prontera 138/192`.
+**Lydia** exchanges Vestige Coins for supplies at **prt_in 38,108**: `/navi prt_in 38/108`. Enter the **Coin Exchange building at Prontera 133,183**, marked with a Coin Exchange bubble.
 
 ## Buying rewards
 

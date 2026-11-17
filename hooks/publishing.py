@@ -3,6 +3,9 @@ import re
 from mkdocs.exceptions import PluginError
 
 ICONS = {
+    "main-office.md": "\U0001f3e2",
+    "card-removal.md": "\U0001fa84",
+    "updates/2026-11-17.md": "\U0001f4cd",
     "area-loot.md": "🧺",
     "mercy-system.md": "🍀",
     "vestige-coins.md": "🪙",

@@ -4,6 +4,16 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ## 2026
 
+### November 17
+
+**Main Office and the updated service directory**
+
+- A [Main Office guide](main-office.md) with entrance directions, a numbered service map and all ten NPC locations.
+- Updated directions for the [Coin Exchange building](main-office.md#coin-exchange-building), [Market entrance](vendor-system.md#market-street) and [Card Remover](card-removal.md).
+- Current coordinates throughout the class, dealer, build and reward guides.
+
+[Read the November 17 location update](updates/2026-11-17.md).
+
 ### November 16
 
 **Hunting rewards, refining and economy updates**
@@ -22,9 +32,9 @@ Dated notes record changes to the game server and this handbook. For complete cu
 **Vestige Rift, independent baby characters and Build Manager**
 
 - A new server and handbook identity: **Vestige Rift**.
-- Sister Elara's 5,000,000z adoption-free conversion, temporarily at Prontera 136,196.
+- Sister Elara's 5,000,000z adoption-free conversion; see [her current location](baby-characters.md).
 - Preserved character progress, baby second-job progression and the permanent Baby Novice restriction.
-- [Build Manager](build-manager.md) at Prontera 154,193: ten stat and ten skill slots per character, free saving and 5,000z loading, with class/level safeguards.
+- [Build Manager](build-manager.md): ten stat and ten skill slots per character, free saving and 5,000z loading, with class/level safeguards.
 
 [Read the November 13 update](updates/2026-11-13.md).
 

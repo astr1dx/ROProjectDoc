@@ -1,8 +1,8 @@
 # Convenient dealers
 
-Updated: **November 9, 2026**.
+Updated: **November 17, 2026**.
 
-Find everyday supplies at the existing Tool and Pet dealers throughout the world, with dedicated Ninja and Gunslinger dealers in Prontera.
+Find everyday supplies at the existing Tool and Pet dealers throughout the world, with dedicated Ninja and Gunslinger dealers inside [Main Office](main-office.md).
 
 ## Find a dealer
 
@@ -10,10 +10,11 @@ Find everyday supplies at the existing Tool and Pet dealers throughout the world
 | --- | --- | --- |
 | Enhanced Tool Dealer | **43 existing Tool Dealer locations**, including the eight inn dealers | 35 everyday supplies and consumables |
 | Pet Dealer | **8 existing Pet Groomer locations** | 30 pet supplies |
-| Jackie | `/navi prontera 132/196` | Shuriken, kunai and ninjutsu stones |
-| Gunslinger Supplies | `/navi prontera 140/200` | Bullets, spheres and the existing sphere-crafting materials |
+| Enhanced Tool Dealer, Main Office | `/navi main_office 136/24` | Same shared everyday-supply catalogue |
+| Jackie | `/navi main_office 136/29` | Shuriken, kunai and ninjutsu stones |
+| Gunslinger Supplies | `/navi main_office 136/35` | Bullets, spheres and the existing sphere-crafting materials |
 
-Enhanced Tool and Pet dealers replace the previous stock at the original NPC locations. There are no separate Tool or Pet dealer additions in Prontera's service row. In Prontera, the existing Tool Dealer is at `/navi prt_in 126/76`, and the Pet Dealer is at `/navi prontera 218/211`.
+Enhanced Tool and Pet dealers replace the previous stock at the original NPC locations. Main Office also has an Enhanced Tool Dealer at `/navi main_office 136/24`, using the same catalogue. Pet Dealers remain at their original town locations. In Prontera, the existing Tool Dealer is at `/navi prt_in 126/76`, and the Pet Dealer is at `/navi prontera 218/211`.
 
 All prices below are **base Zeny prices before applicable discounts**. Merchant Discount and Rogue Compulsion Discount apply normally. Eligible exactly-30,000-unit orders use the [bulk-purchase and Main Storage rules](quality-of-life.md#bulk-purchases-and-personal-storage).
 
@@ -62,7 +63,7 @@ Every Enhanced Tool Dealer uses the same catalogue, including the inn dealers th
 
 ## Ninja materials
 
-Jackie is at `/navi prontera 132/196`. The three additional kunai are detailed [below](#custom-kunai).
+Jackie is at `/navi main_office 136/29`. The three additional kunai are detailed [below](#custom-kunai).
 
 | Item | Item ID | Base price |
 | --- | ---: | ---: |
@@ -87,7 +88,7 @@ Jackie is at `/navi prontera 132/196`. The three additional kunai are detailed [
 
 ## Gunslinger materials
 
-Gunslinger Supplies is at `/navi prontera 140/200`. Weapons and armor are not sold here.
+Gunslinger Supplies is at `/navi main_office 136/35`. Weapons and armor are not sold here.
 
 | Item | Item ID | Base price |
 | --- | ---: | ---: |

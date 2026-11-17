@@ -51,6 +51,7 @@ nav:
       - All Pages (A-Z): all-pages.md
   - Getting Started:
       - How to Start: getting-started.md
+      - Main Office: main-office.md
       - Find Your Class: classes.md
       - Baby Characters: baby-characters.md
       - Player Tools:
@@ -78,6 +79,7 @@ nav:
           - Attendance Rewards: attendance.md
           - Hourly Rewards: hourly-rewards.md
           - Convenient Dealers: dealers.md
+          - Card Removal: card-removal.md
           - Card Drop Announcements: card-drop-announcements.md
           - Card Exchange: card-exchange.md
           - Vestige Coin Exchange: coin-exchange.md
@@ -88,6 +90,7 @@ nav:
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 17: updates/2026-11-17.md
           - November 16: updates/2026-11-16.md
           - November 13: updates/2026-11-13.md
           - November 11: updates/2026-11-11.md

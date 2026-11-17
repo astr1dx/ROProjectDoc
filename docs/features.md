@@ -4,6 +4,8 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 ## Features
 
+- [Main Office](main-office.md): a numbered service map, ten office NPCs and directions to coin shops and the Market.
+
 - [Vestige Coin System](vestige-coins.md): tradable monster-drop currency with fixed chances and species exceptions.
 - [Mercy System](mercy-system.md): an automatic normal-monster card guarantee after 5,000 cardless kills.
 - [Area Loot](area-loot.md): optional nearby ground pickup through `@settings`.
@@ -40,6 +42,7 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 | [Convenient dealers](dealers.md) | Expanded catalogues at original Tool/Pet dealer locations and dedicated ammunition suppliers |
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, per-card copy numbers and Public-filtered messages |
 | [Vestige Coin Exchange](coin-exchange.md) | Lydia's 26-item shop, paid with Vestige Coins |
+| [Card Removal](card-removal.md) | Equipped-item card extraction, costs and failure outcomes |
 | [Card exchange](card-exchange.md) | Account-wide points from eligible cards; 14 rewards including consumables, stat foods, Old Card Album and Bloody Branch |
 
 See [Patch Notes](updates.md) for the dated record of newly documented server changes.

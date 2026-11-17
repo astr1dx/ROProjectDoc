@@ -1,14 +1,14 @@
 # Build Manager
 
-Updated: **November 13, 2026**.
+Updated: **November 17, 2026**.
 
 Save your current stat and skill allocations as named builds, then load them again when you want to switch setups. Builds are saved **per character** and remain available after relogging.
 
 !!! info "Find the Build Manager"
-    The Build Manager is in **Prontera at 154,193**, beside **Reset Girl at 150,193**.
+    The Build Manager is in **[Main Office](main-office.md) at 118,32**, near **Reset Girl at 118,28**. Enter from Prontera 164,167.
 
     ```text
-    /navi prontera 154/193
+    /navi main_office 118/32
     ```
 
 ## Slots and fees

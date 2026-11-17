@@ -8,6 +8,12 @@ Start with [Server Information](server-rules.md) for rates, level caps, Philippi
 
 Thinking of a baby character? Read [Baby Characters](baby-characters.md) before choosing your class: Baby Novice is permanently unable to change jobs, while baby first classes can advance normally.
 
+## Visit Main Office
+
+Head to **Prontera 164,167** and enter beneath the **Main Office** bubble. Kafra, platinum skills, build/reset services, ammunition suppliers and Putty's Card Exchange are inside. The [Main Office guide](main-office.md) includes a service map and every coordinate.
+
+The separate Coin Exchange building at **Prontera 133,183** houses the Costume Shop, Lydia and Sister Elara. The **Market** NPC is outside at **Prontera 164,174**.
+
 ## Set up your preferences
 
 Type **`@settings`** after entering the game. This menu controls pet visibility, song audio, drop notices, card artwork, EXP messages, whisper warnings, day/night and announcements. Most display/chat choices follow your account; storage weight, farming lists and kill-steal protection belong to each character.

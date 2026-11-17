@@ -31,7 +31,7 @@ Both require **Main Storage already open in a town**, including Midgard Expediti
 
 ## Build Manager
 
-Save **ten stat builds and ten separate skill builds per character** at the Build Manager, **Prontera 154,193**, beside Reset Girl. Saving, overwriting, renaming and deleting are free; loading either build type costs **5,000z**.
+Save **ten stat builds and ten separate skill builds per character** at the Build Manager, **[Main Office 118,32](main-office.md)**, near Reset Girl at **118,28**. Saving, overwriting, renaming and deleting are free; loading either build type costs **5,000z**.
 
 Builds persist after relogging. A class change deletes saved skill builds. Stat builds hide below their saved Base Level and reappear when that level is reached again. Point budgets, caps and skill prerequisites are checked before payment; permanent platinum skills remain learned.
 
@@ -149,23 +149,23 @@ At **Loyal intimacy (900+)**, Incubus grants **+3% Max SP** and a **5% chance to
 
 ## Hourly rewards
 
-Earn **10 account-wide points per hour online**, up to a **300-point balance**. Click the top-right timer to convert complete **120-point bundles into Gold Coins**; spend them at the Gold Point Manager in Prontera, **144,200**. The costume shop keeps your character stationary until it is closed.
+Earn **10 account-wide points per hour online**, up to a **300-point balance**. Click the top-right timer to convert complete **120-point bundles into Gold Coins**; spend them at the Gold Point Manager in the Coin Exchange building, **prt_in 38,104**. The costume shop keeps your character stationary until it is closed.
 
 See [Hourly rewards](hourly-rewards.md) for saved partial-hour progress, inventory requirements, coin restrictions and the current sample costume.
 
 ## Convenient dealers
 
-**43 existing Tool Dealers** now share the 35-item Enhanced Tool catalogue, and **8 existing Pet Groomers** share the 30-item Pet catalogue at their original locations. Jackie and Gunslinger Supplies remain dedicated Prontera shops.
+**43 existing Tool Dealers** now share the 35-item Enhanced Tool catalogue, and **8 existing Pet Groomers** share the 30-item Pet catalogue at their original locations. Jackie and Gunslinger Supplies are inside [Main Office](main-office.md), at **136,29** and **136,35** respectively.
 
 See [Convenient dealers](dealers.md) for prices, custom kunai elements, NPC resale values and the complete location directory.
 
 ## Card exchange
 
-[Putty in Prontera](card-exchange.md) exchanges eligible loose cards for **10 account-wide card points each**. The catalogue offers **14 rewards**, including manuals, consumables, +10 stat foods, Old Card Album and **Bloody Branch for 120 points**. Six cards are blacklisted, and favorite, bound, rental and socketed cards are protected.
+[Putty in Main Office](card-exchange.md) exchanges eligible loose cards for **10 account-wide card points each**. The catalogue offers **14 rewards**, including manuals, consumables, +10 stat foods, Old Card Album and **Bloody Branch for 120 points**. Six cards are blacklisted, and favorite, bound, rental and socketed cards are protected.
 
 ## Market Street and offline shops
 
-The [vendor system](vendor-system.md) adds an organized market, shop searches, pricing limits and one stackable-item listing per account. Enter through **Merchants Warp at Prontera 139,171**.
+The [vendor system](vendor-system.md) adds an organized market, shop searches, pricing limits and one stackable-item listing per account. Enter through **Merchants Warp at prontera 164,174**.
 
 Use `@ws` / `@wb` for selling/buying search windows, or `@ws2` / `@wb2` for text results. Remote trading works in towns. **`@at2`** keeps a shop open while returning you to character selection so another character on the same account can play. Use **`@importshop`** for the current character's last shop and **`@vendrecap`** for its retained sales summary.
 
@@ -185,4 +185,4 @@ All equipment refiners offer **Classic** refining with normal ores and bulk targ
 
 ## Vestige Coins and Lydia
 
-Eligible monsters can drop [Vestige Coins](vestige-coins.md), a tradable currency with fixed 5% drops and listed species exceptions. [Lydia at Prontera 138,192](coin-exchange.md) offers 26 rewards. Her Bubble Gum and Putty's are the same **+150% for 30 minutes** item.
+Eligible monsters can drop [Vestige Coins](vestige-coins.md), a tradable currency with fixed 5% drops and listed species exceptions. [Lydia in the Coin Exchange building, prt_in 38,108](coin-exchange.md) offers 26 rewards. Her Bubble Gum and Putty's are the same **+150% for 30 minutes** item.

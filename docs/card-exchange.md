@@ -1,13 +1,14 @@
 # Card exchange
 
-Updated: **November 16, 2026**.
+Updated: **November 17, 2026**.
 
-Trade unwanted loose cards for **account-wide card points**, then spend those points with **Putty** in Prontera.
+Trade unwanted loose cards for **account-wide card points**, then spend those points with **Putty** in [Main Office](main-office.md).
 
 !!! info "Quick facts"
-    **NPC:** Putty  
-    **Location:** `/navi prontera 130/192`  
-    **Exchange rate:** 10 points per accepted card  
+    **NPC:** Putty<br>
+    **Location:** `/navi main_office 136/32`<br>
+    **Entrance:** Prontera 164,167, marked **Main Office**.<br>
+    **Exchange rate:** 10 points per accepted card<br>
     **Rewards:** 14 choices, including consumables, +10 stat foods, Old Card Album and Bloody Branch
 
 ## Exchange cards

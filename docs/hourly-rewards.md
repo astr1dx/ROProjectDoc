@@ -1,6 +1,6 @@
 # Hourly rewards
 
-Updated: **November 9, 2026**.
+Updated: **November 17, 2026**.
 
 Earn points while you play, convert them into Gold Coins, and spend the coins on costumes at the Gold Point Manager.
 
@@ -37,7 +37,7 @@ The coins go into the inventory of the character that clicks the timer. If that 
 
 ## Spend your coins
 
-Visit the **Gold Point Manager** in Prontera: `/navi prontera 144/200`.
+Visit the **Gold Point Manager** at `/navi prt_in 38/104`, inside the **Coin Exchange building**. Enter at **Prontera 133,183**, beneath the Coin Exchange bubble.
 
 Click the NPC to open the costume exchange shop. Select the costume, add it to the exchange tray, and confirm the purchase using Gold Coins in your inventory. Your character stays in place while the shop is open; close the shop to walk normally again.
 

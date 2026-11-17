@@ -12,6 +12,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Build Manager](build-manager.md) | Named stat/skill presets, loading fees and class/level safeguards |
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, card copies and Public chat visibility |
 | [Card exchange](card-exchange.md) | Account-wide card points and the illustrated 14-item reward catalogue |
+| [Card Removal](card-removal.md) | Equipped-item card removal, fees and failure outcomes |
 | [Class changes](class-changes.md) | Skill adjustments and platinum skills |
 | [Convenient dealers](dealers.md) | Supplies, prices and NPC locations |
 | [Fast storage](fast-storage.md) | Restock targets and all-unit Quick Store |
@@ -25,11 +26,13 @@ Browse every public guide, or use the topic tabs and search box.
 | [Kill Count](kill-count.md) | Last-kill detection, confirmed tracking and private overhead counts |
 | [Kill Steal Protection](kill-steal-protection.md) | Protection modes, release timers and party checks |
 | [Latest updates](updates.md) | Dated server updates |
+| [Main Office](main-office.md) | Service map, NPC directory and building entrances |
 | [Mercy System](mercy-system.md) | Persistent 5,000-kill normal-card guarantee |
 | [November 10, 2026](updates/2026-11-10.md) | Settings, hunting tools, card announcements and trade aliases |
 | [November 11, 2026](updates/2026-11-11.md) | Homunculus and pet commands, chat logging and pet-message preferences |
 | [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity, baby-character conversion and saved builds |
 | [November 16, 2026](updates/2026-11-16.md) | Hunting rewards, Area Loot, Mercy, refining and economy changes |
+| [November 17, 2026](updates/2026-11-17.md) | Main Office and current NPC locations |
 | [Personal settings](personal-settings.md) | Saved visual, sound and chat preferences |
 | [Quality of life](quality-of-life.md) | Recovery, mail, storage and other conveniences |
 | [Quest changes](quest-changes.md) | Quest retries, battlefield and ore splitting |

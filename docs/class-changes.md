@@ -213,7 +213,7 @@ Venom Knives are available for a base **50z** at every [Enhanced Tool Dealer](de
 | ![Plagiarism icon](assets/skills/rg_plagiarism.png){ .skill-icon } **Plagiarism** | A higher-level eligible copy can upgrade the same copied skill or temporarily override a lower normally learned level. Equal/lower offers do not downgrade it. Native copy protections remain. |
 | ![Preserve icon](assets/skills/st_preserve.png){ .skill-icon } **Preserve** | Infinite duration, on/off toggle, persists through logout. Toggling off uses native zero-cost handling. |
 
-The **Plagiarism Tutor at `prontera 132,200`** offers the current eligible Plagiarism skills for **25,000z per lesson**. The offered level is capped by Plagiarism and the selected skill's maximum. Preserve blocks lessons. Redundant, invalid or failed lessons do not charge the fee.
+The **Plagiarism Tutor at `main_office 121,17`** offers the current eligible Plagiarism skills for **25,000z per lesson**. The offered level is capped by Plagiarism and the selected skill's maximum. Preserve blocks lessons. Redundant, invalid or failed lessons do not charge the fee.
 
 Backstab retains its native damage, range, bow penalty, SP cost and Hiding removal. Its fixed cooldown ignores equipment cooldown modifiers and the ASPD casting gate; other skills' delays still apply.
 
@@ -255,7 +255,7 @@ The chant cannot renew an already active Fury.
 
 ### Free platinum skills
 
-Collect these Level-1 skills from the **Platinum Skill NPC at `prontera 128,200`**. The unlock survives skill resets/login. Changing away from Super Novice/Super Baby removes these class-specific grants and active statuses, while retaining the unlock for a later return.
+Collect these Level-1 skills from the **Platinum Skill NPC at `main_office 118,36`**. The unlock survives skill resets/login. Changing away from Super Novice/Super Baby removes these class-specific grants and active statuses, while retaining the unlock for a later return.
 
 | Skill | Current behavior |
 | --- | --- |
@@ -283,7 +283,7 @@ Native target selection, mission completion and ranking rewards remain.
 | Miracle of the Sun, Moon and Stars | 0.1% activation chance under the normal activation conditions. |
 | ![Warmth of the Sun, Moon and Stars icon](assets/skills/sg_sun_warm.png){ .skill-icon } **Warmth of the Sun, Moon and Stars** | Land Protector does not prevent the Warmth field/damage. Native damage, SP drain and other rules remain. |
 
-**Salvia is at `prontera 136,200`.** Each service preserves the other memory set. Empty memory sets are not charged. Baby Star Gladiator variants are also eligible.
+**Salvia is at `main_office 125,17`.** Each service preserves the other memory set. Empty memory sets are not charged. Baby Star Gladiator variants are also eligible.
 
 ## Soul Linker
 
@@ -312,7 +312,7 @@ Lupita's explicitly short Super Novice Spirit remains ten seconds. Esma retains 
 
 Throw Zeny's discount changes payment and the affordability cap, not its native randomized damage formula. On WoE maps, the wallet can fund twice its ordinary damage budget before the half-cost payment. Battlegrounds casting/damage works with zero Zeny. Battlegrounds takes precedence if map flags overlap, and fractional Zeny payment is rounded down. There is only one impact-time Zeny charge.
 
-Jackie in Prontera sells the additional **Holy, Shadow and Ghost kunai**, each with 30 ATK and 0.5 weight. See [custom kunai](dealers.md#custom-kunai).
+Jackie in [Main Office](main-office.md) sells the additional **Holy, Shadow and Ghost kunai**, each with 30 ATK and 0.5 weight. See [custom kunai](dealers.md#custom-kunai).
 
 ## Gunslinger
 
@@ -346,28 +346,35 @@ Madness Break is available to Gunslinger and Baby Gunslinger. Its permanent NPC 
 
 ### Gunslinger supplies
 
-**Gunslinger Supplies at `prontera 140,200`** sells the expanded [bullet and sphere catalogue](dealers.md#gunslinger-materials), together with the existing sphere-crafting materials. Catalogue prices and NPC resale values are listed in the [dealer guide](dealers.md).
+**Gunslinger Supplies at `main_office 136,35`** sells the expanded [bullet and sphere catalogue](dealers.md#gunslinger-materials), together with the existing sphere-crafting materials. Catalogue prices and NPC resale values are listed in the [dealer guide](dealers.md).
 
 ## Adopted characters
 
 All adopted characters can raise base stats to **99**. Native stat-point costs and the available stat-point pool remain; this does not grant free stats or change other adoption penalties.
 
-Independent baby conversion is available through [Sister Elara](baby-characters.md), currently in Prontera. Read the eligibility and permanent Baby Novice restriction before paying.
+Independent baby conversion is available through [Sister Elara](baby-characters.md), inside the Coin Exchange building at **prt_in 34,114**. Read the eligibility and permanent Baby Novice restriction before paying.
 
 ## Related NPC directory
 
+Most class services are inside **[Main Office](main-office.md)**, entered at **Prontera 164,167**. Coin shops and Sister Elara are in the separate Coin Exchange building, entered at **Prontera 133,183**.
+
 | NPC | Location | Service |
 | --- | --- | --- |
-| Platinum Skill NPC | `prontera 128,200` | Free eligible platinum skills, including Change Cart 2, Super Novice skills and Madness Break; restores applicable existing unlocks. |
-| Plagiarism Tutor | `prontera 132,200` | Eligible copies for Rogues/Stalkers, 25,000z per valid lesson. |
-| Salvia | `prontera 136,200` | Feeling or Hatred reset, 500,000z per memory set. |
-| Gunslinger Supplies | `prontera 140,200` | [Expanded ammunition and sphere-crafting supplies](dealers.md#gunslinger-materials). |
-| Jackie | `prontera 132,196` | [Ninja materials and custom kunai](dealers.md#ninja-materials). |
-| Gold Point Manager | `prontera 144,200` | [Hourly-reward costume shop](hourly-rewards.md#spend-your-coins). |
-| Putty | `prontera 130,192` | [Card exchange and reward catalogue](card-exchange.md). |
-| Merchants Warp | `prontera 139,171` | [Market Street entry and services](vendor-system.md#market-street). |
+| Kafra Employee | `main_office 131,38` | Save, personal storage, guild storage, Universal Rental and platinum skills. |
+| Build Manager | `main_office 118,32` | [Saved stat and skill builds](build-manager.md). |
+| Reset Girl | `main_office 118,28` | Reset stats or skills for 5,000z each; both for 9,000z. |
+| Platinum Skill NPC | `main_office 118,36` | Free eligible platinum skills, including Change Cart 2, Super Novice skills and Madness Break; restores applicable existing unlocks. |
+| Plagiarism Tutor | `main_office 121,17` | Eligible copies for Rogues/Stalkers, 25,000z per valid lesson. |
+| Salvia | `main_office 125,17` | Feeling or Hatred reset, 500,000z per memory set. |
+| Gunslinger Supplies | `main_office 136,35` | [Expanded ammunition and sphere-crafting supplies](dealers.md#gunslinger-materials). |
+| Jackie | `main_office 136,29` | [Ninja materials and custom kunai](dealers.md#ninja-materials). |
+| Gold Point Manager | `prt_in 38,104` | [Hourly-reward costume shop](hourly-rewards.md#spend-your-coins). |
+| Putty | `main_office 136,32` | [Card exchange and reward catalogue](card-exchange.md). |
+| Merchants Warp | `prontera 164,174` | [Market Street entry and services](vendor-system.md#market-street). |
 | Enhanced Tool Dealers | Original Tool Dealer locations worldwide | [Shared everyday-supply catalogue](dealers.md#enhanced-tool-dealers). |
-| Sister Elara | Prontera 136,196 (temporary) | [Independent baby conversion](baby-characters.md). |
+| Sister Elara | `prt_in 34,114` | [Independent baby conversion](baby-characters.md). |
+| Lydia | `prt_in 38,108` | [Vestige Coin Exchange](coin-exchange.md). |
+| Card Remover | `prt_in 28,73` | [Remove cards from equipped items](card-removal.md). |
 | Pet Dealers | Original Pet Groomer locations worldwide | [Full pet-supply catalogue](dealers.md#pet-supplies). |
 | Gold Coin Steward | `geffen_in 100,174` | Bag of Gold Coins and the Whitesmith Avarice exchange. |
 | Lupita | `prt_fild08 166,368` | Free Super Novice/Super Baby death-count reset and ten-second Spirit link. |

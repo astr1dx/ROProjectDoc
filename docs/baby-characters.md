@@ -1,14 +1,14 @@
 # Baby Characters
 
-Updated: **November 13, 2026**.
+Updated: **November 17, 2026**.
 
 Become a smaller version of your current class without adoption. **Sister Elara** offers independent baby conversion for **5,000,000z**.
 
 !!! info "Sister Elara's current location"
-    Sister Elara is temporarily in **Prontera at 136,196**, near the other service NPCs.
+    Sister Elara is at **prt_in 34,114**, inside the **Coin Exchange building**. Enter through the doorway at **Prontera 133,183**, marked with a Coin Exchange bubble.
 
     ```text
-    /navi prontera 136/196
+    /navi prt_in 34/114
     ```
 
 ## Who can convert?

@@ -17,7 +17,7 @@ hide:
   <div class="fact"><strong>14.2</strong><span>Adapted Eclage content profile</span></div>
 </div>
 
-*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 16, 2026**.
+*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 17, 2026**.
 
 ## Browse by topic
 
@@ -30,11 +30,18 @@ hide:
 | Events & Activities | [Rewards and recurring activities](events.md) |
 | Patch Notes | [Latest updates](updates.md) |
 
-## Latest update: November 16
+## Visit Main Office
 
-Explore the [Refining System](refining.md), farm [Vestige Coins](vestige-coins.md) for [Lydia's 26 rewards](coin-exchange.md), and use [Area Loot](area-loot.md) for nearby pickups. The [Mercy System](mercy-system.md) adds a 5,000-kill normal-card guarantee.
+**One stop for builds, platinum skills, supplies and card points.** Enter at **Prontera 164,167**, beneath the **Main Office** bubble, and use the numbered map to find all ten services.
 
-Today's update also includes the [expanded Card Exchange](card-exchange.md), shared **+150% Bubble Gum**, and [adjusted NPC sell prices](adjusted-prices.md). [Read the full November 16 update](updates/2026-11-16.md).
+[Explore Main Office](main-office.md){ .md-button .md-button--primary }
+[Find the Coin Exchange building](main-office.md#coin-exchange-building){ .md-button }
+
+## Latest update: November 17
+
+The [Main Office showcase](main-office.md) includes a service map, current NPC coordinates and directions to the Coin Exchange building, Market and [Card Remover](card-removal.md). The linked class, dealer, build and reward pages have been updated to match.
+
+[Read the November 17 location update](updates/2026-11-17.md). For hunting rewards, Area Loot, Mercy, refining and economy changes, see [November 16](updates/2026-11-16.md).
 
 ## Make yourself at home
 
@@ -68,9 +75,9 @@ Today's update also includes the [expanded Card Exchange](card-exchange.md), sha
 
     ---
 
-    Locate platinum skill unlocks, supplies, memory resets, and Plagiarism lessons.
+    Start with Main Office, then find coin exchanges, supplies, memory resets and Plagiarism lessons.
 
-    [Browse the NPC directory &rarr;](class-changes.md#related-npc-directory)
+    [Explore the Main Office directory &rarr;](main-office.md)
 
 </div>
 
@@ -78,6 +85,7 @@ Today's update also includes the [expanded Card Exchange](card-exchange.md), sha
 
 | Looking for… | Go to |
 | --- | --- |
+| Main Office, service map and NPC locations | [Main Office](main-office.md) |
 | Becoming a baby without adoption | [Baby Characters and Sister Elara](baby-characters.md) |
 | Save and reload stat/skill setups | [Build Manager](build-manager.md) |
 | Free platinum skills | [Platinum Skill NPC and other services](class-changes.md#related-npc-directory) |
@@ -90,6 +98,7 @@ Today's update also includes the [expanded Card Exchange](card-exchange.md), sha
 | Protected monsters, party access and release timers | [Kill Steal Protection](kill-steal-protection.md) |
 | Nearby ground pickup | [Area Loot](area-loot.md) |
 | Normal-monster card guarantee | [Mercy System](mercy-system.md) |
+| Remove cards from equipped items | [Card Removal](card-removal.md) |
 | Normal and enriched refining | [Refining System](refining.md) |
 | Tradable hunting currency and rewards | [Vestige Coins](vestige-coins.md) and [Lydia](coin-exchange.md) |
 | Kill history, card-drop streaks and an overhead counter | [Kill Count](kill-count.md) |

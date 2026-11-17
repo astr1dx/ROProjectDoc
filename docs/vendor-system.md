@@ -1,11 +1,11 @@
 # Vendor system
 
-Updated: **November 10, 2026**.
+Updated: **November 17, 2026**.
 
 Find shops, buy and sell from towns, or keep a merchant trading while you play another character on the same account.
 
 !!! info "Start here"
-    Enter Market Street through **Merchants Warp** at `/navi prontera 139/171`. Open a shop, then use **`@at2`** to return directly to character selection while the shop stays open.
+    Enter Market Street through **Merchants Warp** at `/navi prontera 164/174`, marked with a **Market** bubble. Open a shop, then use **`@at2`** to return directly to character selection while the shop stays open.
 
 ## Market Street
 
@@ -13,9 +13,9 @@ Market Street uses map **`prt_mk`**, with arrival at **162,142**. It has numbere
 
 | NPC / destination | Navigation | Service |
 | --- | --- | --- |
-| Merchants Warp | `/navi prontera 139/171` | Enter Market Street |
+| Merchants Warp | `/navi prontera 164/174` | Enter Market Street |
 | Market center | `/navi prt_mk 162/142` | Arrival and `@market` destination |
-| Vending Helper | `/navi prt_mk 158/142` | Nearest/random/numbered spots, import instructions and return to Prontera |
+| Vending Helper | `/navi prt_mk 158/142` | Nearest/random/numbered spots, import instructions and return to Main Office |
 | Spot Picker | `/navi prt_mk 166/142` | Choose the closest free spot, a random one or a spot number |
 | Market Kafra | `/navi prt_mk 162/138` | Open personal storage |
 
@@ -23,7 +23,7 @@ The server generates **4,264 walkable vending spots** on a four-cell grid and ke
 
 Use `@vendorspot` for the closest free spot, `@vendorspot random` for a random one, or `@vendorspot NUMBER` to choose a numbered spot. Your chosen number and the total are displayed after selection. These commands work inside Market Street.
 
-`@market` returns you to the market center **from within Market Street only**. Enter from Prontera through Merchants Warp; use the Vending Helper to return to Prontera.
+`@market` returns you to the market center **from within Market Street only**. Enter from Prontera through Merchants Warp; use the Vending Helper to return to [Main Office](main-office.md) at **121,22**.
 
 Characters without an open shop are returned to Prontera after **five minutes**. Skills cannot be used while a selling or buying store is open. Market Street is a town with branch use and death penalties disabled.
 

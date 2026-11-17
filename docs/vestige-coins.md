@@ -43,6 +43,6 @@ Normal loot ownership, party sharing, pickup rules and carrying limits still app
 
 ## Where to spend them
 
-Visit **Lydia at Prontera 138,192**: `/navi prontera 138/192`. Her shop accepts Vestige Coins and offers consumables, supply boxes and reusable wings. See the [complete exchange catalogue](coin-exchange.md).
+Visit **Lydia at prt_in 38,108**: `/navi prt_in 38/108`. Enter the Coin Exchange building through **Prontera 133,183**. Her shop accepts Vestige Coins and offers consumables, supply boxes and reusable wings. See the [complete exchange catalogue](coin-exchange.md).
 
 Vestige Coins are separate from hourly **Gold Coins** and Card Exchange points. Existing quests and events do not award Vestige Coins unless that reward is explicitly added later.
