@@ -16,7 +16,7 @@ The separate Coin Exchange building at **Prontera 133,183** houses the Costume S
 
 ## Character services
 
-Use the [Character Services guide](character-services.md) to find **Job Master in Main Office**, the **Stylist in the Coin Exchange building**, and the **Healer in Prontera**. It also lists the relocated Prontera Guide and Smile Assistance NPCs.
+Use the [Character Services guide](character-services.md) to find **Job Master in Main Office**, the **Stylist in the Coin Exchange building**, and the **Healer in Prontera**. It also lists the relocated Prontera Guide.
 
 ## Set up your preferences
 

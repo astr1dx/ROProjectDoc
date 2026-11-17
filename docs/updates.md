@@ -13,7 +13,7 @@ Dated notes record changes to the game server and this handbook. For complete cu
 - A [Main Office guide](main-office.md) with entrance directions, a numbered service map and all eleven NPC locations.
 - Updated directions for the [Coin Exchange building](main-office.md#coin-exchange-building), [Market entrance](vendor-system.md#market-street) and [Card Remover](card-removal.md).
 - Current coordinates throughout the class, dealer, build and reward guides.
-- [Character Services](character-services.md): Job Master at **Main Office 122,38**, Stylist at **prt_in 43,114**, Healer at **Prontera 152,187**, Prontera Guide at **157,190** and Smile Assistance at **141,228**. The office map now includes Job Master.
+- [Character Services](character-services.md): Job Master at **Main Office 122,38**, Stylist at **prt_in 43,114**, Healer at **Prontera 152,187** and Prontera Guide at **157,190**. The office map now includes Job Master.
 
 [Read the November 17 update](updates/2026-11-17.md).
 

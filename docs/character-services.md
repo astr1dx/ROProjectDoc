@@ -12,7 +12,6 @@ Find job changes, appearance options and healing at the NPCs below. These locati
 | **Stylist** | `/navi prt_in 43/114` | Free hairstyle, hair-color and clothing-color changes |
 | **Healer** | `/navi prontera 152/187` | Free HP and SP recovery |
 | **Prontera Guide** | `/navi prontera 157/190` | City directions and optional minimap markers |
-| **Smile Assistance** | `/navi prontera 141/228` | Mr. Smile mask exchange |
 
 ## Job Master
 
@@ -65,23 +64,9 @@ Click to restore **100% HP and SP**, for free. There is **no configured healing 
 
 Healing does not require your character to walk up against the NPC. After healing, you can continue moving normally.
 
-## Other Prontera NPCs
-
-### Prontera Guide
+## Prontera Guide
 
 The relocated **Prontera Guide** is at **Prontera 157,190**. Use the city-guide menu for standard city directions, enable location markers when offered, or choose **Remove Marks from Mini-Map** to clear them.
-
-### Smile Assistance
-
-Find **Smile Assistance** at **Prontera 141,228**. The Smile Girl exchanges the following items for **one Mr. Smile mask**:
-
-| Required item | Quantity |
-| --- | ---: |
-| Jellopy | 10 |
-| Fluff | 10 |
-| Clover | 10 |
-
-Choose **Construct Mr. Smile** after bringing all three materials. The exchange consumes the listed items; the NPC's other town copies retain their own locations.
 
 ## Related guides
 

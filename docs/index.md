@@ -41,7 +41,7 @@ hide:
 
 [Bio Labs 4](biolabs4.md) is open with Classic Pre-Renewal party balance, retuned monsters and a classic-only direct-drop pool.
 
-The [Character Services guide](character-services.md) now lists Job Master in Main Office, Stylist at **prt_in 43,114**, Healer at **Prontera 152,187**, and the relocated Prontera Guide and Smile Assistance.
+The [Character Services guide](character-services.md) now lists Job Master in Main Office, Stylist at **prt_in 43,114**, Healer at **Prontera 152,187**, and the relocated Prontera Guide.
 
 The [Main Office showcase](main-office.md) includes a service map, current NPC coordinates and directions to the Coin Exchange building, Market and [Card Remover](card-removal.md). The linked class, dealer, build and reward pages have been updated to match.
 

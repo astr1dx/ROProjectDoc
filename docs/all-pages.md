@@ -14,7 +14,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, card copies and Public chat visibility |
 | [Card exchange](card-exchange.md) | Account-wide card points and the illustrated 14-item reward catalogue |
 | [Card Removal](card-removal.md) | Equipped-item card removal, fees and failure outcomes |
-| [Character Services](character-services.md) | Job Master, Stylist, Healer, Prontera Guide and Smile Assistance |
+| [Character Services](character-services.md) | Job Master, Stylist, Healer and Prontera Guide |
 | [Class changes](class-changes.md) | Skill adjustments and platinum skills |
 | [Convenient dealers](dealers.md) | Supplies, prices and NPC locations |
 | [Fast storage](fast-storage.md) | Restock targets and all-unit Quick Store |
