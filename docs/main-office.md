@@ -2,7 +2,7 @@
 
 Updated: **November 17, 2026**.
 
-Prepare your next character build, unlock platinum skills, restock supplies and trade spare cards in one stop. **Main Office brings ten everyday services together**, with a service-name bubble above each NPC.
+Prepare your next character build, unlock platinum skills, restock supplies and trade spare cards in one stop. **Main Office brings eleven everyday services together**, with a service-name bubble above each NPC.
 
 !!! tip "Start at the Main Office doorway"
     Find the **Main Office** bubble at **Prontera 164,167**.
@@ -15,7 +15,7 @@ Prepare your next character build, unlock platinum skills, restock supplies and 
 
 ## Service map
 
-![Numbered Main Office service layout showing the landing, return portal and ten NPC positions](assets/images/main-office-layout.png){ width="1600" height="1660" loading="lazy" }
+![Numbered Main Office service layout showing the landing, return portal and eleven NPC positions](assets/images/main-office-layout.png){ width="1600" height="1660" loading="lazy" }
 
 *Coordinate schematic, with north at the top. The numbered markers match the service directory below.*
 
@@ -33,9 +33,11 @@ Prepare your next character build, unlock platinum skills, restock supplies and 
 | 8 | **Tool Dealer** / Enhanced Tool Dealer | `/navi main_office 136/24` | Buy the same [everyday-supply catalogue](dealers.md#enhanced-tool-dealers) offered by the existing town dealers. |
 | 9 | **Plagiarism Tutor** | `/navi main_office 121/17` | Copy eligible skills as a Rogue or Stalker for **25,000z** per valid lesson. Preserve must be off. |
 | 10 | **Star Gladiator Reset** / Salvia | `/navi main_office 125/17` | Reset Feeling maps or Hatred targets for **500,000z** per memory set. The other set is preserved; empty sets are not charged. |
+| 11 | **Job Master** | `/navi main_office 122/38` | Free eligible [job changes and rebirth](character-services.md#job-master), beside the arrival point. |
 
 ## Plan your visit
 
+- **Ready for your next job?** Job Master is beside the landing, west of Kafra.
 - **Changing your setup?** Visit Reset Girl and Build Manager on the west side, then restore your eligible platinum skills.
 - **Preparing to hunt?** Use Kafra storage, then pick up tools or class ammunition from the east-side dealers.
 - **Clearing spare cards?** Putty is between Gunslinger Supplies and Jackie.
@@ -57,6 +59,7 @@ The coin shops are in a **separate building**, entered at **Prontera 133,183**. 
 | --- | --- | --- |
 | **Costume Shop** / Gold Point Manager | `/navi prt_in 38/104` | Spend actual [hourly-reward Gold Coins](hourly-rewards.md) on costumes. |
 | **Vestige Coin Exchange** / Lydia | `/navi prt_in 38/108` | Spend [Vestige Coins](vestige-coins.md) on the [26-item reward catalogue](coin-exchange.md). |
+| **Stylist** | `/navi prt_in 43/114` | Free [hairstyle, hair-color and class-specific clothing-color previews](character-services.md#stylist). |
 | **Baby Conversion** / Sister Elara | `/navi prt_in 34/114` | Become an eligible [baby character](baby-characters.md) for **5,000,000z**, without adoption. |
 
 Click the top-right hourly timer to convert eligible points into Gold Coins. The timer does **not** open the costume shop.
@@ -66,6 +69,9 @@ Click the top-right hourly timer to convert eligible points into Gold Coins. The
 | Stop | Navigation | What to look for |
 | --- | --- | --- |
 | **Market** / Merchants Warp | `/navi prontera 164/174` | The **Market** bubble marks entry to [Market Street](vendor-system.md). Its Vending Helper offers a return to Main Office at **121,22**. |
+| **Healer** | `/navi prontera 152/187` | Free [HP/SP recovery](character-services.md#healer). |
+| **Prontera Guide** | `/navi prontera 157/190` | Standard [city directions and minimap markers](character-services.md#prontera-guide). |
+| **Smile Assistance** | `/navi prontera 141/228` | Exchange materials for [a Mr. Smile mask](character-services.md#smile-assistance). |
 | **Card Remover** / Wise Old Woman | `/navi prt_in 28/73` | [Remove cards from equipped items](card-removal.md). Read the costs and failure outcomes before confirming. |
 
 The Market entrance is outside Main Office, north of its Prontera doorway. The Card Remover is in the original refining building, rather than inside Main Office or the Coin Exchange building.

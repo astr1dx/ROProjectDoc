@@ -10,9 +10,10 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 - [Bio Labs 4](biolabs4.md): classic 99/70 party balance, 196 regular spawns, restored access, retuned elites/MVPs and classic-only direct drops.
 
-- A [Main Office guide](main-office.md) with entrance directions, a numbered service map and all ten NPC locations.
+- A [Main Office guide](main-office.md) with entrance directions, a numbered service map and all eleven NPC locations.
 - Updated directions for the [Coin Exchange building](main-office.md#coin-exchange-building), [Market entrance](vendor-system.md#market-street) and [Card Remover](card-removal.md).
 - Current coordinates throughout the class, dealer, build and reward guides.
+- [Character Services](character-services.md): Job Master at **Main Office 122,38**, Stylist at **prt_in 43,114**, Healer at **Prontera 152,187**, Prontera Guide at **157,190** and Smile Assistance at **141,228**. The office map now includes Job Master.
 
 [Read the November 17 update](updates/2026-11-17.md).
 

@@ -361,6 +361,9 @@ Most class services are inside **[Main Office](main-office.md)**, entered at **P
 | NPC | Location | Service |
 | --- | --- | --- |
 | Kafra Employee | `main_office 131,38` | Save, personal storage, guild storage, Universal Rental and platinum skills. |
+| Job Master | `main_office 122,38` | [Eligible job changes and rebirth](character-services.md#job-master). |
+| Stylist | `prt_in 43,114` | [Free appearance previews](character-services.md#stylist). |
+| Healer | `prontera 152,187` | [Free HP/SP recovery](character-services.md#healer). |
 | Build Manager | `main_office 118,32` | [Saved stat and skill builds](build-manager.md). |
 | Reset Girl | `main_office 118,28` | Reset stats or skills for 5,000z each; both for 9,000z. |
 | Platinum Skill NPC | `main_office 118,36` | Free eligible platinum skills, including Change Cart 2, Super Novice skills and Madness Break; restores applicable existing unlocks. |

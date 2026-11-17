@@ -4,7 +4,7 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 ## Features
 
-- [Main Office](main-office.md): a numbered service map, ten office NPCs and directions to coin shops and the Market.
+- [Main Office](main-office.md): a numbered service map, eleven office NPCs and directions to coin shops and the Market.
 
 - [Vestige Coin System](vestige-coins.md): tradable monster-drop currency with fixed chances and species exceptions.
 - [Mercy System](mercy-system.md): an automatic normal-monster card guarantee after 5,000 cardless kills.
@@ -37,6 +37,7 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 | System | What it provides |
 | --- | --- |
+| [Character Services](character-services.md) | Job Master, Stylist, Healer and relocated Prontera city NPCs |
 | [Attendance rewards](attendance.md) | A repeating 20-claim schedule, limited to one claim per account per Philippine day |
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coin conversion and a costume exchange shop |
 | [Convenient dealers](dealers.md) | Expanded catalogues at original Tool/Pet dealer locations and dedicated ammunition suppliers |

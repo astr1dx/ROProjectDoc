@@ -32,7 +32,7 @@ hide:
 
 ## Visit Main Office
 
-**One stop for builds, platinum skills, supplies and card points.** Enter at **Prontera 164,167**, beneath the **Main Office** bubble, and use the numbered map to find all ten services.
+**One stop for builds, platinum skills, supplies and card points.** Enter at **Prontera 164,167**, beneath the **Main Office** bubble, and use the numbered map to find all eleven services.
 
 [Explore Main Office](main-office.md){ .md-button .md-button--primary }
 [Find the Coin Exchange building](main-office.md#coin-exchange-building){ .md-button }
@@ -40,6 +40,8 @@ hide:
 ## Latest update: November 17
 
 [Bio Labs 4](biolabs4.md) is open with Classic Pre-Renewal party balance, retuned monsters and a classic-only direct-drop pool.
+
+The [Character Services guide](character-services.md) now lists Job Master in Main Office, Stylist at **prt_in 43,114**, Healer at **Prontera 152,187**, and the relocated Prontera Guide and Smile Assistance.
 
 The [Main Office showcase](main-office.md) includes a service map, current NPC coordinates and directions to the Coin Exchange building, Market and [Card Remover](card-removal.md). The linked class, dealer, build and reward pages have been updated to match.
 
@@ -88,6 +90,7 @@ The [Main Office showcase](main-office.md) includes a service map, current NPC c
 | Looking for… | Go to |
 | --- | --- |
 | Main Office, service map and NPC locations | [Main Office](main-office.md) |
+| Job changes, appearance options, healing and city NPCs | [Character Services](character-services.md) |
 | Becoming a baby without adoption | [Baby Characters and Sister Elara](baby-characters.md) |
 | Save and reload stat/skill setups | [Build Manager](build-manager.md) |
 | Free platinum skills | [Platinum Skill NPC and other services](class-changes.md#related-npc-directory) |

@@ -10,9 +10,13 @@ Thinking of a baby character? Read [Baby Characters](baby-characters.md) before 
 
 ## Visit Main Office
 
-Head to **Prontera 164,167** and enter beneath the **Main Office** bubble. Kafra, platinum skills, build/reset services, ammunition suppliers and Putty's Card Exchange are inside. The [Main Office guide](main-office.md) includes a service map and every coordinate.
+Head to **Prontera 164,167** and enter beneath the **Main Office** bubble. Job Master, Kafra, platinum skills, build/reset services, ammunition suppliers and Putty's Card Exchange are inside. The [Main Office guide](main-office.md) includes a service map and every coordinate.
 
-The separate Coin Exchange building at **Prontera 133,183** houses the Costume Shop, Lydia and Sister Elara. The **Market** NPC is outside at **Prontera 164,174**.
+The separate Coin Exchange building at **Prontera 133,183** houses the Costume Shop, Lydia, Stylist and Sister Elara. The **Market** NPC is outside at **Prontera 164,174**.
+
+## Character services
+
+Use the [Character Services guide](character-services.md) to find **Job Master in Main Office**, the **Stylist in the Coin Exchange building**, and the **Healer in Prontera**. It also lists the relocated Prontera Guide and Smile Assistance NPCs.
 
 ## Set up your preferences
 
