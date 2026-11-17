@@ -26,7 +26,7 @@ hide:
 | Welcome | [Server Information](server-rules.md) and [All Pages (A-Z)](all-pages.md) |
 | Getting Started | [How to Start](getting-started.md), [your class](classes.md) and [personal settings](personal-settings.md) |
 | Features & Enhancements | [Features, changes and enhancements](features.md) |
-| Dungeons & Instances | [Hunting bonuses, MVP maps and the New World test](dungeons.md) |
+| Dungeons & Instances | [Bio Labs 4, hunting bonuses and instances](dungeons.md) |
 | Events & Activities | [Rewards and recurring activities](events.md) |
 | Patch Notes | [Latest updates](updates.md) |
 
@@ -39,9 +39,11 @@ hide:
 
 ## Latest update: November 17
 
+[Bio Labs 4](biolabs4.md) is open with Classic Pre-Renewal party balance, retuned monsters and a classic-only direct-drop pool.
+
 The [Main Office showcase](main-office.md) includes a service map, current NPC coordinates and directions to the Coin Exchange building, Market and [Card Remover](card-removal.md). The linked class, dealer, build and reward pages have been updated to match.
 
-[Read the November 17 location update](updates/2026-11-17.md). For hunting rewards, Area Loot, Mercy, refining and economy changes, see [November 16](updates/2026-11-16.md).
+[Read the November 17 update](updates/2026-11-17.md). For hunting rewards, Area Loot, Mercy, refining and economy changes, see [November 16](updates/2026-11-16.md).
 
 ## Make yourself at home
 

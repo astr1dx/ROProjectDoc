@@ -2,6 +2,10 @@
 
 Vestige Rift uses an **adapted Episode 14.2: Eclage** content profile with Classic Pre-Renewal mechanics. The explicit content allowlist controls available maps, monsters and quests. Eclage's original level-100/120 requirements are adapted to level 90; existing level-99 requirements remain.
 
+## Bio Labs 4
+
+[Bio Labs 4](biolabs4.md) is open as a Classic Pre-Renewal party dungeon, with level-96-98 regular monsters, level-99 elites/MVPs, 196 regular spawns and a classic-only direct-drop pool. The guide covers the Bio3 entrance, monster stats, rewards and map restrictions.
+
 ## Hunting bonuses
 
 Two eligible **regions or dungeon groups** receive a **20-30% Base and Job kill EXP bonus**, rotating every **48-72 hours**. Use **`@bonusmaps`** to see the active groups, included maps and next rotation in Philippine time.

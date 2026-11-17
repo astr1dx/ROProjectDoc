@@ -45,4 +45,6 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 | [Card Removal](card-removal.md) | Equipped-item card extraction, costs and failure outcomes |
 | [Card exchange](card-exchange.md) | Account-wide points from eligible cards; 14 rewards including consumables, stat foods, Old Card Album and Bloody Branch |
 
+For dungeon adaptations, see [Bio Labs 4](biolabs4.md) under **Dungeons & Instances**.
+
 See [Patch Notes](updates.md) for the dated record of newly documented server changes.

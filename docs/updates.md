@@ -6,13 +6,15 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 17
 
-**Main Office and the updated service directory**
+**Bio Labs 4, Main Office and the updated service directory**
+
+- [Bio Labs 4](biolabs4.md): classic 99/70 party balance, 196 regular spawns, restored access, retuned elites/MVPs and classic-only direct drops.
 
 - A [Main Office guide](main-office.md) with entrance directions, a numbered service map and all ten NPC locations.
 - Updated directions for the [Coin Exchange building](main-office.md#coin-exchange-building), [Market entrance](vendor-system.md#market-street) and [Card Remover](card-removal.md).
 - Current coordinates throughout the class, dealer, build and reward guides.
 
-[Read the November 17 location update](updates/2026-11-17.md).
+[Read the November 17 update](updates/2026-11-17.md).
 
 ### November 16
 

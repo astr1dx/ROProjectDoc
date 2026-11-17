@@ -9,6 +9,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Area Loot](area-loot.md) | Optional 3x3 manual ground pickup |
 | [Attendance rewards](attendance.md) | Daily account claims and mailed rewards |
 | [Baby Characters](baby-characters.md) | Independent conversion, retained progress and job restrictions |
+| [Bio Labs 4](biolabs4.md) | Classic party dungeon, monster stats, access, respawns and classic-only drops |
 | [Build Manager](build-manager.md) | Named stat/skill presets, loading fees and class/level safeguards |
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, card copies and Public chat visibility |
 | [Card exchange](card-exchange.md) | Account-wide card points and the illustrated 14-item reward catalogue |
@@ -22,7 +23,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Homunculus and Pet Commands](companion-commands.md) | Companion stats, speech, emotes and chat rules |
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coins and costumes |
 | [How to start](getting-started.md) | First steps and useful tools |
-| [Hunting and instances](dungeons.md) | Hunting bonuses, MVP maps and the New World test |
+| [Hunting and instances](dungeons.md) | Bio Labs 4, hunting bonuses, MVP maps and the New World test |
 | [Kill Count](kill-count.md) | Last-kill detection, confirmed tracking and private overhead counts |
 | [Kill Steal Protection](kill-steal-protection.md) | Protection modes, release timers and party checks |
 | [Latest updates](updates.md) | Dated server updates |
@@ -32,7 +33,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 11, 2026](updates/2026-11-11.md) | Homunculus and pet commands, chat logging and pet-message preferences |
 | [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity, baby-character conversion and saved builds |
 | [November 16, 2026](updates/2026-11-16.md) | Hunting rewards, Area Loot, Mercy, refining and economy changes |
-| [November 17, 2026](updates/2026-11-17.md) | Main Office and current NPC locations |
+| [November 17, 2026](updates/2026-11-17.md) | Main Office, current NPC locations and the Bio Labs 4 adaptation |
 | [Personal settings](personal-settings.md) | Saved visual, sound and chat preferences |
 | [Quality of life](quality-of-life.md) | Recovery, mail, storage and other conveniences |
 | [Quest changes](quest-changes.md) | Quest retries, battlefield and ore splitting |
