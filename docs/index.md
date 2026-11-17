@@ -41,7 +41,7 @@ hide:
 
 [Bio Labs 4](biolabs4.md) is open with Classic Pre-Renewal party balance, retuned monsters and a classic-only direct-drop pool.
 
-The [Character Services guide](character-services.md) now lists Job Master in Main Office, Stylist at **prt_in 43,114**, Healer at **Prontera 152,187**, and the relocated Prontera Guide.
+The [Character Services guide](character-services.md) now lists Job Master in Main Office, Stylist at **prt_in 43,114**, and Healer at **Prontera 152,187**.
 
 The [Main Office showcase](main-office.md) includes a service map, current NPC coordinates and directions to the Coin Exchange building, Market and [Card Remover](card-removal.md). The linked class, dealer, build and reward pages have been updated to match.
 
@@ -90,7 +90,7 @@ The [Main Office showcase](main-office.md) includes a service map, current NPC c
 | Looking for… | Go to |
 | --- | --- |
 | Main Office, service map and NPC locations | [Main Office](main-office.md) |
-| Job changes, appearance options, healing and city NPCs | [Character Services](character-services.md) |
+| Job changes, appearance options and healing | [Character Services](character-services.md) |
 | Becoming a baby without adoption | [Baby Characters and Sister Elara](baby-characters.md) |
 | Save and reload stat/skill setups | [Build Manager](build-manager.md) |
 | Free platinum skills | [Platinum Skill NPC and other services](class-changes.md#related-npc-directory) |

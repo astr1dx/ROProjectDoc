@@ -11,7 +11,6 @@ Find job changes, appearance options and healing at the NPCs below. These locati
 | **Job Master** | `/navi main_office 122/38` | Free eligible job changes and rebirth |
 | **Stylist** | `/navi prt_in 43/114` | Free hairstyle, hair-color and clothing-color changes |
 | **Healer** | `/navi prontera 152/187` | Free HP and SP recovery |
-| **Prontera Guide** | `/navi prontera 157/190` | City directions and optional minimap markers |
 
 ## Job Master
 
@@ -63,10 +62,6 @@ Find the **Healer** at **Prontera 152,187**, marked with a **Healer** bubble.
 Click to restore **100% HP and SP**, for free. There is **no configured healing cooldown**. This is a recovery service; it does not grant Blessing or Increase AGI.
 
 Healing does not require your character to walk up against the NPC. After healing, you can continue moving normally.
-
-## Prontera Guide
-
-The relocated **Prontera Guide** is at **Prontera 157,190**. Use the city-guide menu for standard city directions, enable location markers when offered, or choose **Remove Marks from Mini-Map** to clear them.
 
 ## Related guides
 

@@ -70,7 +70,6 @@ Click the top-right hourly timer to convert eligible points into Gold Coins. The
 | --- | --- | --- |
 | **Market** / Merchants Warp | `/navi prontera 164/174` | The **Market** bubble marks entry to [Market Street](vendor-system.md). Its Vending Helper offers a return to Main Office at **121,22**. |
 | **Healer** | `/navi prontera 152/187` | Free [HP/SP recovery](character-services.md#healer). |
-| **Prontera Guide** | `/navi prontera 157/190` | Standard [city directions and minimap markers](character-services.md#prontera-guide). |
 | **Card Remover** / Wise Old Woman | `/navi prt_in 28/73` | [Remove cards from equipped items](card-removal.md). Read the costs and failure outcomes before confirming. |
 
 The Market entrance is outside Main Office, north of its Prontera doorway. The Card Remover is in the original refining building, rather than inside Main Office or the Coin Exchange building.
