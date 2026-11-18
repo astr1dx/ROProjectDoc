@@ -4,3 +4,5 @@
 - New public pages must use the shared icon hook. Use colorful emoji in navigation and page titles, matching the reference wiki. Add new page mappings to `ICONS` in `hooks/publishing.py`; the default is a document emoji. Do not add monochrome Material navigation icons.
 - Run `python -m mkdocs build --strict` before pushing. The publishing hook rejects internal client-change and patch references on public pages.
 - Push completed documentation changes to GitHub, as requested by the user.
+- Do not restore content or references the user has removed. Public guides should describe included features and current server behavior.
+- Do not include troubleshooting tips or debugging instructions in public documentation.
