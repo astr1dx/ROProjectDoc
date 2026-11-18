@@ -1485,8 +1485,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 
 **Food:** ![Pet Food](assets/pets/537.png){ .item-icon loading="lazy" } **Pet Food** (#537)<br>**Auto-feed:** Unavailable &middot; **Hungry feeding intimacy:** +30
 
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
-
 #### Owner bonuses
 
 | Intimacy | Effect |
@@ -2185,8 +2183,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 
 **Accessory:** ![Red Bell Necklace](assets/pets/10040.png){ .item-icon loading="lazy" } **Red Bell Necklace** (#10040)
 
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
-
 #### Owner bonuses
 
 | Intimacy | Effect |
@@ -2583,8 +2579,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 
 **Food:** ![Pet Food](assets/pets/537.png){ .item-icon loading="lazy" } **Pet Food** (#537)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
 
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
-
 #### Owner bonuses
 
 | Intimacy | Effect |
@@ -2652,8 +2646,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 **No Evolution** &middot; Egg: ![Christmas Snow Rabbit Egg](assets/pets/9058.png){ .item-icon loading="lazy" } **Christmas Snow Rabbit Egg** (#9058)
 
 **Food:** ![Candy](assets/pets/529.png){ .item-icon loading="lazy" } **Candy** (#529)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
-
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
 
 #### Owner bonuses
 
@@ -2771,8 +2763,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 **No Evolution** &middot; Egg: ![Fei Chai Egg](assets/pets/9183.png){ .item-icon loading="lazy" } **Fei Chai Egg** (#9183)
 
 **Food:** ![Pet Food](assets/pets/537.png){ .item-icon loading="lazy" } **Pet Food** (#537)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
-
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
 
 #### Owner bonuses
 
@@ -3060,8 +3050,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 
 **Food:** ![Mochi](assets/pets/554.png){ .item-icon loading="lazy" } **Mochi** (#554)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
 
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
-
 #### Owner bonuses
 
 | Intimacy | Effect |
@@ -3181,8 +3169,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 **No Evolution** &middot; Egg: ![Hard Rice Cake](assets/pets/9028.png){ .item-icon loading="lazy" } **Hard Rice Cake** (#9028)
 
 **Food:** ![Green Herb](assets/pets/511.png){ .item-icon loading="lazy" } **Green Herb** (#511)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
-
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
 
 #### Owner bonuses
 
@@ -3403,8 +3389,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 
 **Food:** ![Pet Food](assets/pets/537.png){ .item-icon loading="lazy" } **Pet Food** (#537)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
 
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
-
 #### Owner bonuses
 
 | Intimacy | Effect |
@@ -3449,8 +3433,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 
 **Food:** ![Pet Food](assets/pets/537.png){ .item-icon loading="lazy" } **Pet Food** (#537)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
 
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
-
 #### Owner bonuses
 
 | Intimacy | Effect |
@@ -3470,8 +3452,6 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 **No Evolution** &middot; Egg: ![Wandering Duck Doll Egg](assets/pets/9125.png){ .item-icon loading="lazy" } **Wandering Duck Doll Egg** (#9125)
 
 **Food:** ![Pet Food](assets/pets/537.png){ .item-icon loading="lazy" } **Pet Food** (#537)<br>**Auto-feed:** Available &middot; **Hungry feeding intimacy:** +30
-
-**Obtaining this pet:** No acquisition source is currently enabled. The pet definition is reserved for future content; this is not a currently obtainable reward.
 
 #### Owner bonuses
 

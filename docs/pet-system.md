@@ -115,12 +115,8 @@ Each pet's owner bonus is listed by intimacy in the catalogue. These are complet
 
 **Blue Moon Loli Ruri** has a **5% chance per incoming physical hit** to cast Kyrie Eleison at the eligible intimacy tiers. It casts Level 2, or your learned level if higher.
 
-Use [Personal Settings](personal-settings.md) for **Hide Pets** and **Mute Pets**. Visual and chatter preferences do not remove the pet's owner bonuses. Legacy pet combat/support skills are not enabled by this update.
+Use [Personal Settings](personal-settings.md) for **Hide Pets** and **Mute Pets**. Visual and chatter preferences do not remove the pet's owner bonuses.
 
-## Availability
-
-Domovoi is not included. Pet Stylist is not available.
-
-Seasonal pet definitions and evolution recipes may appear in the catalogue, but their original seasonal events, token exchanges and the Old Glast Heim Pascal acquisition NPC have not been added. Entries without an enabled source are marked accordingly; their presence in the guide is not an active reward offer.
+## Egg troubleshooting
 
 An egg created as an ordinary item without a linked pet cannot hatch. A leftover empty egg is not a second pet produced by evolution.
