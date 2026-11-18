@@ -3,6 +3,8 @@ import re
 from mkdocs.exceptions import PluginError
 
 ICONS = {
+    "novice-training.md": "\U0001f331",
+    "updates/2026-11-18.md": "\U0001f331",
     "character-services.md": "\U0001f465",
     "biolabs4.md": "\U0001f9ec",
     "main-office.md": "\U0001f3e2",

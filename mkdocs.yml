@@ -51,6 +51,7 @@ nav:
       - All Pages (A-Z): all-pages.md
   - Getting Started:
       - How to Start: getting-started.md
+      - Novice Training Grounds: novice-training.md
       - Main Office: main-office.md
       - Character Services: character-services.md
       - Find Your Class: classes.md
@@ -92,6 +93,7 @@ nav:
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 18: updates/2026-11-18.md
           - November 17: updates/2026-11-17.md
           - November 16: updates/2026-11-16.md
           - November 13: updates/2026-11-13.md

@@ -8,6 +8,12 @@ Start with [Server Information](server-rules.md) for rates, level caps, Philippi
 
 Thinking of a baby character? Read [Baby Characters](baby-characters.md) before choosing your class: Baby Novice is permanently unable to change jobs, while baby first classes can advance normally.
 
+## Complete Novice training
+
+Every new character begins in the [Novice Training Grounds](novice-training.md). Learn controls, equipment, skills and combat, then finish at least one class lesson. Graduation awards **Job Level 10**, starter supplies, equipment and **10,000z instead of Kafra Transportation tickets**, once per character.
+
+You graduate directly into **Main Office 127,38**. Spend your Basic Skill points before visiting Job Master. Existing characters keep their current locations and progress.
+
 ## Visit Main Office
 
 Head to **Prontera 164,167** and enter beneath the **Main Office** bubble. Job Master, Kafra, platinum skills, build/reset services, ammunition suppliers and Putty's Card Exchange are inside. The [Main Office guide](main-office.md) includes a service map and every coordinate.

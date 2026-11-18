@@ -1,6 +1,6 @@
 # Character Services
 
-Updated: **November 17, 2026**.
+Updated: **November 18, 2026**.
 
 Find job changes, appearance options and healing at the NPCs below. These locations match the current server scripts.
 
@@ -10,7 +10,7 @@ Find job changes, appearance options and healing at the NPCs below. These locati
 | --- | --- | --- |
 | **Job Master** | `/navi main_office 122/38` | Free eligible job changes and rebirth |
 | **Stylist** | `/navi prt_in 43/114` | Free hairstyle, hair-color and clothing-color changes |
-| **Healer** | `/navi prontera 152/187` | Free HP and SP recovery |
+| **Healer** | `/navi prontera 152/187` | Paid full HP/SP recovery, with an optional ten-minute buff package |
 
 ## Job Master
 
@@ -59,7 +59,16 @@ The menu limits clothing colors to those available for your class. A color suppo
 
 Find the **Healer** at **Prontera 152,187**, marked with a **Healer** bubble.
 
-Click to restore **100% HP and SP**, for free. There is **no configured healing cooldown**. This is a recovery service; it does not grant Blessing or Increase AGI.
+Choose one of two services:
+
+| Service | Cost |
+| --- | ---: |
+| Restore **100% HP and SP** | **1,000z** |
+| Restore **100% HP and SP**, plus **Level 10 Blessing and Increase AGI for 10 minutes** | **10,000z** |
+
+Payment is taken when you select an affordable service. Cancelling or having insufficient Zeny does not charge you. There is **no additional healing cooldown**.
+
+Free recovery during Novice training is provided separately by [combat Brade](novice-training.md#your-training-route).
 
 Healing does not require your character to walk up against the NPC. After healing, you can continue moving normally.
 

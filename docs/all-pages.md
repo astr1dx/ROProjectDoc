@@ -35,6 +35,8 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity, baby-character conversion and saved builds |
 | [November 16, 2026](updates/2026-11-16.md) | Hunting rewards, Area Loot, Mercy, refining and economy changes |
 | [November 17, 2026](updates/2026-11-17.md) | Main Office, character services, current NPC locations and the Bio Labs 4 adaptation |
+| [November 18, 2026](updates/2026-11-18.md) | Novice Training Grounds, graduation rewards and Healer options |
+| [Novice Training Grounds](novice-training.md) | New-character lessons, Job 10 graduation, starter equipment and 10,000z |
 | [Personal settings](personal-settings.md) | Saved visual, sound and chat preferences |
 | [Quality of life](quality-of-life.md) | Recovery, mail, storage and other conveniences |
 | [Quest changes](quest-changes.md) | Quest retries, battlefield and ore splitting |

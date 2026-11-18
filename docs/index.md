@@ -17,14 +17,14 @@ hide:
   <div class="fact"><strong>14.2</strong><span>Adapted Eclage content profile</span></div>
 </div>
 
-*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 17, 2026**.
+*Job caps vary by class. See [core settings](server-rules.md#core-settings) for the full breakdown. Updated **November 18, 2026**.
 
 ## Browse by topic
 
 | Section | Start here |
 | --- | --- |
 | Welcome | [Server Information](server-rules.md) and [All Pages (A-Z)](all-pages.md) |
-| Getting Started | [How to Start](getting-started.md), [your class](classes.md) and [personal settings](personal-settings.md) |
+| Getting Started | [How to Start](getting-started.md), [Novice Training Grounds](novice-training.md), [your class](classes.md) and [personal settings](personal-settings.md) |
 | Features & Enhancements | [Features, changes and enhancements](features.md) |
 | Dungeons & Instances | [Bio Labs 4, hunting bonuses and instances](dungeons.md) |
 | Events & Activities | [Rewards and recurring activities](events.md) |
@@ -37,15 +37,13 @@ hide:
 [Explore Main Office](main-office.md){ .md-button .md-button--primary }
 [Find the Coin Exchange building](main-office.md#coin-exchange-building){ .md-button }
 
-## Latest update: November 17
+## Latest update: November 18
 
-[Bio Labs 4](biolabs4.md) is open with Classic Pre-Renewal party balance, retuned monsters and a classic-only direct-drop pool.
+New characters now begin in the [Novice Training Grounds](novice-training.md). Complete the lessons to graduate at **Job Level 10** with starter equipment, supplies and **10,000z**, then arrive in Main Office.
 
-The [Character Services guide](character-services.md) now lists Job Master in Main Office, Stylist at **prt_in 43,114**, and Healer at **Prontera 152,187**.
+The [Healer](character-services.md#healer) now offers **1,000z** full HP/SP recovery or **10,000z** recovery with ten-minute Level 10 Blessing and Increase AGI.
 
-The [Main Office showcase](main-office.md) includes a service map, current NPC coordinates and directions to the Coin Exchange building, Market and [Card Remover](card-removal.md). The linked class, dealer, build and reward pages have been updated to match.
-
-[Read the November 17 update](updates/2026-11-17.md). For hunting rewards, Area Loot, Mercy, refining and economy changes, see [November 16](updates/2026-11-16.md).
+[Read the November 18 update](updates/2026-11-18.md). For Bio Labs 4 and the current Main Office service directory, see [November 17](updates/2026-11-17.md).
 
 ## Make yourself at home
 
@@ -89,6 +87,7 @@ The [Main Office showcase](main-office.md) includes a service map, current NPC c
 
 | Looking for… | Go to |
 | --- | --- |
+| Your first lessons and graduation package | [Novice Training Grounds](novice-training.md) |
 | Main Office, service map and NPC locations | [Main Office](main-office.md) |
 | Job changes, appearance options and healing | [Character Services](character-services.md) |
 | Becoming a baby without adoption | [Baby Characters and Sister Elara](baby-characters.md) |
