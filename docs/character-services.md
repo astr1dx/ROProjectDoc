@@ -2,7 +2,7 @@
 
 Updated: **November 18, 2026**.
 
-Find job changes, appearance options and healing at the NPCs below. These locations match the current server scripts.
+Find job changes, appearance options, healing and town travel at the NPCs below. These locations match the current server scripts.
 
 ## At a glance
 
@@ -11,6 +11,7 @@ Find job changes, appearance options and healing at the NPCs below. These locati
 | **Job Master** | `/navi main_office 122/38` | Free eligible job changes and rebirth |
 | **Stylist** | `/navi prt_in 43/114` | Free hairstyle, hair-color and clothing-color changes |
 | **Healer** | `/navi prontera 152/187` | Paid full HP/SP recovery, with an optional ten-minute buff package |
+| **Warper** | `/navi prontera 159/187` | Paid town travel, with per-character quest access checks |
 
 ## Job Master
 
@@ -59,7 +60,7 @@ The menu limits clothing colors to those available for your class. A color suppo
 
 Find the **Healer** at **Prontera 152,187**, marked with a **Healer** bubble.
 
-Choose one of two services:
+Select one of two services from the menu. An affordable selection heals you immediately:
 
 | Service | Cost |
 | --- | ---: |
@@ -70,7 +71,15 @@ Payment is taken when you select an affordable service. Cancelling or having ins
 
 Free recovery during Novice training is provided separately by [combat Brade](novice-training.md#your-training-route).
 
-Healing does not require your character to walk up against the NPC. After healing, you can continue moving normally.
+Your character stays in place while receiving healing. You can walk normally afterward.
+
+## Warper
+
+Find the **Warper at Prontera 159,187**. Choose **Midgard Towns**, **New World** or **Islands**; the fee is displayed next to each destination. Selecting a town pays the fee and warps immediately.
+
+Nearby Midgard towns cost **2,000z**, distant Midgard towns **3,600z**, New World destinations **25,000z**, and Islands **20,000z**. Quest-gated towns unlock per character after the required entrance quests are complete. Jawaii has no marriage or quest requirement through this service.
+
+See the [Warper guide](warper.md) for the full destination list and access requirements.
 
 ## Related guides
 

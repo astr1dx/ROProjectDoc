@@ -6,12 +6,13 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 18
 
-**Novice training and Healer options**
+**Novice training, Healer options and town travel**
 
 - [Novice Training Grounds](novice-training.md): the default start for new characters, with guided lessons and first-class practice hunts.
 - One-time starter supplies, equipment and **10,000z**, replacing transportation tickets.
 - **Job Level 10** graduation directly into Main Office.
 - Updated [Healer options](character-services.md#healer): 1,000z recovery or 10,000z recovery with ten-minute Blessing and Increase AGI.
+- [Warper](warper.md): Midgard, New World and Islands fees, immediate travel, quest unlocks and unrestricted Jawaii access.
 
 [Read the November 18 update](updates/2026-11-18.md).
 

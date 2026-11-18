@@ -24,6 +24,10 @@ The separate Coin Exchange building at **Prontera 133,183** houses the Costume S
 
 Use the [Character Services guide](character-services.md) to find **Job Master in Main Office**, the **Stylist in the Coin Exchange building**, and the **Healer in Prontera**.
 
+## Travel between towns
+
+The [Warper at Prontera 159,187](warper.md) offers **Midgard Towns**, **New World** and **Islands**. Each destination displays its fee; selecting it charges you and warps immediately. Complete the required entrance quests on that character to unlock New World destinations.
+
 ## Set up your preferences
 
 Type **`@settings`** after entering the game. This menu controls pet visibility, song audio, drop notices, card artwork, EXP messages, whisper warnings, day/night and announcements. Most display/chat choices follow your account; storage weight, farming lists and kill-steal protection belong to each character.

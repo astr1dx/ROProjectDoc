@@ -43,6 +43,8 @@ New characters now begin in the [Novice Training Grounds](novice-training.md). C
 
 The [Healer](character-services.md#healer) now offers **1,000z** full HP/SP recovery or **10,000z** recovery with ten-minute Level 10 Blessing and Increase AGI.
 
+The [Warper](warper.md) offers **Midgard Towns**, **New World** and **Islands**, with displayed destination fees, immediate travel and quest-based access. Jawaii has no marriage or quest requirement through the service.
+
 [Read the November 18 update](updates/2026-11-18.md). For Bio Labs 4 and the current Main Office service directory, see [November 17](updates/2026-11-17.md).
 
 ## Make yourself at home
@@ -90,6 +92,7 @@ The [Healer](character-services.md#healer) now offers **1,000z** full HP/SP reco
 | Your first lessons and graduation package | [Novice Training Grounds](novice-training.md) |
 | Main Office, service map and NPC locations | [Main Office](main-office.md) |
 | Job changes, appearance options and healing | [Character Services](character-services.md) |
+| Town travel, fees and quest unlocks | [Warper](warper.md) |
 | Becoming a baby without adoption | [Baby Characters and Sister Elara](baby-characters.md) |
 | Save and reload stat/skill setups | [Build Manager](build-manager.md) |
 | Free platinum skills | [Platinum Skill NPC and other services](class-changes.md#related-npc-directory) |
