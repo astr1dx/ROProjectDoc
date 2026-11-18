@@ -4,11 +4,20 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ## 2026
 
+### November 19
+
+**Pet System and evolution**
+
+- [Pet System](pet-system.md): feeding, intimacy, safe Incubator switching, evolution and fixed egg drops.
+- [Illustrated pet catalogue](pet-catalogue.md): **115 pet entries** grouped into side-by-side evolution families, with complete owner bonuses and **43 illustrated recipes**.
+- Updated Pet Dealer supplies and classic-compatible recipe ingredients.
+
+[Read the November 19 update](updates/2026-11-19.md).
+
 ### November 18
 
-**Pet System, novice training, Healer options and town travel**
+**Novice training, Healer options and town travel**
 
-- [Pet System](pet-system.md): illustrated pet entries, intimacy bonuses, safe Incubator switching, 43 evolution paths and fixed egg drops.
 - [Novice Training Grounds](novice-training.md): the default start for new characters, with guided lessons and first-class practice hunts.
 - One-time starter supplies, equipment and **10,000z**, replacing transportation tickets.
 - **Job Level 10** graduation directly into Main Office.

@@ -34,10 +34,22 @@
 .md-typeset .home-banner p { margin: 0; }
 .md-typeset img.home-banner-image { display: block; width: 100%; height: auto; border-radius: 16px; }
 
-/* Illustrated pet catalogue. */
-.md-typeset .pet-card { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 14px; padding: 1rem 1.2rem; margin: 1.5rem 0; overflow: hidden; }
-.md-typeset .pet-card h2 { margin-top: .25rem; }
-.md-typeset img.pet-sprite { display: block; max-width: min(100%, 220px); max-height: 200px; width: auto; height: auto; object-fit: contain; margin: .8rem auto 1.2rem; image-rendering: pixelated; }
-.md-typeset img.pet-evolution-sprite { max-width: 100px; max-height: 90px; vertical-align: middle; object-fit: contain; image-rendering: pixelated; }
-.md-typeset .pet-card table td:first-child { min-width: 8rem; }
+/* Illustrated pet catalogue: compare related forms side by side. */
+.md-typeset .pet-family { margin: 2rem 0 3rem; }
+.md-typeset .pet-family-grid { display: grid; gap: 1rem; align-items: start; }
+.md-typeset .pet-family-grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.md-typeset .pet-family-grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.md-typeset .pet-card { min-width: 0; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 14px; padding: 1rem; margin: 0; overflow-wrap: anywhere; }
+.md-typeset .pet-card h3 { margin-top: .25rem; }
+.md-typeset .pet-card h4 { margin-top: 1.3rem; }
+.md-typeset .pet-card > p:first-of-type { min-height: 180px; display: grid; place-items: center; }
+.md-typeset img.pet-sprite { display: block; max-width: min(100%, 220px); max-height: 180px; width: auto; height: auto; object-fit: contain; margin: .5rem auto; image-rendering: pixelated; }
+.md-typeset img.pet-evolution-sprite { max-width: 90px; max-height: 80px; vertical-align: middle; object-fit: contain; image-rendering: pixelated; }
+.md-typeset .pet-card .md-typeset__scrollwrap { margin: 0; }
+.md-typeset .pet-card .md-typeset__table { padding: 0; display: block; }
+.md-typeset .pet-card table:not([class]) { width: 100%; display: table; }
+.md-typeset .pet-card table:not([class]) th, .md-typeset .pet-card table:not([class]) td { min-width: 0; padding: .6em; }
+.md-typeset .pet-card table:not([class]) td:first-child { min-width: 0; }
+@media (min-width: 901px) and (max-width: 1200px) { .md-typeset .pet-family-grid--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 900px) { .md-typeset .pet-family-grid--2, .md-typeset .pet-family-grid--3 { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 600px) { .md-typeset .pet-card { padding: .8rem; } }

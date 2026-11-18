@@ -35,7 +35,8 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity, baby-character conversion and saved builds |
 | [November 16, 2026](updates/2026-11-16.md) | Hunting rewards, Area Loot, Mercy, refining and economy changes |
 | [November 17, 2026](updates/2026-11-17.md) | Main Office, character services, current NPC locations and the Bio Labs 4 adaptation |
-| [November 18, 2026](updates/2026-11-18.md) | Novice Training Grounds, graduation rewards, Healer options, town travel and the illustrated Pet System |
+| [November 18, 2026](updates/2026-11-18.md) | Novice Training Grounds, graduation rewards, Healer options and town travel |
+| [November 19, 2026](updates/2026-11-19.md) | Illustrated Pet System, evolution families, care and fixed egg drops |
 | [Novice Training Grounds](novice-training.md) | New-character lessons, Job 10 graduation, starter equipment and 10,000z |
 | [Pet catalogue](pet-catalogue.md) | Illustrated pet entries, intimacy bonuses, food and evolution materials |
 | [Pet System](pet-system.md) | Taming, care, switching, evolution and fixed egg drops |
