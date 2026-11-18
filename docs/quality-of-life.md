@@ -140,7 +140,7 @@ Example: use +3 STR for 20 minutes, wait two minutes, then use +10 STR for five 
 
 ## Incubus pet
 
-At **Loyal intimacy (900+)**, Incubus grants **+3% Max SP** and a **5% chance to recover 5% of physical weapon damage as SP**. SP leech is random and requires missing SP to observe recovery. Other pet settings are inherited from the classic definition.
+At **Loyal intimacy (900+)**, Incubus grants **+3% Max SP** and a **5% chance to recover 5% of physical weapon damage as SP**. SP leech is random and requires missing SP to observe recovery. See the [Pet System](pet-system.md) and [illustrated pet catalogue](pet-catalogue.md) for feeding, auto-feed, intimacy tiers and evolution.
 
 ## Respawn fallback
 
@@ -155,7 +155,7 @@ See [Hourly rewards](hourly-rewards.md) for saved partial-hour progress, invento
 
 ## Convenient dealers
 
-**43 existing Tool Dealers** now share the 35-item Enhanced Tool catalogue, and **8 existing Pet Groomers** share the 30-item Pet catalogue at their original locations. Jackie and Gunslinger Supplies are inside [Main Office](main-office.md), at **136,29** and **136,35** respectively.
+**43 existing Tool Dealers** now share the 35-item Enhanced Tool catalogue, and **8 existing Pet Groomers** share the 48-item Pet catalogue at their original locations. Jackie and Gunslinger Supplies are inside [Main Office](main-office.md), at **136,29** and **136,35** respectively.
 
 See [Convenient dealers](dealers.md) for prices, custom kunai elements, NPC resale values and the complete location directory.
 

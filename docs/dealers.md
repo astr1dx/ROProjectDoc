@@ -124,7 +124,7 @@ The existing crafting materials remain available at their standard base prices.
 
 ## Pet supplies
 
-Pet supplies are stocked at the original eight Pet Groomer locations, now named Pet Dealer. Pet availability and feeding requirements follow the server's pet system.
+Pet supplies are stocked at the original eight Pet Groomer locations, now named Pet Dealer. The expanded stock contains **48 supplies**. See the [Pet System](pet-system.md) and [illustrated catalogue](pet-catalogue.md) for each pet's exact food, auto-feed eligibility and evolution requirements.
 
 | Item | Item ID | Base price |
 | --- | ---: | ---: |
@@ -158,6 +158,24 @@ Pet supplies are stocked at the original eight Pet Groomer locations, now named 
 | Luxurious Pet Food | 25377 | 5,000z |
 | Cotton Wads | 25233 | 2,500z |
 | Green Apple | 7821 | 2,500z |
+| ![White Potion](assets/pets/504.png){ .item-icon loading="lazy" } White Potion | 504 | 1,200z |
+| ![Red Herb](assets/pets/507.png){ .item-icon loading="lazy" } Red Herb | 507 | 18z |
+| ![Yellow Herb](assets/pets/508.png){ .item-icon loading="lazy" } Yellow Herb | 508 | 40z |
+| ![Green Herb](assets/pets/511.png){ .item-icon loading="lazy" } Green Herb | 511 | 10z |
+| ![Honey](assets/pets/518.png){ .item-icon loading="lazy" } Honey | 518 | 500z |
+| ![Candy](assets/pets/529.png){ .item-icon loading="lazy" } Candy | 529 | 10z |
+| ![Apple Juice](assets/pets/531.png){ .item-icon loading="lazy" } Apple Juice | 531 | 20z |
+| ![Banana Juice](assets/pets/532.png){ .item-icon loading="lazy" } Banana Juice | 532 | 20z |
+| ![Carrot Juice](assets/pets/534.png){ .item-icon loading="lazy" } Carrot Juice | 534 | 20z |
+| ![Fresh Fish](assets/pets/579.png){ .item-icon loading="lazy" } Fresh Fish | 579 | 250z |
+| ![Shoot](assets/pets/711.png){ .item-icon loading="lazy" } Shoot | 711 | 16z |
+| ![Red Gemstone](assets/pets/716.png){ .item-icon loading="lazy" } Red Gemstone | 716 | 600z |
+| ![Scell](assets/pets/911.png){ .item-icon loading="lazy" } Scell | 911 | 160z |
+| ![Immortal Heart](assets/pets/929.png){ .item-icon loading="lazy" } Immortal Heart | 929 | 374z |
+| ![Memento](assets/pets/934.png){ .item-icon loading="lazy" } Memento | 934 | 600z |
+| ![Iron Ore](assets/pets/1002.png){ .item-icon loading="lazy" } Iron Ore | 1002 | 50z |
+| ![Rotten Meat](assets/pets/7564.png){ .item-icon loading="lazy" } Rotten Meat | 7564 | 102z |
+| ![Cheap Lubricant](assets/pets/25232.png){ .item-icon loading="lazy" } Cheap Lubricant | 25232 | 1,000z |
 
 ## Custom kunai
 

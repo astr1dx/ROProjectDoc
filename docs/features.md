@@ -4,6 +4,8 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 ## Features
 
+- [Pet System](pet-system.md): taming, feeding, safe switching, fixed egg drops and an [illustrated 115-entry catalogue](pet-catalogue.md) with 43 evolution recipes.
+
 - [Main Office](main-office.md): a numbered service map, eleven office NPCs and directions to coin shops and the Market.
 
 - [Vestige Coin System](vestige-coins.md): tradable monster-drop currency with fixed chances and species exceptions.

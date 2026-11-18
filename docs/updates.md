@@ -6,8 +6,9 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 18
 
-**Novice training, Healer options and town travel**
+**Pet System, novice training, Healer options and town travel**
 
+- [Pet System](pet-system.md): illustrated pet entries, intimacy bonuses, safe Incubator switching, 43 evolution paths and fixed egg drops.
 - [Novice Training Grounds](novice-training.md): the default start for new characters, with guided lessons and first-class practice hunts.
 - One-time starter supplies, equipment and **10,000z**, replacing transportation tickets.
 - **Job Level 10** graduation directly into Main Office.

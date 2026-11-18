@@ -69,6 +69,9 @@ nav:
   - Features & Enhancements:
       - Overview: features.md
       - Features:
+          - Pet System:
+              - Pet Care and Evolution: pet-system.md
+              - Illustrated Pet Catalogue: pet-catalogue.md
           - Vendor System: vendor-system.md
           - Vestige Coin System: vestige-coins.md
           - Mercy System: mercy-system.md
