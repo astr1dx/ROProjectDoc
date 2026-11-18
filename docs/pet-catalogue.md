@@ -3560,4 +3560,4 @@ Pet families are arranged from the base form toward its evolutions. On smaller s
 
 ## Artwork
 
-Pet artwork is stored with this site rather than hotlinked. Pet sprite images were sourced from the [uaRO pet reference](https://wiki.uaro.net/pet-system/); item icons match the installed game data. Ragnarok Online artwork belongs to Gravity. Gameplay values and recipes above come from Vestige Rift's active server definitions.
+Pet artwork is stored with this site rather than hotlinked, and item icons match the installed game data. Ragnarok Online artwork belongs to Gravity. Gameplay values and recipes above come from Vestige Rift's active server definitions.

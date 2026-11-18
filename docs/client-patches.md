@@ -79,7 +79,7 @@ The selections cover the local/classic login path, resource loading, English tra
 - Readable UI/map-banner fonts and the tested expanded zoom range.
 - Corrected server/client packet compatibility for emotes and modern character appearance updates.
 
-These are the final working compatibility changes, not a record of every intermediate test executable. The protected original uaRO archive was not treated as a clean data source; the working setup uses the clean compatible client resources.
+These are the final working compatibility changes, not a record of every intermediate test executable. The protected original archive was not treated as a clean data source; the working setup uses the clean compatible client resources.
 
 ## Rebuilding and launching
 
