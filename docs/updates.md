@@ -4,6 +4,16 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ## 2026
 
+### November 20
+
+**Astrid's headgear quests and Visual AFK Status**
+
+- [Headgear Quests](headgear-quests.md): Astrid's 22-item catalogue, illustrated materials, exact requirements and item descriptions.
+- Headgear shop pictures, red/green requirement counts and Purchase/Preview/Cancel interaction.
+- [Visual AFK Status](visual-afk.md): automatic sign after 60 seconds idle, cleared by activity, with town/shop/castle exclusions.
+
+[Read the November 20 update](updates/2026-11-20.md).
+
 ### November 19
 
 **Pet System and evolution**

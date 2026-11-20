@@ -53,3 +53,11 @@
 @media (min-width: 901px) and (max-width: 1200px) { .md-typeset .pet-family-grid--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 900px) { .md-typeset .pet-family-grid--2, .md-typeset .pet-family-grid--3 { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 600px) { .md-typeset .pet-card { padding: .8rem; } }
+
+/* Astrid's illustrated three-column quest catalogue. */
+.md-typeset img.npc-sprite { display: block; width: 80px; height: auto; image-rendering: pixelated; margin: 1rem 0; }
+.md-typeset .headgear-catalogue table:not([class]) { width: 100%; }
+.md-typeset .headgear-catalogue th:nth-child(1), .md-typeset .headgear-catalogue td:nth-child(1) { min-width: 12rem; width: 23%; }
+.md-typeset .headgear-catalogue th:nth-child(2), .md-typeset .headgear-catalogue td:nth-child(2) { min-width: 15rem; width: 34%; }
+.md-typeset .headgear-catalogue th:nth-child(3), .md-typeset .headgear-catalogue td:nth-child(3) { min-width: 20rem; width: 43%; }
+.md-typeset .headgear-catalogue td { vertical-align: top; }

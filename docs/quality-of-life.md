@@ -4,7 +4,13 @@ icon: material/bag-personal-outline
 
 # Quality of life
 
-Updated: **November 13, 2026**.
+Updated: **November 20, 2026**.
+
+## Visual AFK Status
+
+An **AFK sign** appears above your character after **60 seconds idle** on eligible hunting maps, temporarily replacing the upper-headgear appearance. Walking, attacking, skill use, item use or equipping an item clears it immediately. Equipment bonuses are preserved.
+
+Towns and town interiors, autotrade, open vending/buying shops and WoE castle maps are excluded. See [Visual AFK Status](visual-afk.md).
 
 ## Personal settings and chat channels
 

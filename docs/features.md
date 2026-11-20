@@ -4,6 +4,9 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 ## Features
 
+- [Headgear Quests](headgear-quests.md): Astrid in Prontera, with 22 illustrated rewards, materials, descriptions and previews.
+- [Visual AFK Status](visual-afk.md): an automatic idle indicator on eligible hunting maps.
+
 - [Pet System](pet-system.md): taming, feeding, safe switching, fixed egg drops and an [illustrated 115-entry catalogue](pet-catalogue.md) with 43 evolution recipes.
 
 - [Main Office](main-office.md): a numbered service map, eleven office NPCs and directions to coin shops and the Market.

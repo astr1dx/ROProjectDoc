@@ -21,6 +21,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Features and enhancements](features.md) | System directory |
 | [Find your class](classes.md) | Class guide directory |
 | [Home](index.md) | Handbook introduction |
+| [Headgear Quests](headgear-quests.md) | Astrid, 22 illustrated rewards, exact materials, item effects and previews |
 | [Homunculus and Pet Commands](companion-commands.md) | Companion stats, speech, emotes and chat rules |
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coins and costumes |
 | [How to start](getting-started.md) | First steps and useful tools |
@@ -37,6 +38,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 17, 2026](updates/2026-11-17.md) | Main Office, character services, current NPC locations and the Bio Labs 4 adaptation |
 | [November 18, 2026](updates/2026-11-18.md) | Novice Training Grounds, graduation rewards, Healer options and town travel |
 | [November 19, 2026](updates/2026-11-19.md) | Illustrated Pet System, evolution families, care and fixed egg drops |
+| [November 20, 2026](updates/2026-11-20.md) | Astrid headgear quests and Visual AFK Status |
 | [Novice Training Grounds](novice-training.md) | New-character lessons, Job 10 graduation, starter equipment and 10,000z |
 | [Pet catalogue](pet-catalogue.md) | Illustrated pet entries, intimacy bonuses, food and evolution materials |
 | [Pet System](pet-system.md) | Taming, care, switching, evolution and fixed egg drops |
@@ -49,4 +51,5 @@ Browse every public guide, or use the topic tabs and search box.
 | [Vendor system](vendor-system.md) | Markets, searches and offline shops |
 | [Vestige Coin Exchange](coin-exchange.md) | Lydia's illustrated 26-item coin catalogue |
 | [Vestige Coin System](vestige-coins.md) | Tradable hunting currency, fixed chances and exclusions |
+| [Visual AFK Status](visual-afk.md) | Automatic 60-second idle sign, activity and map exclusions |
 | [Warper](warper.md) | Midgard, New World and Islands destinations, fees and quest unlocks |

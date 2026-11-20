@@ -74,6 +74,8 @@ nav:
               - Illustrated Pet Catalogue: pet-catalogue.md
           - Vendor System: vendor-system.md
           - Vestige Coin System: vestige-coins.md
+          - Headgear Quests: headgear-quests.md
+          - Visual AFK Status: visual-afk.md
           - Mercy System: mercy-system.md
       - Changes:
           - Class Changes: class-changes.md
@@ -97,6 +99,7 @@ nav:
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 20: updates/2026-11-20.md
           - November 19: updates/2026-11-19.md
           - November 18: updates/2026-11-18.md
           - November 17: updates/2026-11-17.md

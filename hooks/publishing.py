@@ -3,6 +3,9 @@ import re
 from mkdocs.exceptions import PluginError
 
 ICONS = {
+    "headgear-quests.md": "\U0001f452",
+    "visual-afk.md": "\U0001f4a4",
+    "updates/2026-11-20.md": "\U0001f452",
     "updates/2026-11-19.md": "\U0001f431",
     "pet-system.md": "\U0001f431",
     "pet-catalogue.md": "\U0001f43e",
