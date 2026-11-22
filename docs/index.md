@@ -26,7 +26,7 @@ hide:
 | Welcome | [Server Information](server-rules.md) and [All Pages (A-Z)](all-pages.md) |
 | Getting Started | [How to Start](getting-started.md), [Novice Training Grounds](novice-training.md), [your class](classes.md) and [personal settings](personal-settings.md) |
 | Features & Enhancements | [Features, changes and enhancements](features.md) |
-| Dungeons & Instances | [Endless Tower, Endless Cellar, Bio Labs 4 and hunting bonuses](dungeons.md) |
+| Dungeons & Instances | [Endless Tower, Endless Cellar, Horror Toy Factory and Bio Labs 4](dungeons.md) |
 | Events & Activities | [Rewards and recurring activities](events.md) |
 | Patch Notes | [Latest updates](updates.md) |
 
@@ -43,8 +43,11 @@ hide:
 
 Explore **101 illustrated Tower floor tables** and the **77-floor [Endless Cellar](endless-cellar.md) descent**, each with its own weekly account allowance. The guides cover final encounters, re-entry, island services, drop rules and rewards.
 
+[Horror Toy Factory](horror-toy-factory.md) is open for **three or more Level 90+ adventurers**, with a **one-hour** timer and its own weekly account allowance. Explore the monster/MVP profiles, **24 illustrated rewards**, chest chances and Bloody Coin shop.
+
 [Explore Endless Tower](endless-tower.md){ .md-button .md-button--primary }
 [Explore Endless Cellar](endless-cellar.md){ .md-button }
+[Explore Horror Toy Factory](horror-toy-factory.md){ .md-button }
 [Read the November 22 update](updates/2026-11-22.md){ .md-button }
 
 ## Make yourself at home

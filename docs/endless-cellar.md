@@ -39,7 +39,7 @@ Descend **77 floors** with your party, clearing every room before facing the fou
 
 If readiness expires or the final checks fail, everyone returns to their save point and **no run is consumed**. A member who leaves the island or disconnects during readiness must return and confirm `!ready` again.
 
-Use **`@instanceinfo`**, or **Weekly run information** at either protection stone, to view the separate Tower/Cellar allowances and the party's active instance. A party can have one endless instance or readiness check active at a time.
+Use **`@instanceinfo`**, or **Weekly run information** at either protection stone, to view the separate Tower, Cellar and HTF allowances and the party's active instance. A party can have one endless instance or readiness check active at a time.
 
 ## Cellar rules
 

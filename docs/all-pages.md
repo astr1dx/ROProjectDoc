@@ -25,6 +25,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Home](index.md) | Handbook introduction |
 | [Headgear Quests](headgear-quests.md) | Astrid, 22 illustrated rewards, exact materials, item effects and previews |
 | [Homunculus and Pet Commands](companion-commands.md) | Companion stats, speech, emotes and chat rules |
+| [Horror Toy Factory](horror-toy-factory.md) | Party entry, Classic monster/MVP stats, ten chest tables and illustrated Bloody Coin rewards |
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coins and costumes |
 | [How to start](getting-started.md) | First steps and useful tools |
 | [Hunting and instances](dungeons.md) | Bio Labs 4, hunting bonuses, MVP maps and the New World test |
@@ -41,7 +42,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 18, 2026](updates/2026-11-18.md) | Novice Training Grounds, graduation rewards, Healer options and town travel |
 | [November 19, 2026](updates/2026-11-19.md) | Illustrated Pet System, evolution families, care and fixed egg drops |
 | [November 20, 2026](updates/2026-11-20.md) | Astrid headgear quests and Visual AFK Status |
-| [November 22, 2026](updates/2026-11-22.md) | Endless Tower, Endless Cellar, Misty Island travel and illustrated floor encounters |
+| [November 22, 2026](updates/2026-11-22.md) | Endless Tower, Endless Cellar, Horror Toy Factory and illustrated instance rewards |
 | [Novice Training Grounds](novice-training.md) | New-character lessons, Job 10 graduation, starter equipment and 10,000z |
 | [Pet catalogue](pet-catalogue.md) | Illustrated pet entries, intimacy bonuses, food and evolution materials |
 | [Pet System](pet-system.md) | Taming, care, switching, evolution and fixed egg drops |

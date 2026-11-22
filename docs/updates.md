@@ -6,13 +6,15 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 22
 
-**Endless Tower, Endless Cellar and Misty Island**
+**Endless Tower, Endless Cellar and Horror Toy Factory**
 
 - [Endless Tower](endless-tower.md): six-member, Level 85+ entry, a public-chat readiness check, one weekly account run and four-hour climbs.
 - Original-member re-entry, island services, completion reports and the Violet Fear exchange.
 - **101 illustrated Tower floor tables** with monster sprites, IDs and quantities.
 - [Endless Cellar](endless-cellar.md): **77 illustrated floor tables**, a four-stage finale, a separate weekly account run and five completion rewards through RODEX.
 - Wounded Morroc and reduced-drop final encounters use **10% of normal configured rates**; the two selected Bio Labs MVPs retain normal rates.
+- [Horror Toy Factory](horror-toy-factory.md): three-member, Level 90+ entry, one-hour runs, Classic monster/MVP profiles and an independent weekly account allowance.
+- **24 illustrated item descriptions**, ten fixed-chance chest tables and the 11-item Bloody Coin shop.
 - [Misty Island travel](warper.md#misty-island): a character unlock and 5,000z Warper route.
 
 [Read the November 22 update](updates/2026-11-22.md).

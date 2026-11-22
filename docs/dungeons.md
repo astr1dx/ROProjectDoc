@@ -18,6 +18,12 @@ Each account has **one run per week**, resetting **Monday at 06:00 Philippines t
 
 Each account receives **one Cellar run per week**, separate from Endless Tower, resetting **Monday at 06:00 Philippines time**. Complete the public-chat `!ready` check and descend within **four hours**. The guide includes **77 illustrated floor tables**, reduced-drop encounters and the five completion rewards delivered through RODEX.
 
+## Horror Toy Factory
+
+[Horror Toy Factory](horror-toy-factory.md) is a **one-hour, four-area party instance** through **Catherine Jet Johnson at Lutie 237,303**. Bring **three or more members**, all **Base Level 90+**, and complete the public-chat `!ready` check before entry.
+
+Each account receives **one HTF run per week**, separate from Tower and Cellar, resetting **Monday at 06:00 Philippines time**. The guide includes the disguise and worker objectives, Classic monster/MVP stats, Kimi and her phantom, ten shared treasure chests and Mister Cat's illustrated Bloody Coin shop.
+
 ## Hunting bonuses
 
 Two eligible **regions or dungeon groups** receive a **20-30% Base and Job kill EXP bonus**, rotating every **48-72 hours**. Use **`@bonusmaps`** to see the active groups, included maps and next rotation in Philippine time.

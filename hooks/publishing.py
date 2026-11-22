@@ -5,6 +5,7 @@ from mkdocs.exceptions import PluginError
 ICONS = {
     "endless-tower.md": "\U0001f5fc",
     "endless-cellar.md": "\U0001f573",
+    "horror-toy-factory.md": "\U0001f381",
     "updates/2026-11-22.md": "\U0001f5fc",
     "headgear-quests.md": "\U0001f452",
     "visual-afk.md": "\U0001f4a4",
