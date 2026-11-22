@@ -12,6 +12,12 @@ Vestige Rift uses an **adapted Episode 14.2: Eclage** content profile with Class
 
 Each account has **one run per week**, resetting **Monday at 06:00 Philippines time**. The guide includes entry, re-entry, island services, rewards, run statistics and **illustrated monster tables for every floor**.
 
+## Endless Cellar
+
+[Endless Cellar](endless-cellar.md) is a **77-floor descent** through the Tower rooms in reverse, ending in a four-stage final encounter. Start at the **Cellar Protection Stone on Misty Island, 82,110**, with **six or more members**, all **Base Level 85+**.
+
+Each account receives **one Cellar run per week**, separate from Endless Tower, resetting **Monday at 06:00 Philippines time**. Complete the public-chat `!ready` check and descend within **four hours**. The guide includes **77 illustrated floor tables**, reduced-drop encounters and the five completion rewards delivered through RODEX.
+
 ## Hunting bonuses
 
 Two eligible **regions or dungeon groups** receive a **20-30% Base and Job kill EXP bonus**, rotating every **48-72 hours**. Use **`@bonusmaps`** to see the active groups, included maps and next rotation in Philippine time.

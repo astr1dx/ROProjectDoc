@@ -22,7 +22,7 @@ Choose **Back** or **Cancel** to leave without paying. The NPC checks access, de
 | Distant Midgard towns | **3,600z** |
 | New World | **25,000z** |
 | Islands | **20,000z** |
-| Misty Island | **5,000z**, after unlocking the island Warp Helper |
+| Misty Island | **5,000z**, after your first voyage with Captain Janssen |
 
 Midgard's nearby/distant groups are based on proximity to Prontera. Each destination has a fixed fee.
 
@@ -77,7 +77,7 @@ The towns listed here do not require a separate entrance quest through this Warp
 
 ## Misty Island
 
-The **Misty Island - 5,000z** category takes you to the [Endless Tower staging area](endless-tower.md#misty-island-services). First reach the island through **Captain Janssen at Prontera 217,187**, then speak to **Warp Helper at e_tower 75,111**. This unlock is saved for that character.
+The **Misty Island - 5,000z** category takes you to the staging area for [Endless Tower](endless-tower.md#misty-island-services) and [Endless Cellar](endless-cellar.md). Complete your first voyage through **Captain Janssen at Prontera 217,187** to unlock this route for that character.
 
 The destination costs **5,000z** per trip and appears after the unlock. The tower's level, party and weekly admission requirements still apply separately.
 

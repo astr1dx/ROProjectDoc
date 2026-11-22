@@ -26,7 +26,7 @@ hide:
 | Welcome | [Server Information](server-rules.md) and [All Pages (A-Z)](all-pages.md) |
 | Getting Started | [How to Start](getting-started.md), [Novice Training Grounds](novice-training.md), [your class](classes.md) and [personal settings](personal-settings.md) |
 | Features & Enhancements | [Features, changes and enhancements](features.md) |
-| Dungeons & Instances | [Endless Tower, Bio Labs 4 and hunting bonuses](dungeons.md) |
+| Dungeons & Instances | [Endless Tower, Endless Cellar, Bio Labs 4 and hunting bonuses](dungeons.md) |
 | Events & Activities | [Rewards and recurring activities](events.md) |
 | Patch Notes | [Latest updates](updates.md) |
 
@@ -41,9 +41,10 @@ hide:
 
 [Endless Tower](endless-tower.md) is ready for parties of **six or more**, all **Base Level 85+**. Complete the `!ready` check on Misty Island, then climb within **four hours**. Each account receives **one run per week**, resetting **Monday at 06:00 Philippines time**.
 
-Explore **illustrated tables for all 101 floors**, the final boss waves, re-entry rules, island services and rewards.
+Explore **101 illustrated Tower floor tables** and the **77-floor [Endless Cellar](endless-cellar.md) descent**, each with its own weekly account allowance. The guides cover final encounters, re-entry, island services, drop rules and rewards.
 
 [Explore Endless Tower](endless-tower.md){ .md-button .md-button--primary }
+[Explore Endless Cellar](endless-cellar.md){ .md-button }
 [Read the November 22 update](updates/2026-11-22.md){ .md-button }
 
 ## Make yourself at home

@@ -19,7 +19,7 @@ Climb **101 floors** with your party, defeat every floor's monsters and face **N
 
 1. Speak to **Captain Janssen** in Prontera: `/navi prontera 217/187`.
 2. Follow his conversations and make the **10,000z donation** when asked. Speak to him again to continue the story and board the ship to Misty Island.
-3. On the island, speak to the **Warp Helper** to unlock the **Misty Island - 5,000z** route in the [Warper](warper.md#misty-island). This unlock belongs to the character.
+3. Your first voyage unlocks the **Misty Island - 5,000z** route in the [Warper](warper.md#misty-island) for this character.
 4. Gather the entire party on Misty Island and visit the **Tower Protection Stone**.
 
 Captain Janssen also offers return voyages for **10,000z**. The unlocked Warper route costs **5,000z** per trip.
@@ -29,7 +29,7 @@ Captain Janssen also offers return voyages for **10,000z**. The unlocked Warper 
 | NPC | Location | Service |
 | --- | --- | --- |
 | Tower Protection Stone | `e_tower 81,105` | Start a readiness check, rejoin the current floor or view weekly run information |
-| Warp Helper | `e_tower 75,111` | Unlock Misty Island in the Warper |
+| Cellar Protection Stone | `e_tower 82,110` | Start or rejoin [Endless Cellar](endless-cellar.md), which has a separate weekly allowance |
 | Kafra Employee | `e_tower 76,99` | Main Storage, Guild Storage and return to Prontera |
 
 ## Starting a run
@@ -74,7 +74,7 @@ The Lost Soul can combine **one Twin Edge of Naght Sieger (#13412)** and **one T
 
 The tables list the configured floor encounters. Counts describe the starting wave; monsters summoned during combat are additional. Expand a floor to see its monsters.
 
-[Floors 1-25](#floors-1-25) ? [Floors 26-50](#floors-26-50) ? [Floors 51-75](#floors-51-75) ? [Floors 76-98](#floors-76-98) ? [Floor 99](#floor-99-random-encounters) ? [Floor 100](#floor-100-entweihen-crothen) ? [Floor 101](#floor-101-final-encounter)
+[Floors 1-25](#floors-1-25) · [Floors 26-50](#floors-26-50) · [Floors 51-75](#floors-51-75) · [Floors 76-98](#floors-76-98) · [Floor 99](#floor-99-random-encounters) · [Floor 100](#floor-100-entweihen-crothen) · [Floor 101](#floor-101-final-encounter)
 
 <div class="tower-catalogue" markdown="1">
 
