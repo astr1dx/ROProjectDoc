@@ -6,6 +6,12 @@ Vestige Rift uses an **adapted Episode 14.2: Eclage** content profile with Class
 
 [Bio Labs 4](biolabs4.md) is open as a Classic Pre-Renewal party dungeon, with level-96-98 regular monsters, level-99 elites/MVPs, 196 regular spawns and a classic-only direct-drop pool. The guide covers the Bio3 entrance, monster stats, rewards and map restrictions.
 
+## Endless Tower
+
+[Endless Tower](endless-tower.md) is a four-hour, 101-floor party challenge. Start with **six or more members**, all **Base Level 85+**, through Captain Janssen at **Prontera 217,187**. Every member confirms `!ready` on Misty Island before the run begins.
+
+Each account has **one run per week**, resetting **Monday at 06:00 Philippines time**. The guide includes entry, re-entry, island services, rewards, run statistics and **illustrated monster tables for every floor**.
+
 ## Hunting bonuses
 
 Two eligible **regions or dungeon groups** receive a **20-30% Base and Job kill EXP bonus**, rotating every **48-72 hours**. Use **`@bonusmaps`** to see the active groups, included maps and next rotation in Philippine time.

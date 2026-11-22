@@ -26,7 +26,7 @@ hide:
 | Welcome | [Server Information](server-rules.md) and [All Pages (A-Z)](all-pages.md) |
 | Getting Started | [How to Start](getting-started.md), [Novice Training Grounds](novice-training.md), [your class](classes.md) and [personal settings](personal-settings.md) |
 | Features & Enhancements | [Features, changes and enhancements](features.md) |
-| Dungeons & Instances | [Bio Labs 4, hunting bonuses and instances](dungeons.md) |
+| Dungeons & Instances | [Endless Tower, Bio Labs 4 and hunting bonuses](dungeons.md) |
 | Events & Activities | [Rewards and recurring activities](events.md) |
 | Patch Notes | [Latest updates](updates.md) |
 
@@ -37,15 +37,14 @@ hide:
 [Explore Main Office](main-office.md){ .md-button .md-button--primary }
 [Find the Coin Exchange building](main-office.md#coin-exchange-building){ .md-button }
 
-## Latest update: November 18
+## Latest update: November 22
 
-New characters now begin in the [Novice Training Grounds](novice-training.md). Complete the lessons to graduate at **Job Level 10** with starter equipment, supplies and **10,000z**, then arrive in Main Office.
+[Endless Tower](endless-tower.md) is ready for parties of **six or more**, all **Base Level 85+**. Complete the `!ready` check on Misty Island, then climb within **four hours**. Each account receives **one run per week**, resetting **Monday at 06:00 Philippines time**.
 
-The [Healer](character-services.md#healer) now offers **1,000z** full HP/SP recovery or **10,000z** recovery with ten-minute Level 10 Blessing and Increase AGI.
+Explore **illustrated tables for all 101 floors**, the final boss waves, re-entry rules, island services and rewards.
 
-The [Warper](warper.md) offers **Midgard Towns**, **New World** and **Islands**, with displayed destination fees, immediate travel and quest-based access. Jawaii has no marriage or quest requirement through the service.
-
-[Read the November 18 update](updates/2026-11-18.md). For Bio Labs 4 and the current Main Office service directory, see [November 17](updates/2026-11-17.md).
+[Explore Endless Tower](endless-tower.md){ .md-button .md-button--primary }
+[Read the November 22 update](updates/2026-11-22.md){ .md-button }
 
 ## Make yourself at home
 

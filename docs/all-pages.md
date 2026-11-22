@@ -17,6 +17,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Character Services](character-services.md) | Job Master, Stylist and Healer |
 | [Class changes](class-changes.md) | Skill adjustments and platinum skills |
 | [Convenient dealers](dealers.md) | Supplies, prices and NPC locations |
+| [Endless Tower](endless-tower.md) | Party entry, weekly account allowance, re-entry, rewards and 101 illustrated floor tables |
 | [Fast storage](fast-storage.md) | Restock targets and all-unit Quick Store |
 | [Features and enhancements](features.md) | System directory |
 | [Find your class](classes.md) | Class guide directory |
@@ -39,6 +40,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 18, 2026](updates/2026-11-18.md) | Novice Training Grounds, graduation rewards, Healer options and town travel |
 | [November 19, 2026](updates/2026-11-19.md) | Illustrated Pet System, evolution families, care and fixed egg drops |
 | [November 20, 2026](updates/2026-11-20.md) | Astrid headgear quests and Visual AFK Status |
+| [November 22, 2026](updates/2026-11-22.md) | Endless Tower, Misty Island travel and illustrated floor encounters |
 | [Novice Training Grounds](novice-training.md) | New-character lessons, Job 10 graduation, starter equipment and 10,000z |
 | [Pet catalogue](pet-catalogue.md) | Illustrated pet entries, intimacy bonuses, food and evolution materials |
 | [Pet System](pet-system.md) | Taming, care, switching, evolution and fixed egg drops |

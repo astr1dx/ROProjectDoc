@@ -1,14 +1,14 @@
 # Warper
 
-Updated: **November 18, 2026**.
+Updated: **November 22, 2026**.
 
-Travel directly to **34 town destinations** through the Warper. Find her at **Prontera 159,187**, marked with a **Warper** bubble:
+Travel to **34 towns and Misty Island** through the Warper. Find her at **Prontera 159,187**, marked with a **Warper** bubble:
 
 `/navi prontera 159/187`
 
 ## How to travel
 
-1. Speak to the Warper and choose **Midgard Towns**, **New World** or **Islands**.
+1. Speak to the Warper and choose **Midgard Towns**, **New World**, **Islands** or **Misty Island**.
 2. Read the fee beside the destination name.
 3. Select the town to **pay and warp immediately**. There is no separate Pay and Travel confirmation.
 
@@ -22,6 +22,7 @@ Choose **Back** or **Cancel** to leave without paying. The NPC checks access, de
 | Distant Midgard towns | **3,600z** |
 | New World | **25,000z** |
 | Islands | **20,000z** |
+| Misty Island | **5,000z**, after unlocking the island Warp Helper |
 
 Midgard's nearby/distant groups are based on proximity to Prontera. Each destination has a fixed fee.
 
@@ -73,6 +74,12 @@ The former Foreign Lands categories are combined into **Islands**. All nine dest
 - **Port Malaya**
 
 The towns listed here do not require a separate entrance quest through this Warper. Quests that unlock a town's dungeon still apply to that dungeon.
+
+## Misty Island
+
+The **Misty Island - 5,000z** category takes you to the [Endless Tower staging area](endless-tower.md#misty-island-services). First reach the island through **Captain Janssen at Prontera 217,187**, then speak to **Warp Helper at e_tower 75,111**. This unlock is saved for that character.
+
+The destination costs **5,000z** per trip and appears after the unlock. The tower's level, party and weekly admission requirements still apply separately.
 
 ## Related guides
 

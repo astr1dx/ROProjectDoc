@@ -3,6 +3,8 @@ import re
 from mkdocs.exceptions import PluginError
 
 ICONS = {
+    "endless-tower.md": "\U0001f5fc",
+    "updates/2026-11-22.md": "\U0001f5fc",
     "headgear-quests.md": "\U0001f452",
     "visual-afk.md": "\U0001f4a4",
     "updates/2026-11-20.md": "\U0001f452",

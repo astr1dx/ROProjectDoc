@@ -4,6 +4,17 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ## 2026
 
+### November 22
+
+**Endless Tower and Misty Island**
+
+- [Endless Tower](endless-tower.md): six-member, Level 85+ entry, a public-chat readiness check, one weekly account run and four-hour climbs.
+- Original-member re-entry, island services, completion reports and the Violet Fear exchange.
+- **101 illustrated floor tables** with monster sprites, IDs and quantities.
+- [Misty Island travel](warper.md#misty-island): a character unlock and 5,000z Warper route.
+
+[Read the November 22 update](updates/2026-11-22.md).
+
 ### November 20
 
 **Astrid's headgear quests and Visual AFK Status**

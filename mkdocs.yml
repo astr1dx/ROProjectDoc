@@ -94,11 +94,13 @@ nav:
   - Dungeons & Instances:
       - Hunting and Instance Guide: dungeons.md
       - Bio Labs 4: biolabs4.md
+      - Endless Tower: endless-tower.md
   - Events & Activities:
       - Rewards and Activities: events.md
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 22: updates/2026-11-22.md
           - November 20: updates/2026-11-20.md
           - November 19: updates/2026-11-19.md
           - November 18: updates/2026-11-18.md
