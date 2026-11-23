@@ -4,6 +4,16 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ## 2026
 
+### November 23
+
+**Monster drops and combat**
+
+- [Monster Changes](monster-changes.md): fixed loot chances with monster pictures and reward icons.
+- Whole-map Bio Labs 3 spawns, protection exceptions and Neutral-element Critical Slash.
+- Classic Boitata Hat, Valkyrie Drop and Old Mitra equipment definitions.
+
+[Read the November 23 update](updates/2026-11-23.md).
+
 ### November 22
 
 **Endless Tower, Endless Cellar and Horror Toy Factory**

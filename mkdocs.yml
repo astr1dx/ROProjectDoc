@@ -80,6 +80,7 @@ nav:
       - Changes:
           - Class Changes: class-changes.md
           - Quest Changes: quest-changes.md
+          - Monster Changes: monster-changes.md
           - Adjusted NPC Sell Prices: adjusted-prices.md
           - Refining System: refining.md
           - Quality of Life: quality-of-life.md
@@ -102,6 +103,7 @@ nav:
   - Patch Notes:
       - Latest Updates: updates.md
       - "2026":
+          - November 23: updates/2026-11-23.md
           - November 22: updates/2026-11-22.md
           - November 20: updates/2026-11-20.md
           - November 19: updates/2026-11-19.md

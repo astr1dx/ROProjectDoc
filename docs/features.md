@@ -30,6 +30,8 @@ Explore the systems and adjustments available on Vestige Rift. Guides describe o
 
 ## Changes
 
+- [Monster Changes](monster-changes.md): illustrated fixed-chance drops, Bio Labs 3 spawn rules and revised monster combat behavior.
+
 - [Refining System](refining.md): Classic normal-ore batches and the enriched-only Visual Refiner, both capped at +10.
 
 - [Class changes](class-changes.md): skill adjustments and custom platinum skills, grouped by class.

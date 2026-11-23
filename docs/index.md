@@ -37,7 +37,11 @@ hide:
 [Explore Main Office](main-office.md){ .md-button .md-button--primary }
 [Find the Coin Exchange building](main-office.md#coin-exchange-building){ .md-button }
 
-## Latest update: November 22
+## Latest update: November 23
+
+**November 23 — Monster Changes:** [illustrated loot tables, Bio Labs 3 spawns and combat rules](monster-changes.md). [Patch notes](updates/2026-11-23.md).
+
+### November 22: Instance updates
 
 [Endless Tower](endless-tower.md) is ready for parties of **six or more**, all **Base Level 85+**. Complete the `!ready` check on Misty Island, then climb within **four hours**. Each account receives **one run per week**, resetting **Monday at 06:00 Philippines time**.
 

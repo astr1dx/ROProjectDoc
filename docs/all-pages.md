@@ -34,6 +34,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Latest updates](updates.md) | Dated server updates |
 | [Main Office](main-office.md) | Service map, NPC directory and building entrances |
 | [Mercy System](mercy-system.md) | Persistent 5,000-kill normal-card guarantee |
+| [Monster Changes](monster-changes.md) | Illustrated loot chances, Bio Labs 3 spawns and monster combat rules |
 | [November 10, 2026](updates/2026-11-10.md) | Settings, hunting tools, card announcements and trade aliases |
 | [November 11, 2026](updates/2026-11-11.md) | Homunculus and pet commands, chat logging and pet-message preferences |
 | [November 13, 2026](updates/2026-11-13.md) | Vestige Rift identity, baby-character conversion and saved builds |
@@ -43,6 +44,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 19, 2026](updates/2026-11-19.md) | Illustrated Pet System, evolution families, care and fixed egg drops |
 | [November 20, 2026](updates/2026-11-20.md) | Astrid headgear quests and Visual AFK Status |
 | [November 22, 2026](updates/2026-11-22.md) | Endless Tower, Endless Cellar, Horror Toy Factory and illustrated instance rewards |
+| [November 23, 2026](updates/2026-11-23.md) | Monster drops, Bio Labs 3 spawns and combat adjustments |
 | [Novice Training Grounds](novice-training.md) | New-character lessons, Job 10 graduation, starter equipment and 10,000z |
 | [Pet catalogue](pet-catalogue.md) | Illustrated pet entries, intimacy bonuses, food and evolution materials |
 | [Pet System](pet-system.md) | Taming, care, switching, evolution and fixed egg drops |
