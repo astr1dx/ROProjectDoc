@@ -58,12 +58,12 @@ The six regular Bio Labs 3 monsters spawn across the whole map. Their existing s
 
 | Sprite | Monster |
 | --- | --- |
-| ![Seyren](assets/endless-tower/1634.gif){ .tower-monster-sprite loading="lazy" } | **Seyren** — ID `1634` |
-| ![Eremes](assets/endless-tower/1635.gif){ .tower-monster-sprite loading="lazy" } | **Eremes** — ID `1635` |
-| ![Harword](assets/endless-tower/1636.gif){ .tower-monster-sprite loading="lazy" } | **Harword** — ID `1636` |
-| ![Magaleta](assets/endless-tower/1637.gif){ .tower-monster-sprite loading="lazy" } | **Magaleta** — ID `1637` |
-| ![Shecil](assets/endless-tower/1638.gif){ .tower-monster-sprite loading="lazy" } | **Shecil** — ID `1638` |
-| ![Katrinn](assets/endless-tower/1639.gif){ .tower-monster-sprite loading="lazy" } | **Katrinn** — ID `1639` |
+| ![Seyren](assets/endless-tower/1634.gif){ .tower-monster-sprite loading="lazy" } | **Seyren** â€” ID `1634` |
+| ![Eremes](assets/endless-tower/1635.gif){ .tower-monster-sprite loading="lazy" } | **Eremes** â€” ID `1635` |
+| ![Harword](assets/endless-tower/1636.gif){ .tower-monster-sprite loading="lazy" } | **Harword** â€” ID `1636` |
+| ![Magaleta](assets/endless-tower/1637.gif){ .tower-monster-sprite loading="lazy" } | **Magaleta** â€” ID `1637` |
+| ![Shecil](assets/endless-tower/1638.gif){ .tower-monster-sprite loading="lazy" } | **Shecil** â€” ID `1638` |
+| ![Katrinn](assets/endless-tower/1639.gif){ .tower-monster-sprite loading="lazy" } | **Katrinn** â€” ID `1639` |
 
 ## Combat rules
 
@@ -71,15 +71,15 @@ The six regular Bio Labs 3 monsters spawn across the whole map. Their existing s
 
 | Monster | Configured changes |
 | --- | --- |
-| ![Corrupted Monk](assets/monster-changes/mob-2465.png){ .tower-monster-sprite loading="lazy" }<br>**Corrupted Monk** — ID `20898` | Resurrection cannot trigger its instant-kill effect against this monster.<br>![Crystal Mirror](assets/monster-changes/item-747.png){ .item-icon loading="lazy" } **Crystal Mirror**<br>ID `747`: **50%** fixed chance. |
-| ![Corrupted Soul](assets/monster-changes/mob-2475.png){ .tower-monster-sprite loading="lazy" }<br>**Corrupted Soul** — ID `20575` | **12,500,000 HP**.<br>Only one summoned minion group may be alive at a time.<br>**10% additional evasion against ranged physical attacks**, separate from normal FLEE. |
-| ![Maggot](assets/monster-changes/mob-2467.png){ .tower-monster-sprite loading="lazy" }<br>**Maggot** — ID `2467` | **60 DEF**.<br>Disappears after **15 minutes**, without EXP or loot from the timeout. |
+| ![Corrupted Monk](assets/monster-changes/mob-2465.png){ .tower-monster-sprite loading="lazy" }<br>**Corrupted Monk** â€” ID `20898` | Resurrection cannot trigger its instant-kill effect against this monster.<br>![Crystal Mirror](assets/monster-changes/item-747.png){ .item-icon loading="lazy" } **Crystal Mirror**<br>ID `747`: **50%** fixed chance. |
+| ![Corrupted Soul](assets/monster-changes/mob-2475.png){ .tower-monster-sprite loading="lazy" }<br>**Corrupted Soul** â€” ID `20575` | **12,500,000 HP**.<br>Only one summoned minion group may be alive at a time.<br>**10% additional evasion against ranged physical attacks**, separate from normal FLEE. |
+| ![Maggot](assets/monster-changes/mob-2467.png){ .tower-monster-sprite loading="lazy" }<br>**Maggot** â€” ID `2467` | **60 DEF**.<br>Disappears after **15 minutes**, without EXP or loot from the timeout. |
 
 ## Equipment additions
 
 | Item | Classic effects | Requirements |
 | --- | --- | --- |
-| ![Boitata Hat](assets/monster-changes/item-5940.png){ .item-icon loading="lazy" } **Boitata Hat**<br>ID `5940` [1] | DEF +5, MDEF +5. Restore 100 HP per monster kill and 5 SP per physical Brute kill.<br>At +5, Brute damage taken -5%; at +7, a further -5%. | Upper headgear; Level 20; all jobs; weight 30. |
+| ![Boitata Hat](assets/monster-changes/item-5940.png){ .item-icon loading="lazy" } **Boitata Hat**<br>ID `5940` [1] | DEF +5, MDEF +5. Restore 100 HP per physical monster kill and 5 SP per physical Brute kill.<br>At +5, Brute damage taken -5%; at +7, a further -5%. | Upper headgear; Level 20; all jobs; weight 30. |
 | ![Valkyrie Drop](assets/monster-changes/item-28564.png){ .item-icon loading="lazy" } **Valkyrie Drop**<br>ID `28564` [1] | Cast time -5%, after-cast delay -5%.<br>Magnus Exorcismus damage +4% per learned Impositio Manus level. | Accessory; Level 70; Priest family; weight 3. |
 | ![Old Mitra](assets/monster-changes/item-18972.png){ .item-icon loading="lazy" } **Old Mitra**<br>ID `18972` [1] | INT +1, MDEF +5.<br>Every two refine levels: Max HP +1%, Max SP +1%, ATK +8, MATK +4 and Magnus Exorcismus damage +4%. | Upper headgear; DEF 10; Level 70; Priest family; weight 10. |
 
