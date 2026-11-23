@@ -9,7 +9,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Area Loot](area-loot.md) | Optional 3x3 manual ground pickup |
 | [Attendance rewards](attendance.md) | Daily account claims and mailed rewards |
 | [Baby Characters](baby-characters.md) | Independent conversion, retained progress and job restrictions |
-| [Bio Labs 4](biolabs4.md) | Classic party dungeon, monster stats, access, respawns and classic-only drops |
+| [Bio Labs 4](biolabs4.md) | Classic party dungeon, monster stats, access, respawns, drops and BioShop currency |
 | [Build Manager](build-manager.md) | Named stat/skill presets, loading fees and class/level safeguards |
 | [Card Drop Announcements](card-drop-announcements.md) | Actual-looter credit, card copies and Public chat visibility |
 | [Card exchange](card-exchange.md) | Account-wide card points and the illustrated 14-item reward catalogue |
@@ -29,6 +29,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [Hourly rewards](hourly-rewards.md) | Online points, Gold Coins and costumes |
 | [How to start](getting-started.md) | First steps and useful tools |
 | [Hunting and instances](dungeons.md) | Bio Labs 4, hunting bonuses, MVP maps and the New World test |
+| [Item Changes](item-changes.md) | Illustrated equipment, card, consumable and material comparisons; conversion, socket and enchant services |
 | [Kill Count](kill-count.md) | Last-kill detection, confirmed tracking and private overhead counts |
 | [Kill Steal Protection](kill-steal-protection.md) | Protection modes, release timers and party checks |
 | [Latest updates](updates.md) | Dated server updates |
@@ -44,7 +45,7 @@ Browse every public guide, or use the topic tabs and search box.
 | [November 19, 2026](updates/2026-11-19.md) | Illustrated Pet System, evolution families, care and fixed egg drops |
 | [November 20, 2026](updates/2026-11-20.md) | Astrid headgear quests and Visual AFK Status |
 | [November 22, 2026](updates/2026-11-22.md) | Endless Tower, Endless Cellar, Horror Toy Factory and illustrated instance rewards |
-| [November 23, 2026](updates/2026-11-23.md) | Monster drops, Bio Labs 3 spawns and combat adjustments |
+| [November 23, 2026](updates/2026-11-23.md) | Monster and item comparisons, equipment upgrades, BioShop and combat adjustments |
 | [Novice Training Grounds](novice-training.md) | New-character lessons, Job 10 graduation, starter equipment and 10,000z |
 | [Pet catalogue](pet-catalogue.md) | Illustrated pet entries, intimacy bonuses, food and evolution materials |
 | [Pet System](pet-system.md) | Taming, care, switching, evolution and fixed egg drops |

@@ -68,3 +68,11 @@
 .md-typeset .tower-catalogue td:first-child { min-width: 4rem !important; }
 .md-typeset .tower-catalogue img.tower-monster-sprite { display: block; width: auto; height: auto; max-width: 110px; max-height: 120px; object-fit: contain; image-rendering: pixelated; margin: .2rem auto; }
 .md-typeset .tower-catalogue details { margin: .7rem 0; }
+
+
+/* Illustrated original/current item comparisons. */
+.md-typeset .item-comparison table:not([class]) { width: 100%; }
+.md-typeset .item-comparison th, .md-typeset .item-comparison td { vertical-align: top; }
+.md-typeset .item-comparison th:nth-child(1), .md-typeset .item-comparison td:nth-child(1) { min-width: 11rem; width: 24%; }
+.md-typeset .item-comparison th:nth-child(2), .md-typeset .item-comparison td:nth-child(2) { min-width: 13rem; width: 31%; }
+.md-typeset .item-comparison th:nth-child(3), .md-typeset .item-comparison td:nth-child(3) { min-width: 17rem; width: 45%; }

@@ -122,6 +122,7 @@ Explore **101 illustrated Tower floor tables** and the **77-floor [Endless Cella
 | Saved preferences and default chat channels | [Personal settings](personal-settings.md) |
 | Autoloot filters, ignored items and farming lists | [Advanced autoloot](autoloot.md) |
 | Restock targets and all-unit Quick Store | [Fast storage](fast-storage.md) |
+| Original and adjusted item effects, illustrated | [Item Changes](item-changes.md) |
 | What the party buff letters mean | [Party buff indicators](quality-of-life.md#party-buff-letters) |
 | Quest retries, the New World test, and ore splitting | [Quest changes](quest-changes.md) |
 

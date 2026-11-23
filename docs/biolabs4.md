@@ -1,6 +1,6 @@
 # Bio Labs 4
 
-**Bio Labs 4 is open as an adapted Classic Pre-Renewal party dungeon.** Its regular monsters, elites and MVPs have been retuned for Vestige Rift's 99/70 rules, with a classic-only direct-drop pool.
+**Bio Labs 4 is open as an adapted Classic Pre-Renewal party dungeon.** Its regular monsters, elites and MVPs have been retuned for Vestige Rift's 99/70 rules, with Classic equipment drops and Blood Thirst for the equipment barter service.
 
 ## Getting there
 
@@ -21,7 +21,7 @@ The usual Bio Labs 3 access requirements still apply. The floor-4 entrance adds 
 | Regular respawn | **15 seconds** |
 | Elites | Level 99; 240,000-330,000 HP |
 | MVPs | Level 99; 1,500,000-1,900,000 HP |
-| Rewards | Classic-compatible direct drops only |
+| Rewards | Classic-compatible drops plus Blood Thirst for BioShop |
 
 The imported floor-4 population was 348 regular monsters with five-second respawns. This adaptation reduces crowding and retunes HP, attack, defenses, primary stats and attack timing against our existing Bio Labs 3 baseline. Floors 1-3 retain their existing monsters and spawns.
 
@@ -95,6 +95,7 @@ Renewal equipment, upgrade materials, specialized reward boxes and **all Bio4 re
 
 | Source | Item | Item ID | Base chance |
 | --- | --- | ---: | ---: |
+| All seven regular monsters | Blood Thirst | 6470 | 3% |
 | Randel, Flamel, Celia | Handcuffs | 7345 | 40% |
 | Chen, Gertie, Alphoccio, Trentini | Research Chart | 7347 | 40% |
 | Randel, Celia, Gertie, Trentini | Elunium | 985 | 2% |
@@ -121,6 +122,10 @@ Box and album base chances were reduced to account for those multipliers:
 Bio4 has **no direct monster-card drops** in this adaptation. Consequently, its monsters do not provide a [Mercy System](mercy-system.md) card guarantee. Card Albums remain available as the listed item rewards.
 
 The existing [Vestige Coin System](vestige-coins.md) and other global drop systems continue to apply under their own eligibility rules.
+
+## Equipment barter
+
+[BioShop](item-changes.md#bioshop) at **`lhz_dun01 142,289`** exchanges 10 Blood Thirst for one Ghost Chill. Its 14 equipment rewards use Ghost Chill; the complete illustrated price list is in [Item Changes](item-changes.md#bioshop).
 
 ## Map restrictions
 

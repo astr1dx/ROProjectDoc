@@ -3,6 +3,7 @@ import re
 from mkdocs.exceptions import PluginError
 
 ICONS = {
+    "item-changes.md": "\U0001f455",
     "monster-changes.md": "\U0001f432",
     "updates/2026-11-23.md": "\U0001f432",
     "endless-tower.md": "\U0001f5fc",

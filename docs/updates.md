@@ -6,11 +6,14 @@ Dated notes record changes to the game server and this handbook. For complete cu
 
 ### November 23
 
-**Monster drops and combat**
+**Monster drops, item changes and equipment services**
 
 - [Monster Changes](monster-changes.md): fixed loot chances with monster pictures and reward icons.
 - Whole-map Bio Labs 3 spawns, protection exceptions and Neutral-element Critical Slash.
 - Classic Boitata Hat, Valkyrie Drop and Old Mitra equipment definitions.
+
+- [Item Changes](item-changes.md): 124 illustrated comparisons, Classic equipment/card effects, socketing, enchants and refined-weapon conversions.
+- BioShop equipment barter, Blood Thirst drops and updated consumable rules.
 
 [Read the November 23 update](updates/2026-11-23.md).
 
